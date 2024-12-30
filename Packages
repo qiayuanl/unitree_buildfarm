@@ -1,0 +1,36 @@
+Package: ros-humble-unitree-hw-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0-2024.12.30.11.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-unitree-hw
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Installed-Size: 440
+Depends: ros-humble-unitree-hw (= 0-2024.12.30.11.11)
+Filename: ./ros-humble-unitree-hw-dbgsym_0-2024.12.30.11.11_arm64.ddeb
+Size: 393312
+MD5sum: 3a3d2120906a496cb86f13d7fa43c88b
+SHA1: 05e03a089563c4c182871f67a8631be022862c67
+SHA256: dbee1f7024903b7b0bb17c0975a03f709d8aae284249daf9a48b9ef1429496d2
+SHA512: 5fd00a3eb348dbad0ba26b944ab8d6ad8673a44a880f5aa51df11663685e4cec1882d9c2ba0857f251646c584545c0913d8ae4212d9188575eacf53323d12e5a
+Description: debug symbols for ros-humble-unitree-hw
+Build-Ids: d65b28b11923202f5afb8474f32c406bdff46e69
+
+Package: ros-humble-unitree-hw
+Architecture: arm64
+Version: 0-2024.12.30.11.11
+Priority: optional
+Section: misc
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Installed-Size: 182
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs
+Filename: ./ros-humble-unitree-hw_0-2024.12.30.11.11_arm64.deb
+Size: 47156
+MD5sum: 682ad9f8a8cf8a35022bee7527860203
+SHA1: df9320930daddef2035eac1165d470cd1565afed
+SHA256: ca72872e49ef3982d5bc4e3cd750ac078dc2e2d4c9bc253b38a5c0f6fa7baeec
+SHA512: 8c06a9e11a9616de342bc9f2bbf9f064850d296461ee51bad0945f5218c409e472a52c9a7ec65e8cf8c473a4f3f5234b41b0648dc3e6f5542ecd2fdd53572ed9
+Description: ROS 2 control warped interface for Unitree Robots
+
