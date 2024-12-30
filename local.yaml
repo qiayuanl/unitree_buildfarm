@@ -1,0 +1,6 @@
+unitree_description:
+  ubuntu:
+  - ros-humble-unitree-description
+unitree_hw:
+  ubuntu:
+  - ros-humble-unitree-hw
