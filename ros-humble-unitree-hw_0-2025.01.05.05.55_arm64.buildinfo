@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-unitree-hw
 Binary: ros-humble-unitree-hw ros-humble-unitree-hw-dbgsym
 Architecture: arm64
-Version: 0-2024.12.30.11.11
+Version: 0-2025.01.05.05.55
 Checksums-Md5:
- 3a3d2120906a496cb86f13d7fa43c88b 393312 ros-humble-unitree-hw-dbgsym_0-2024.12.30.11.11_arm64.ddeb
- 682ad9f8a8cf8a35022bee7527860203 47156 ros-humble-unitree-hw_0-2024.12.30.11.11_arm64.deb
+ 5f328070197fbee0a226fa41e0874312 393490 ros-humble-unitree-hw-dbgsym_0-2025.01.05.05.55_arm64.ddeb
+ 89d2e643e0c5aa309269f1cda9b21446 41908 ros-humble-unitree-hw_0-2025.01.05.05.55_arm64.deb
 Checksums-Sha1:
- 05e03a089563c4c182871f67a8631be022862c67 393312 ros-humble-unitree-hw-dbgsym_0-2024.12.30.11.11_arm64.ddeb
- df9320930daddef2035eac1165d470cd1565afed 47156 ros-humble-unitree-hw_0-2024.12.30.11.11_arm64.deb
+ d523d85eff9017673322aa214ac3fdcd755be1e4 393490 ros-humble-unitree-hw-dbgsym_0-2025.01.05.05.55_arm64.ddeb
+ 42def20a6d5a92022ae97e4731423b5cec8820ea 41908 ros-humble-unitree-hw_0-2025.01.05.05.55_arm64.deb
 Checksums-Sha256:
- dbee1f7024903b7b0bb17c0975a03f709d8aae284249daf9a48b9ef1429496d2 393312 ros-humble-unitree-hw-dbgsym_0-2024.12.30.11.11_arm64.ddeb
- ca72872e49ef3982d5bc4e3cd750ac078dc2e2d4c9bc253b38a5c0f6fa7baeec 47156 ros-humble-unitree-hw_0-2024.12.30.11.11_arm64.deb
+ 86415a268ad5750560a078529d7207e5651704ed3cc940388ea7d57f496ff549 393490 ros-humble-unitree-hw-dbgsym_0-2025.01.05.05.55_arm64.ddeb
+ 98a2a817e01083849fea33ab898f0ad9a84094ddc42a4cf4ee9cceacbbbe880e 41908 ros-humble-unitree-hw_0-2025.01.05.05.55_arm64.deb
 Build-Origin: Ubuntu
 Build-Architecture: arm64
-Build-Date: Mon, 30 Dec 2024 11:16:18 +0000
+Build-Date: Sun, 05 Jan 2025 06:00:05 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -344,6 +344,7 @@ Installed-Build-Depends:
  ros-humble-tracetools (= 4.1.1-1jammy.20241126.020149),
  ros-humble-trajectory-msgs (= 4.2.4-1jammy.20241128.020652),
  ros-humble-unique-identifier-msgs (= 2.2.1-3jammy.20241128.010502),
+ ros-humble-unitree-sdk1-ament (= 0-2025.01.05.05.51),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
  sed (= 4.8-1ubuntu2),
  sensible-utils (= 0.0.17),
@@ -362,4 +363,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1735557067"
+ SOURCE_DATE_EPOCH="1736056503"
