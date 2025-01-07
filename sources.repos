@@ -2,4 +2,4 @@ repositories:
   unitree_ros2:
     type: git
     url: https://github.com/qiayuanl/unitree_ros2
-    version: aae5e244185e7ab32835118479b52dc4a7db623e
+    version: 775aaa3ff7a93750faae931bfecc72270badccbe

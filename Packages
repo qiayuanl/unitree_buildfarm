@@ -1,51 +1,51 @@
-Package: ros-humble-unitree-hw-dbgsym
+Package: ros-humble-unitree-sdk1-ament
+Architecture: arm64
+Version: 0-2025.01.07.02.45
+Priority: optional
+Section: misc
+Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
+Installed-Size: 150
+Filename: ./ros-humble-unitree-sdk1-ament_0-2025.01.07.02.45_arm64.deb
+Size: 27418
+MD5sum: 3c7a2b4da227d28710ae4edab49ed347
+SHA1: 29189a7f4582b9b018c681c71578c3c16c9d9523
+SHA256: 94c8a97f57d0c03e448fb4803da0310f816cbf7263cfbffece3a58f570658d6c
+SHA512: 790a431b7766f945753ae8e6033ec43f6e0c4e3008822d9e75479cb17ada2e5215e235dcb57707ce183ff73c4475e568cde4675ad262f1285e9f34ccc0c748f3
+Description: Unitree SDK2 ament wrapper
+
+Package: ros-humble-unitree-systems-dbgsym
 Package-Type: ddeb
 Architecture: arm64
-Version: 0-2025.01.06.02.26
+Version: 0-2025.01.07.02.49
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
-Source: ros-humble-unitree-hw
+Source: ros-humble-unitree-systems
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 440
-Depends: ros-humble-unitree-hw (= 0-2025.01.06.02.26)
-Filename: ./ros-humble-unitree-hw-dbgsym_0-2025.01.06.02.26_arm64.ddeb
-Size: 393490
-MD5sum: c33858041f7a09f9ccad119e8b8d99a0
-SHA1: 33c2d56f16d30e450c109c416bacb9df98149e48
-SHA256: 4ace9a4ba6819500a8ab9d8fbd8a2db8f0470e393261b3008a6af6f446c4531e
-SHA512: f270bc7bdb7f0096b251c3c21356e9e031a6cc5f3535d397b40dcadefc653071299526ef381f361f70903ffad83c6af2f1a7b3d264b5056b15b985536367092e
-Description: debug symbols for ros-humble-unitree-hw
-Build-Ids: ca407d1a40e3b580fd4c7df5828d7556580ae7a0
+Depends: ros-humble-unitree-systems (= 0-2025.01.07.02.49)
+Filename: ./ros-humble-unitree-systems-dbgsym_0-2025.01.07.02.49_arm64.ddeb
+Size: 393434
+MD5sum: 50f44814ca0fc93148e6644b0b16f4ad
+SHA1: 7ef0bb9371956dc9f7e3de53a18b81ec70ec3600
+SHA256: 4d9b7a920cbe1de11ded2d22e9c158247f26b82063bf0435a92fc39c2356bc2d
+SHA512: 3411690f5e1fa26e8793a5293cc1d4a5a47b7a4092d9c7ec9fb57cd9f46286290a7b07213597ca203be69b06e38128cbcbeeb812b5fc077153a7da0e9775854b
+Description: debug symbols for ros-humble-unitree-systems
+Build-Ids: e4189979a26b47d9b6d18e03a66623b963077c1b
 
-Package: ros-humble-unitree-hw
+Package: ros-humble-unitree-systems
 Architecture: arm64
-Version: 0-2025.01.06.02.26
+Version: 0-2025.01.07.02.49
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 149
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-unitree-sdk1-ament
-Filename: ./ros-humble-unitree-hw_0-2025.01.06.02.26_arm64.deb
-Size: 41918
-MD5sum: 1c886cc2cf19a218bc213be0ff7d1567
-SHA1: 9ad665c9c131b410c7fa000766277dbc808c41f6
-SHA256: 48c859d184845e37a778a73c67b047ac1fed1a526004ee3100899bc5b66b9901
-SHA512: a31d7bcc4f49df1279bedcddec880fac382cb49394503a8db98906f06c9b4c4de483cd0c832e6eb26c19a886373dd7ddea1854a0dd6f47792b530afd21121319
+Filename: ./ros-humble-unitree-systems_0-2025.01.07.02.49_arm64.deb
+Size: 41964
+MD5sum: 66d81cebfd34430a63b49195234cd3cf
+SHA1: 4999bb0da5ec5545870f26e7a9f9a6041b472d54
+SHA256: 26d5c110b1ea5241ab10bb4a11bd90b2b3ba4eb98d4f690856689a97451978b7
+SHA512: 2151fed7748e65473d786fb006439d2084278c7a47ed160e5c90c67634640f8aa262cf21f70c858f28898be04b878d0312bd9c90e94f051143ce4a3c130340a1
 Description: ROS 2 control warped interface for Unitree Robots
-
-Package: ros-humble-unitree-sdk1-ament
-Architecture: arm64
-Version: 0-2025.01.06.02.23
-Priority: optional
-Section: misc
-Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
-Installed-Size: 150
-Filename: ./ros-humble-unitree-sdk1-ament_0-2025.01.06.02.23_arm64.deb
-Size: 27424
-MD5sum: 359e053a274948b01f0a638d3db21fc9
-SHA1: 3c44df37371b23c212c484c419702352d97bd254
-SHA256: b401c189ce2901b894691d6d741c26818466d1e5ad2b05ccd372c83426a667f7
-SHA512: ab4e8ec3119e1bd0f7a6d4c0784bd9dd4cb7900a7912e8c617390ef8d2f26e96b7ae504e5b6ddd54b1578099cc1173479f2f26eb10c3ac6e9f5951cb93198f95
-Description: Unitree SDK2 ament wrapper
 
