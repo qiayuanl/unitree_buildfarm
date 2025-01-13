@@ -2,16 +2,16 @@ Format: 1.0
 Source: ros-humble-unitree-sdk1-ament
 Binary: ros-humble-unitree-sdk1-ament
 Architecture: amd64
-Version: 0-2025.01.07.02.43
+Version: 0-2025.01.13.00.38
 Checksums-Md5:
- 6d2ca0b7110e406739b8f036bcdd6aba 27832 ros-humble-unitree-sdk1-ament_0-2025.01.07.02.43_amd64.deb
+ 9e8f10a059a919b1007d4c652099bbca 27842 ros-humble-unitree-sdk1-ament_0-2025.01.13.00.38_amd64.deb
 Checksums-Sha1:
- 230a6756300a4cee565ae240b0010f5d513dae3d 27832 ros-humble-unitree-sdk1-ament_0-2025.01.07.02.43_amd64.deb
+ c941aa27c8a5275c1659b34455d4346f13efa836 27842 ros-humble-unitree-sdk1-ament_0-2025.01.13.00.38_amd64.deb
 Checksums-Sha256:
- 0babeea3d4becf57aaeb8254bdf8d25d771d04c2592a1d0056c3e1a66186d6b2 27832 ros-humble-unitree-sdk1-ament_0-2025.01.07.02.43_amd64.deb
+ daa6dea912322a20b3e42cad9a4cf6835f81d0247ba6953f46f0617de50ccf63 27842 ros-humble-unitree-sdk1-ament_0-2025.01.13.00.38_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 07 Jan 2025 02:43:51 +0000
+Build-Date: Mon, 13 Jan 2025 00:38:55 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -251,4 +251,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1736217799"
+ SOURCE_DATE_EPOCH="1736728703"

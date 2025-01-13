@@ -4,6 +4,9 @@ unitree_description:
 unitree_sdk1_ament:
   ubuntu:
   - ros-humble-unitree-sdk1-ament
+unitree_sdk2_ament:
+  ubuntu:
+  - ros-humble-unitree-sdk2-ament
 unitree_systems:
   ubuntu:
   - ros-humble-unitree-systems

@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-unitree-systems
 Binary: ros-humble-unitree-systems ros-humble-unitree-systems-dbgsym
 Architecture: amd64
-Version: 0-2025.01.07.02.43
+Version: 0-2025.01.13.00.39
 Checksums-Md5:
- 07ad69772ab19f47309fa4f05fa07074 401550 ros-humble-unitree-systems-dbgsym_0-2025.01.07.02.43_amd64.ddeb
- a22d63cb4b8d3e76f5900da1c969c528 43576 ros-humble-unitree-systems_0-2025.01.07.02.43_amd64.deb
+ 0e70650412344fcf097103ef28fba907 1608468 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.39_amd64.ddeb
+ 0669371adc9447fd18de7b5c8171c1c6 775518 ros-humble-unitree-systems_0-2025.01.13.00.39_amd64.deb
 Checksums-Sha1:
- 610e5a46dd588d862d2c45c2ff1143f93d3a7623 401550 ros-humble-unitree-systems-dbgsym_0-2025.01.07.02.43_amd64.ddeb
- a0f9568829550520a9d35f15623f270ece1a6ae4 43576 ros-humble-unitree-systems_0-2025.01.07.02.43_amd64.deb
+ 97413798a4c163c552ce2eff7a39a1cb01e71437 1608468 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.39_amd64.ddeb
+ 753d42b3fa3a002bf25575aac1678f91dd8123b0 775518 ros-humble-unitree-systems_0-2025.01.13.00.39_amd64.deb
 Checksums-Sha256:
- 6961edc41b1ea94804bc7a53200ce33478f6592f0aac3b92b7be0a3c19fca594 401550 ros-humble-unitree-systems-dbgsym_0-2025.01.07.02.43_amd64.ddeb
- 750ca99084a7b7e5fbc80d8cc807486c2716d4ac5a2c0d985e278f3ef750e74c 43576 ros-humble-unitree-systems_0-2025.01.07.02.43_amd64.deb
+ 83b88bb983d14a30dcab0a635d8bf239587a5ae86174290a0791f7250d81dbe8 1608468 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.39_amd64.ddeb
+ caa2f567e8429788704f7d96a6a3c1fd8e3a3ed1ea696336729253585d4b6aaf 775518 ros-humble-unitree-systems_0-2025.01.13.00.39_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 07 Jan 2025 02:44:44 +0000
+Build-Date: Mon, 13 Jan 2025 00:40:48 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -344,7 +344,8 @@ Installed-Build-Depends:
  ros-humble-tracetools (= 4.1.1-1jammy.20241126.000243),
  ros-humble-trajectory-msgs (= 4.2.4-1jammy.20241128.011235),
  ros-humble-unique-identifier-msgs (= 2.2.1-3jammy.20241128.004025),
- ros-humble-unitree-sdk1-ament (= 0-2025.01.07.02.43),
+ ros-humble-unitree-sdk1-ament (= 0-2025.01.13.00.38),
+ ros-humble-unitree-sdk2-ament (= 0-2025.01.13.00.38),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
  sed (= 4.8-1ubuntu2),
  sensible-utils (= 0.0.17),
@@ -363,4 +364,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1736217834"
+ SOURCE_DATE_EPOCH="1736728792"
