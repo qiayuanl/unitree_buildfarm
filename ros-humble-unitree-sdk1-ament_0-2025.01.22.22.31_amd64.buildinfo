@@ -1,20 +1,17 @@
 Format: 1.0
-Source: ros-humble-unitree-sdk2-ament
-Binary: ros-humble-unitree-sdk2-ament ros-humble-unitree-sdk2-ament-dbgsym
+Source: ros-humble-unitree-sdk1-ament
+Binary: ros-humble-unitree-sdk1-ament
 Architecture: amd64
-Version: 0-2025.01.13.00.38
+Version: 0-2025.01.22.22.31
 Checksums-Md5:
- 967d1ae82acd210445e88305b2417b30 2563116 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.01.13.00.38_amd64.ddeb
- b96f0c34cac97d6fba36ba49c2ab7aa2 2606482 ros-humble-unitree-sdk2-ament_0-2025.01.13.00.38_amd64.deb
+ 3c9f1c1bf0b819707d0b0a3cb3c7ab41 27832 ros-humble-unitree-sdk1-ament_0-2025.01.22.22.31_amd64.deb
 Checksums-Sha1:
- df0c342d1de4d5e758331a8e385c1cc9aeda8c60 2563116 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.01.13.00.38_amd64.ddeb
- 9ccb3cf8d05aaf2ef60bf1bf34f0180918aab215 2606482 ros-humble-unitree-sdk2-ament_0-2025.01.13.00.38_amd64.deb
+ 7a8edbb56107d5e216b2af6e7273b14474ddf37b 27832 ros-humble-unitree-sdk1-ament_0-2025.01.22.22.31_amd64.deb
 Checksums-Sha256:
- a1c7c407bd48ed00694dfe54223ce740c8cb5acd4224589065812696fd6b9916 2563116 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.01.13.00.38_amd64.ddeb
- c4b2e89a681194884358a8ed3d7b6810173ef387b32692eaa09a38138941b899 2606482 ros-humble-unitree-sdk2-ament_0-2025.01.13.00.38_amd64.deb
+ 574151fe81389618fbfb2f44502bfc339c5bb83737e948ac58d17e4bfd64c135 27832 ros-humble-unitree-sdk1-ament_0-2025.01.22.22.31_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 13 Jan 2025 00:39:49 +0000
+Build-Date: Wed, 22 Jan 2025 22:31:51 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -150,8 +147,8 @@ Installed-Build-Depends:
  libprocps8 (= 2:3.3.17-6ubuntu2.1),
  libpsl5 (= 0.21.0-1.2build2),
  libpython3-stdlib (= 3.10.6-1~22.04.1),
- libpython3.10-minimal (= 3.10.12-1~22.04.7),
- libpython3.10-stdlib (= 3.10.12-1~22.04.7),
+ libpython3.10-minimal (= 3.10.12-1~22.04.8),
+ libpython3.10-stdlib (= 3.10.12-1~22.04.8),
  libquadmath0 (= 12.3.0-1ubuntu1~22.04),
  libreadline8 (= 8.1.2-1),
  librhash0 (= 1.4.2-1ubuntu1),
@@ -216,8 +213,8 @@ Installed-Build-Depends:
  python3-setuptools (= 59.6.0-1.2ubuntu0.22.04.2),
  python3-six (= 1.16.0-3ubuntu1),
  python3-zipp (= 1.0.0-3ubuntu0.1),
- python3.10 (= 3.10.12-1~22.04.7),
- python3.10-minimal (= 3.10.12-1~22.04.7),
+ python3.10 (= 3.10.12-1~22.04.8),
+ python3.10-minimal (= 3.10.12-1~22.04.8),
  readline-common (= 8.1.2-1),
  ros-humble-ament-cmake (= 1.3.11-1jammy.20241125.233032),
  ros-humble-ament-cmake-core (= 1.3.11-1jammy.20241125.213936),
@@ -254,4 +251,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1736728738"
+ SOURCE_DATE_EPOCH="1737585082"
