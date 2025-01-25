@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-unitree-systems
 Binary: ros-humble-unitree-systems ros-humble-unitree-systems-dbgsym
 Architecture: arm64
-Version: 0-2025.01.13.00.48
+Version: 0-2025.01.25.01.01
 Checksums-Md5:
- 3456dd7c58a478a7939e2c8f0888cc51 1605310 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.48_arm64.ddeb
- e56fea454d80d770b26661dd9236784a 708606 ros-humble-unitree-systems_0-2025.01.13.00.48_arm64.deb
+ 31c65508f8533ccc269023410de76731 2264618 ros-humble-unitree-systems-dbgsym_0-2025.01.25.01.01_arm64.ddeb
+ c2960717d3a05fa3fe62c18b1c5d25e4 737854 ros-humble-unitree-systems_0-2025.01.25.01.01_arm64.deb
 Checksums-Sha1:
- a32c8757de575e8832109693676a2ae6f6bc4345 1605310 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.48_arm64.ddeb
- c3a31b8b6ced422b0dca3add9234fba9aca99fa0 708606 ros-humble-unitree-systems_0-2025.01.13.00.48_arm64.deb
+ 30530c6e0a930f93baaca5c8699d3092cfe78ac5 2264618 ros-humble-unitree-systems-dbgsym_0-2025.01.25.01.01_arm64.ddeb
+ 2b3e60d77a9711811cfd9a5116485c521e02699b 737854 ros-humble-unitree-systems_0-2025.01.25.01.01_arm64.deb
 Checksums-Sha256:
- 5ed4d8bc961823b1211b5afaf1e01bbf05912589d9a01755bb2655975474ec3c 1605310 ros-humble-unitree-systems-dbgsym_0-2025.01.13.00.48_arm64.ddeb
- 29e6ebd197682799ba2fd85b4faeb28a147d3a9f475a36e3bacf1f9465d657c6 708606 ros-humble-unitree-systems_0-2025.01.13.00.48_arm64.deb
+ d7223f4f137392f77b8d139efe267339e2c785626ee8965f65902b40bbd2109a 2264618 ros-humble-unitree-systems-dbgsym_0-2025.01.25.01.01_arm64.ddeb
+ 2861e22ce0f58e87dcbb6d098be643716e9072b9da5a16e6963b5e476b149916 737854 ros-humble-unitree-systems_0-2025.01.25.01.01_arm64.deb
 Build-Origin: Ubuntu
 Build-Architecture: arm64
-Build-Date: Mon, 13 Jan 2025 00:55:24 +0000
+Build-Date: Sat, 25 Jan 2025 01:08:54 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -155,10 +155,10 @@ Installed-Build-Depends:
  libnsl-dev (= 1.3.0-2build2),
  libnsl2 (= 1.3.0-2build2),
  libp11-kit0 (= 0.24.0-6build1),
- libpam-modules (= 1.4.0-11ubuntu2.4),
- libpam-modules-bin (= 1.4.0-11ubuntu2.4),
- libpam-runtime (= 1.4.0-11ubuntu2.4),
- libpam0g (= 1.4.0-11ubuntu2.4),
+ libpam-modules (= 1.4.0-11ubuntu2.5),
+ libpam-modules-bin (= 1.4.0-11ubuntu2.5),
+ libpam-runtime (= 1.4.0-11ubuntu2.5),
+ libpam0g (= 1.4.0-11ubuntu2.5),
  libpcre2-8-0 (= 10.39-3ubuntu0.1),
  libpcre3 (= 2:8.39-13ubuntu0.22.04.1),
  libperl5.34 (= 5.34.0-3ubuntu1.3),
@@ -167,10 +167,10 @@ Installed-Build-Depends:
  libpsl5 (= 0.21.0-1.2build2),
  libpython3-dev (= 3.10.6-1~22.04.1),
  libpython3-stdlib (= 3.10.6-1~22.04.1),
- libpython3.10 (= 3.10.12-1~22.04.7),
- libpython3.10-dev (= 3.10.12-1~22.04.7),
- libpython3.10-minimal (= 3.10.12-1~22.04.7),
- libpython3.10-stdlib (= 3.10.12-1~22.04.7),
+ libpython3.10 (= 3.10.12-1~22.04.8),
+ libpython3.10-dev (= 3.10.12-1~22.04.8),
+ libpython3.10-minimal (= 3.10.12-1~22.04.8),
+ libpython3.10-stdlib (= 3.10.12-1~22.04.8),
  libreadline8 (= 8.1.2-1),
  librhash0 (= 1.4.2-1ubuntu1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build4),
@@ -253,9 +253,9 @@ Installed-Build-Depends:
  python3-six (= 1.16.0-3ubuntu1),
  python3-toml (= 0.10.2-1),
  python3-zipp (= 1.0.0-3ubuntu0.1),
- python3.10 (= 3.10.12-1~22.04.7),
- python3.10-dev (= 3.10.12-1~22.04.7),
- python3.10-minimal (= 3.10.12-1~22.04.7),
+ python3.10 (= 3.10.12-1~22.04.8),
+ python3.10-dev (= 3.10.12-1~22.04.8),
+ python3.10-minimal (= 3.10.12-1~22.04.8),
  readline-common (= 8.1.2-1),
  ros-humble-action-msgs (= 1.2.1-1jammy.20241128.010818),
  ros-humble-ament-cmake (= 1.3.11-1jammy.20241125.221444),
@@ -294,7 +294,7 @@ Installed-Build-Depends:
  ros-humble-geometry-msgs (= 4.2.4-1jammy.20241128.015401),
  ros-humble-gmock-vendor (= 1.10.9006-1jammy.20241126.014647),
  ros-humble-gtest-vendor (= 1.10.9006-1jammy.20241125.213405),
- ros-humble-hardware-interface (= 2.46.0-1jammy.20241216.184959),
+ ros-humble-hardware-interface (= 2.47.0-1jammy.20250102.134736),
  ros-humble-libstatistics-collector (= 1.3.4-1jammy.20241128.030151),
  ros-humble-libyaml-vendor (= 1.2.2-2jammy.20241128.003548),
  ros-humble-lifecycle-msgs (= 1.2.1-1jammy.20241128.010720),
@@ -344,8 +344,8 @@ Installed-Build-Depends:
  ros-humble-tracetools (= 4.1.1-1jammy.20241126.020149),
  ros-humble-trajectory-msgs (= 4.2.4-1jammy.20241128.020652),
  ros-humble-unique-identifier-msgs (= 2.2.1-3jammy.20241128.010502),
- ros-humble-unitree-sdk1-ament (= 0-2025.01.13.00.40),
- ros-humble-unitree-sdk2-ament (= 0-2025.01.13.00.43),
+ ros-humble-unitree-sdk1-ament (= 0-2025.01.25.00.53),
+ ros-humble-unitree-sdk2-ament (= 0-2025.01.25.00.56),
  rpcsvc-proto (= 1.4.2-0ubuntu6),
  sed (= 4.8-1ubuntu2),
  sensible-utils (= 0.0.17),
@@ -364,4 +364,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1736729333"
+ SOURCE_DATE_EPOCH="1737766889"
