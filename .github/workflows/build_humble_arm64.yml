@@ -24,5 +24,3 @@ jobs:
           SQUASH_HISTORY: true
           SKIP_CHECKOUT: true
           REPOS_FILE: ros2.repos
-          SKIP_PACKAGES: >-
-            unitree_description
