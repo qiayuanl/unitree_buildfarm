@@ -1,17 +1,20 @@
 Format: 1.0
-Source: ros-humble-unitree-sdk1-ament
-Binary: ros-humble-unitree-sdk1-ament
+Source: ros-humble-unitree-sdk2-ament
+Binary: ros-humble-unitree-sdk2-ament ros-humble-unitree-sdk2-ament-dbgsym
 Architecture: arm64
-Version: 0-2025.01.25.00.53
+Version: 0-2025.04.09.00.23
 Checksums-Md5:
- 5b9e3350f1b93e6a621ca232acd4e4da 27408 ros-humble-unitree-sdk1-ament_0-2025.01.25.00.53_arm64.deb
+ d94cf8d1d517711c2907aadab594d06a 2576938 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.04.09.00.23_arm64.ddeb
+ e8793b15abf94a57c9c362af1987ba3e 2644652 ros-humble-unitree-sdk2-ament_0-2025.04.09.00.23_arm64.deb
 Checksums-Sha1:
- 3cc8004db4925df3f6c9bbe479599a46575527a4 27408 ros-humble-unitree-sdk1-ament_0-2025.01.25.00.53_arm64.deb
+ 12bba25dd320648405a12d5c1bc078d955c2fb17 2576938 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.04.09.00.23_arm64.ddeb
+ d9723a0c0f22e1cc9177746189adf66830c3375c 2644652 ros-humble-unitree-sdk2-ament_0-2025.04.09.00.23_arm64.deb
 Checksums-Sha256:
- af63e3ada2c89e41e72421997eb8a9c838b6df6e11709506e2083dd190ee8690 27408 ros-humble-unitree-sdk1-ament_0-2025.01.25.00.53_arm64.deb
+ f9c54fbcc8551c56ea3544aa96fa20ed7f98e8f361269ea4a148e4db0a6240c6 2576938 ros-humble-unitree-sdk2-ament-dbgsym_0-2025.04.09.00.23_arm64.ddeb
+ e293799a9d0ad90fa162c15f64b45200a03ebc454a0e5308ad3288ed0b73737a 2644652 ros-humble-unitree-sdk2-ament_0-2025.04.09.00.23_arm64.deb
 Build-Origin: Ubuntu
 Build-Architecture: arm64
-Build-Date: Sat, 25 Jan 2025 00:56:04 +0000
+Build-Date: Wed, 09 Apr 2025 00:28:57 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -23,9 +26,9 @@ Installed-Build-Depends:
  base-files (= 12ubuntu4.7),
  base-passwd (= 3.5.52build1),
  bash (= 5.1-6ubuntu1.1),
- binutils (= 2.38-4ubuntu2.6),
- binutils-aarch64-linux-gnu (= 2.38-4ubuntu2.6),
- binutils-common (= 2.38-4ubuntu2.6),
+ binutils (= 2.38-4ubuntu2.8),
+ binutils-aarch64-linux-gnu (= 2.38-4ubuntu2.8),
+ binutils-common (= 2.38-4ubuntu2.8),
  bsdextrautils (= 2.37.2-4ubuntu3.4),
  bsdutils (= 1:2.37.2-4ubuntu3.4),
  build-essential (= 12.9ubuntu3),
@@ -73,30 +76,30 @@ Installed-Build-Depends:
  libattr1 (= 1:2.5.1-1build1),
  libaudit-common (= 1:3.0.7-1build1),
  libaudit1 (= 1:3.0.7-1build1),
- libbinutils (= 2.38-4ubuntu2.6),
+ libbinutils (= 2.38-4ubuntu2.8),
  libblkid1 (= 2.37.2-4ubuntu3.4),
  libbrotli1 (= 1.0.9-2build6),
  libbz2-1.0 (= 1.0.8-5build1),
- libc-bin (= 2.35-0ubuntu3.8),
- libc-dev-bin (= 2.35-0ubuntu3.8),
- libc6 (= 2.35-0ubuntu3.8),
- libc6-dev (= 2.35-0ubuntu3.8),
+ libc-bin (= 2.35-0ubuntu3.9),
+ libc-dev-bin (= 2.35-0ubuntu3.9),
+ libc6 (= 2.35-0ubuntu3.9),
+ libc6-dev (= 2.35-0ubuntu3.9),
  libcap-ng0 (= 0.7.9-2.2build3),
- libcap2 (= 1:2.44-1ubuntu0.22.04.1),
+ libcap2 (= 1:2.44-1ubuntu0.22.04.2),
  libcc1-0 (= 12.3.0-1ubuntu1~22.04),
  libcom-err2 (= 1.46.5-2ubuntu1.2),
  libcrypt-dev (= 1:4.4.27-1),
  libcrypt1 (= 1:4.4.27-1),
- libctf-nobfd0 (= 2.38-4ubuntu2.6),
- libctf0 (= 2.38-4ubuntu2.6),
+ libctf-nobfd0 (= 2.38-4ubuntu2.8),
+ libctf0 (= 2.38-4ubuntu2.8),
  libcurl4 (= 7.81.0-1ubuntu1.20),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
  libdebconfclient0 (= 0.261ubuntu1),
  libdebhelper-perl (= 13.6ubuntu1),
  libdpkg-perl (= 1.21.1ubuntu2.3),
- libdw1 (= 0.186-1build1),
- libelf1 (= 0.186-1build1),
- libexpat1 (= 2.4.7-1ubuntu0.5),
+ libdw1 (= 0.186-1ubuntu0.1),
+ libelf1 (= 0.186-1ubuntu0.1),
+ libexpat1 (= 2.4.7-1ubuntu0.6),
  libffi8 (= 3.4.2-4),
  libfile-stripnondeterminism-perl (= 1.13.0-1),
  libgcc-11-dev (= 11.4.0-1ubuntu1~22.04),
@@ -105,10 +108,10 @@ Installed-Build-Depends:
  libgdbm-compat4 (= 1.23-1),
  libgdbm6 (= 1.23-1),
  libgmp10 (= 2:6.2.1+dfsg-3ubuntu1),
- libgnutls30 (= 3.7.3-4ubuntu1.5),
+ libgnutls30 (= 3.7.3-4ubuntu1.6),
  libgomp1 (= 12.3.0-1ubuntu1~22.04),
  libgpg-error0 (= 1.43-3),
- libgssapi-krb5-2 (= 1.19.2-2ubuntu0.4),
+ libgssapi-krb5-2 (= 1.19.2-2ubuntu0.6),
  libhogweed6 (= 3.7.3-1build2),
  libhwasan0 (= 12.3.0-1ubuntu1~22.04),
  libicu70 (= 70.1-2),
@@ -116,11 +119,11 @@ Installed-Build-Depends:
  libisl23 (= 0.24-2build1),
  libitm1 (= 12.3.0-1ubuntu1~22.04),
  libjsoncpp25 (= 1.9.5-3),
- libk5crypto3 (= 1.19.2-2ubuntu0.4),
+ libk5crypto3 (= 1.19.2-2ubuntu0.6),
  libkeyutils1 (= 1.6.1-2ubuntu3),
- libkrb5-3 (= 1.19.2-2ubuntu0.4),
- libkrb5support0 (= 1.19.2-2ubuntu0.4),
- libldap-2.5-0 (= 2.5.18+dfsg-0ubuntu0.22.04.2),
+ libkrb5-3 (= 1.19.2-2ubuntu0.6),
+ libkrb5support0 (= 1.19.2-2ubuntu0.6),
+ libldap-2.5-0 (= 2.5.18+dfsg-0ubuntu0.22.04.3),
  liblsan0 (= 12.3.0-1ubuntu1~22.04),
  liblz4-1 (= 1.9.3-2build2),
  liblzma5 (= 5.2.5-2ubuntu1),
@@ -148,25 +151,25 @@ Installed-Build-Depends:
  libprocps8 (= 2:3.3.17-6ubuntu2.1),
  libpsl5 (= 0.21.0-1.2build2),
  libpython3-stdlib (= 3.10.6-1~22.04.1),
- libpython3.10-minimal (= 3.10.12-1~22.04.8),
- libpython3.10-stdlib (= 3.10.12-1~22.04.8),
+ libpython3.10-minimal (= 3.10.12-1~22.04.9),
+ libpython3.10-stdlib (= 3.10.12-1~22.04.9),
  libreadline8 (= 8.1.2-1),
  librhash0 (= 1.4.2-1ubuntu1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build4),
  libsasl2-2 (= 2.1.27+dfsg2-3ubuntu1.2),
  libsasl2-modules-db (= 2.1.27+dfsg2-3ubuntu1.2),
- libseccomp2 (= 2.5.3-2ubuntu2),
+ libseccomp2 (= 2.5.3-2ubuntu3~22.04.1),
  libselinux1 (= 3.3-1build2),
  libsigsegv2 (= 2.13-1ubuntu3),
  libsmartcols1 (= 2.37.2-4ubuntu3.4),
  libsqlite3-0 (= 3.37.2-2ubuntu0.3),
  libssh-4 (= 0.9.6-2ubuntu0.22.04.3),
- libssl3 (= 3.0.2-0ubuntu1.18),
+ libssl3 (= 3.0.2-0ubuntu1.19),
  libstdc++-11-dev (= 11.4.0-1ubuntu1~22.04),
  libstdc++6 (= 12.3.0-1ubuntu1~22.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 249.11-0ubuntu3.12),
- libtasn1-6 (= 4.18.0-4build1),
+ libsystemd0 (= 249.11-0ubuntu3.15),
+ libtasn1-6 (= 4.18.0-4ubuntu0.1),
  libtinfo6 (= 6.3-2ubuntu0.1),
  libtirpc-common (= 1.3.2-2ubuntu0.1),
  libtirpc-dev (= 1.3.2-2ubuntu0.1),
@@ -175,13 +178,13 @@ Installed-Build-Depends:
  libtsan0 (= 11.4.0-1ubuntu1~22.04),
  libubsan1 (= 12.3.0-1ubuntu1~22.04),
  libuchardet0 (= 0.0.7-1build2),
- libudev1 (= 249.11-0ubuntu3.12),
+ libudev1 (= 249.11-0ubuntu3.15),
  libunistring2 (= 1.0-1),
  libuuid1 (= 2.37.2-4ubuntu3.4),
  libuv1 (= 1.43.0-1ubuntu0.1),
- libxml2 (= 2.9.13+dfsg-1ubuntu0.4),
+ libxml2 (= 2.9.13+dfsg-1ubuntu0.6),
  libzstd1 (= 1.4.8+dfsg-3build1),
- linux-libc-dev (= 5.15.0-130.140),
+ linux-libc-dev (= 5.15.0-136.147),
  login (= 1:4.8.1-2ubuntu2.2),
  lsb-base (= 11.1.0ubuntu4),
  lto-disabled-list (= 24),
@@ -213,8 +216,8 @@ Installed-Build-Depends:
  python3-setuptools (= 59.6.0-1.2ubuntu0.22.04.2),
  python3-six (= 1.16.0-3ubuntu1),
  python3-zipp (= 1.0.0-3ubuntu0.1),
- python3.10 (= 3.10.12-1~22.04.8),
- python3.10-minimal (= 3.10.12-1~22.04.8),
+ python3.10 (= 3.10.12-1~22.04.9),
+ python3.10-minimal (= 3.10.12-1~22.04.9),
  readline-common (= 8.1.2-1),
  ros-humble-ament-cmake (= 1.3.11-1jammy.20241125.221444),
  ros-humble-ament-cmake-core (= 1.3.11-1jammy.20241125.210622),
@@ -240,7 +243,7 @@ Installed-Build-Depends:
  sgml-base (= 1.30),
  sysvinit-utils (= 3.01-1ubuntu1),
  tar (= 1.34+dfsg-1ubuntu0.1.22.04.2),
- tzdata (= 2024a-0ubuntu0.22.04.1),
+ tzdata (= 2025b-0ubuntu0.22.04),
  util-linux (= 2.37.2-4ubuntu3.4),
  xml-core (= 0.18+nmu1),
  xz-utils (= 5.2.5-2ubuntu1),
@@ -251,4 +254,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1737766386"
+ SOURCE_DATE_EPOCH="1744158229"
