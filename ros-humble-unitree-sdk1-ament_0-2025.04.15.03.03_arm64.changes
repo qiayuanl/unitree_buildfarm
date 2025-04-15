@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 12 Apr 2025 00:00:00 -0000
+Source: ros-humble-unitree-sdk1-ament
+Binary: ros-humble-unitree-sdk1-ament
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.04.15.03.03
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gamil.com>
+Description:
+ ros-humble-unitree-sdk1-ament - Unitree SDK2 ament wrapper
+Changes:
+ ros-humble-unitree-sdk1-ament (0-2025.04.15.03.03) jammy; urgency=high
+ .
+   * Correct the version number
+   * Merge branch 'master' into sdk2
+     # Conflicts:
+     #     unitree_description/urdf/sdk1/robot.xacro
+   * Cleanup the CMakeLists.txt of unitree_sdk1_ament
+   * Remove ament_cmake_auto in unitree_sdk1_ament
+   * Add unitree_sdk1_ament
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 2926fcd1147491470735a0838e4efa3d0a6efc89 9270 ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.buildinfo
+ 1305950408944f24f3be238f7f7882864b833cf5 27516 ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.deb
+Checksums-Sha256:
+ 4bef50046374d8e34edac28b38c6f289d2b47d9cd6799709c107c84f757bfcb2 9270 ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.buildinfo
+ ca624cfe475bcc0471afdf80857a39a4c6cd7eaaf7fc212dad24e8e8db98d6a5 27516 ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.deb
+Files:
+ ed89255b8aafd8a1591f41a846242673 9270 misc optional ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.buildinfo
+ 228789a4661a2048cd370c402522c78c 27516 misc optional ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.deb
