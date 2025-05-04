@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sat, 12 Apr 2025 00:00:00 -0000
+Source: ros-humble-unitree-systems
+Binary: ros-humble-unitree-systems
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.05.04.05.08
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-systems - ROS 2 control warped interface for Unitree Robots
+Changes:
+ ros-humble-unitree-systems (0-2025.05.04.05.08) jammy; urgency=high
+ .
+   * Add joy topic for UnitreeSdk2
+   * Add network_interface for UnitreeSdk2
+   * Larger damping when no controller
+   * Merge branch 'refs/heads/sdk2'
+   * Add UnitreeSdk2
+   * Merge branch 'refs/heads/master' into sdk2
+   * Rename unitree_hw to unitree_system
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 948ca6a743b7d3e51c40de0dbf02ba531827f645 2265024 ros-humble-unitree-systems-dbgsym_0-2025.05.04.05.08_arm64.ddeb
+ 382ea0eb900c4a67ba171c3a9b831286eb0583cd 15449 ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.buildinfo
+ f81607b7c09d6b73b0a865d259922401eeaf94f5 735556 ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.deb
+Checksums-Sha256:
+ 441e572c1314201732fe1b156b48b55c276826a21c6980cddcf55afc7d2f13ee 2265024 ros-humble-unitree-systems-dbgsym_0-2025.05.04.05.08_arm64.ddeb
+ e4487cfc1afc5f50bc757adc2e01c74605cdaf3843cc69896d1c15964929eecf 15449 ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.buildinfo
+ f9d5a5d638f0600c46ae860552bfb3646fad70466fd725dabc44114e302d511f 735556 ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.deb
+Files:
+ 0a430b9ed4bab07d616aafd55ee81d27 2265024 debug optional ros-humble-unitree-systems-dbgsym_0-2025.05.04.05.08_arm64.ddeb
+ 222d9adfb9cc6ef15687a5b2e223d076 15449 misc optional ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.buildinfo
+ e460532526b292a45ba3befb498b07a5 735556 misc optional ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.deb

@@ -1,103 +1,103 @@
 Package: ros-humble-unitree-description
 Architecture: arm64
-Version: 0-2025.04.15.02.57
+Version: 0-2025.05.04.04.53
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
-Installed-Size: 148453
+Installed-Size: 148456
 Depends: ros-humble-xacro
-Filename: ./ros-humble-unitree-description_0-2025.04.15.02.57_arm64.deb
-Size: 38514272
-MD5sum: 20ac8c933ffc197f072d1a0e9fa515cc
-SHA1: c9bf2bdf2046b14e30fb3fd01eb6bdbfaf9ca33e
-SHA256: 03a6d9764449c5b7357f1a9a711f40268124fe0dd426f25e3adc917dbf008359
-SHA512: 436e783642aa414a80b29d2025d0867612dee8412f27d4b73e2f30e19a0d79a79f001aca18a4dc37176d552a63d3b3f89d33183773bcb86500bcabb1e440c7fd
+Filename: ./ros-humble-unitree-description_0-2025.05.04.04.53_arm64.deb
+Size: 38514408
+MD5sum: 441a84cdf2879f31e6d8dd02af753b3b
+SHA1: cd10ce5a6172507d6a98d26260871e0d332b6eec
+SHA256: bbe9a0ec389f9bdbf9df691bf03cec5e8a64e6f140519b8d891ac2ad9ffeb38e
+SHA512: 9e1683a85a338999cf28b6c47459182df099ee765ab427af546c254006363288daee1678f8108ada9967e6f890c8eb60f73f0929d74fff514944d67d924e6363
 Description: Unitree robot description files
 
 Package: ros-humble-unitree-sdk1-ament
 Architecture: arm64
-Version: 0-2025.04.15.03.03
+Version: 0-2025.05.04.05.00
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 150
-Filename: ./ros-humble-unitree-sdk1-ament_0-2025.04.15.03.03_arm64.deb
-Size: 27516
-MD5sum: 228789a4661a2048cd370c402522c78c
-SHA1: 1305950408944f24f3be238f7f7882864b833cf5
-SHA256: ca624cfe475bcc0471afdf80857a39a4c6cd7eaaf7fc212dad24e8e8db98d6a5
-SHA512: 4aa7f071267d4b86d2b754437b0a0bb6359bc6e74cb9b6d74c2e5615b1b468907b0da24ce8d9a234767dce1256c1de3de75cc876cc1e998333326d0654cf6dc9
+Filename: ./ros-humble-unitree-sdk1-ament_0-2025.05.04.05.00_arm64.deb
+Size: 27504
+MD5sum: c21b99c3108fedc82559dfd1c9be2b49
+SHA1: 0ac12a42a8e89e55e5846e43886844a0df584e4f
+SHA256: 683f1e4b2791bc4521434b0a674244684bcbc582ebd08cd3ef22af73df8cee57
+SHA512: d504cc819515b050ff31391c79fee8e6cff38202b84dfe7d40d1dc67316687deff30c9863ec14b20b8a4bb20d8a256a634f09ccc94ac6f7456179fca0f5773e7
 Description: Unitree SDK2 ament wrapper
 
 Package: ros-humble-unitree-sdk2-ament-dbgsym
 Package-Type: ddeb
 Architecture: arm64
-Version: 0-2025.04.15.03.06
+Version: 0-2025.05.04.05.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-unitree-sdk2-ament
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 3656
-Depends: ros-humble-unitree-sdk2-ament (= 0-2025.04.15.03.06)
-Filename: ./ros-humble-unitree-sdk2-ament-dbgsym_0-2025.04.15.03.06_arm64.ddeb
-Size: 2574336
-MD5sum: 663129c08b937dfd1fb8906c62e13f3b
-SHA1: 8eef7536ee615f3c1802b32fc44cfbd2b8a8e72c
-SHA256: 11988336dd40c6f4c3b6c6173c62f1e9dce0474fdc7465df5fe2d973f1b3b010
-SHA512: a78fa84f952c42d733148cae328b15530c56d924769ff49fdded01f4ab4912dfa2c559ece34ad0b989da5c1eb3055f732ddd735df8c2b96e3b56d071c2a8f8f6
+Depends: ros-humble-unitree-sdk2-ament (= 0-2025.05.04.05.03)
+Filename: ./ros-humble-unitree-sdk2-ament-dbgsym_0-2025.05.04.05.03_arm64.ddeb
+Size: 2574328
+MD5sum: 05a9d4d0968b7c0de9a9f158fc3eadf5
+SHA1: 2550c547d5e3e5431c3611150290bfd6b1f837df
+SHA256: 48b38cad08cb8f39f1e42955a7eeff2b925c9945d70b6195a34b7b88e2a21212
+SHA512: 0b69c5ca2059d68b6114ccc5efbf7b52c9a367a5dde181b339b15881e58e6054de1c7e903d90ec3e2c8eb2b09aaa43d315aa00c65ca45704388d17b7af132a38
 Description: debug symbols for ros-humble-unitree-sdk2-ament
-Build-Ids: c859e9d290eb9e0bba26adf8d449c69a0d6fc116 fcb6d397ed526c9238a0831e33986e88c4558d66
+Build-Ids: 136bcb8ff81a8fa79fda175d8c773d06ece6e840 6618a02b118c97185cf10763439b67f7f0b9491b
 
 Package: ros-humble-unitree-sdk2-ament
 Architecture: arm64
-Version: 0-2025.04.15.03.06
+Version: 0-2025.05.04.05.03
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 38363
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Filename: ./ros-humble-unitree-sdk2-ament_0-2025.04.15.03.06_arm64.deb
-Size: 2646636
-MD5sum: 1589cc627f1f8adf13d04771d0544df7
-SHA1: af86b77453dfd7b38f8d617c7f7eea9b7c795a10
-SHA256: 88669aabea79c4b14a7ab2a51abd76594f7eabfdc7e1614e5dc04b6e609eff24
-SHA512: 4246830c122009d8ddef4fafab3ab5e548686a7e6b83e57dbe53d3d461abbf67fb6d6208ea4f9c26fed4df5d786b71d22f704e343be1aeb1d32f1ed085f2b42e
+Filename: ./ros-humble-unitree-sdk2-ament_0-2025.05.04.05.03_arm64.deb
+Size: 2646742
+MD5sum: 85efe95287fa1a83800f246fa664b93c
+SHA1: 1bf8e4946257c4e4a0f31911c89c0883b3e20fa6
+SHA256: 1d7dfdadc41793b51da860be1c2c00bd5ea42e5ae239b79e2d3ebf0801c24dee
+SHA512: f8fc3bc1e6b4d582b132388ac5b4f851b8469155b2ceb94ccd7b24687132177eb5aef90def34147a9335e25886dd0e5758d76cebd3424c2e3b8cd812ba286792
 Description: Unitree SDK2 ament wrapper
 
 Package: ros-humble-unitree-systems-dbgsym
 Package-Type: ddeb
 Architecture: arm64
-Version: 0-2025.04.15.03.11
+Version: 0-2025.05.04.05.08
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-unitree-systems
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
-Installed-Size: 4072
-Depends: ros-humble-unitree-systems (= 0-2025.04.15.03.11)
-Filename: ./ros-humble-unitree-systems-dbgsym_0-2025.04.15.03.11_arm64.ddeb
-Size: 2263946
-MD5sum: 66ab055d78eea2c0980d8aeefb4237f2
-SHA1: d1e50ba23472253a2b508041581b9ea58ed61421
-SHA256: 70655beb183e7754778ce457b03795e6c170f05f6028a62486fa191118e149da
-SHA512: 5ae931be9dea0314f8af8fdbb7e22b55120af51280e6f9dc46f8d37ec3787dc5dd5a54cce1cb70a1b44eced6895568ea2d6507cea7c6d50d5f0bab6bce801566
+Installed-Size: 4073
+Depends: ros-humble-unitree-systems (= 0-2025.05.04.05.08)
+Filename: ./ros-humble-unitree-systems-dbgsym_0-2025.05.04.05.08_arm64.ddeb
+Size: 2265024
+MD5sum: 0a430b9ed4bab07d616aafd55ee81d27
+SHA1: 948ca6a743b7d3e51c40de0dbf02ba531827f645
+SHA256: 441e572c1314201732fe1b156b48b55c276826a21c6980cddcf55afc7d2f13ee
+SHA512: 3ed7a850c14092fea141499aeb9f88f07338b2db3851ba9ab421fcf345771e4b493bbe495060bf7343a2ac59a741fae37a76255279857477ac75d0001d41f5fa
 Description: debug symbols for ros-humble-unitree-systems
-Build-Ids: 0c8d7e884f81320bdc50c71fd8724faae3116de9
+Build-Ids: 265fa21912e30c7fb54b3d0e17828c23d56ef194
 
 Package: ros-humble-unitree-systems
 Architecture: arm64
-Version: 0-2025.04.15.03.11
+Version: 0-2025.05.04.05.08
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
-Installed-Size: 4052
+Installed-Size: 4060
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-unitree-sdk2-ament, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-unitree-sdk1-ament
-Filename: ./ros-humble-unitree-systems_0-2025.04.15.03.11_arm64.deb
-Size: 739802
-MD5sum: 8f3cde7557ece9b5559c02a69ef1e9ad
-SHA1: 4a59baff68dd1c837f3fea46530cb9f85af9672a
-SHA256: ecf564800ee673746f14d6cbba17c3271c15d5a8158afdcb948e5aa27a056642
-SHA512: 7e780f65a744567af641f35e26601f36151a025a4fc8c5e184026e2b5dc810339f925bd2582069942b6279a5ff7b72beaff769932150a9bca9ea9ae21fd66ddb
+Filename: ./ros-humble-unitree-systems_0-2025.05.04.05.08_arm64.deb
+Size: 735556
+MD5sum: e460532526b292a45ba3befb498b07a5
+SHA1: f81607b7c09d6b73b0a865d259922401eeaf94f5
+SHA256: f9d5a5d638f0600c46ae860552bfb3646fad70466fd725dabc44114e302d511f
+SHA512: a201c192efa8cb9fb413076d67a69d8028856034fe06cb564fbbea7156e0aa070a02deca04c98bdf746f2a5fea7739a886f61231edcd367283994eca66661a5f
 Description: ROS 2 control warped interface for Unitree Robots
 
