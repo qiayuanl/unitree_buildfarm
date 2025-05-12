@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 11 May 2025 00:00:00 -0000
+Source: ros-humble-unitree-systems
+Binary: ros-humble-unitree-systems
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.12.00.51
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-systems - ROS 2 control warped interface for Unitree Robots
+Changes:
+ ros-humble-unitree-systems (0-2025.05.12.00.51) jammy; urgency=high
+ .
+   * Add unitree_description as exec_depend of unitree_systems
+   * Correct perform_command_mode_switch()
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 3a8177105953d394044382fcebcaf95e28cb582a 2291244 ros-humble-unitree-systems-dbgsym_0-2025.05.12.00.51_amd64.ddeb
+ b7d082c2a9b8100ee0de13482d94fa36b849309b 15450 ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.buildinfo
+ 4dcb47cd47e6052b2afecaf27d4ed20b04e7a79c 801974 ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.deb
+Checksums-Sha256:
+ fa3034d4eece79961a599bf541641ca85f734f5843cf5f4cc18b2b65d9cb1f81 2291244 ros-humble-unitree-systems-dbgsym_0-2025.05.12.00.51_amd64.ddeb
+ 885ddcfa3e99fba17b4d19109bf08ec608b86baabddf0231df04fd078d165b40 15450 ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.buildinfo
+ 4daeefe46c417c50b928527dc0aa4ebeae3aefa63b82b8176a1f0249242045fb 801974 ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.deb
+Files:
+ 976067187681e158b99eb34853a65174 2291244 debug optional ros-humble-unitree-systems-dbgsym_0-2025.05.12.00.51_amd64.ddeb
+ 736a1fbf7f96134ede7475312fb190b3 15450 misc optional ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.buildinfo
+ 766903e7334f5eaf9d2cebc231b0328f 801974 misc optional ros-humble-unitree-systems_0-2025.05.12.00.51_amd64.deb

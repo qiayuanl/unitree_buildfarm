@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 11 May 2025 00:00:00 -0000
+Source: ros-humble-unitree-description
+Binary: ros-humble-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.12.00.48
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-description - Unitree robot description files
+Changes:
+ ros-humble-unitree-description (0-2025.05.12.00.48) jammy; urgency=high
+ .
+   * Update g1.xml
+   * Update g1.xml
+   * Correct the orientation of mid360 in G1
+   * Update the collision geometry of g1
+   * Update the height of the LL_FOOT and LR_FOOT
+   * Center the LL_FOOT and LR_FOOT
+   * Revert "Force the meshdir to find the unitree_description"
+     This reverts commit 7a1ac5f6eecabbc33a9c5804f1f5c37fb235b4c7.
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 6a1709cd3d5a0667ccb31df66537112223552763 9285 ros-humble-unitree-description_0-2025.05.12.00.48_amd64.buildinfo
+ 13f905fdca9b1b43c26d2b0a5259ff0f3ad260c0 38514736 ros-humble-unitree-description_0-2025.05.12.00.48_amd64.deb
+Checksums-Sha256:
+ e8c5d33fdacb01d7292b37633f257d09083da358f9ed7f7198a30127c137beb3 9285 ros-humble-unitree-description_0-2025.05.12.00.48_amd64.buildinfo
+ 48c58c10e861203f5afa3d584f5f944265b33d8d90efc6ea9f6131446f28184e 38514736 ros-humble-unitree-description_0-2025.05.12.00.48_amd64.deb
+Files:
+ def091e2c83aac6799e67d3e0b26e62a 9285 misc optional ros-humble-unitree-description_0-2025.05.12.00.48_amd64.buildinfo
+ c56568ef83a0d147e3504f70d73c8989 38514736 misc optional ros-humble-unitree-description_0-2025.05.12.00.48_amd64.deb
