@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 03 Jun 2025 00:00:00 -0000
+Source: ros-humble-unitree-description
+Binary: ros-humble-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.03.18.25
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-description - Unitree robot description files
+Changes:
+ ros-humble-unitree-description (0-2025.06.03.18.25) jammy; urgency=high
+ .
+   * Add simulation support for GO2
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 8256d2e71720d86ff45e43135669b2d104fcc64c 9291 ros-humble-unitree-description_0-2025.06.03.18.25_amd64.buildinfo
+ c3d8130cae36276de71d2709a8cf33569d0afb60 41636082 ros-humble-unitree-description_0-2025.06.03.18.25_amd64.deb
+Checksums-Sha256:
+ 7c3d32f120b9b7c52ef774cb6a6a5ef52b15a98f139a0596acb201221cb1486c 9291 ros-humble-unitree-description_0-2025.06.03.18.25_amd64.buildinfo
+ 4d1a393d0d836c80a41209f50899d87192c8fdb58a9b08cf1d93960f1baf5259 41636082 ros-humble-unitree-description_0-2025.06.03.18.25_amd64.deb
+Files:
+ dc00ca4286bc84ceec9f5a758cead29e 9291 misc optional ros-humble-unitree-description_0-2025.06.03.18.25_amd64.buildinfo
+ 29214d5697dc4474e7ab2efcca915c73 41636082 misc optional ros-humble-unitree-description_0-2025.06.03.18.25_amd64.deb
