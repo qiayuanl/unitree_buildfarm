@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 17 Jun 2025 00:00:00 -0000
+Source: ros-humble-unitree-description
+Binary: ros-humble-unitree-description
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.06.18.00.13
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-description - Unitree robot description files
+Changes:
+ ros-humble-unitree-description (0-2025.06.18.00.13) jammy; urgency=high
+ .
+   * Add tendon for coupled ankle limit
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 9fc3af790167f143c8caa6ee51c61aa6fc3ebf68 9294 ros-humble-unitree-description_0-2025.06.18.00.13_arm64.buildinfo
+ d9cfff804a1c7d75debee24a089e8be2017fb000 41498452 ros-humble-unitree-description_0-2025.06.18.00.13_arm64.deb
+Checksums-Sha256:
+ f7ab8a8258a01fbf21a69e982ed10a36d3605ad34b7b1f3b65e275267552bef1 9294 ros-humble-unitree-description_0-2025.06.18.00.13_arm64.buildinfo
+ f98fc62e82406d78031632634be0c1ac66e878655c28e00750adbe5f36c7ed48 41498452 ros-humble-unitree-description_0-2025.06.18.00.13_arm64.deb
+Files:
+ 27a49e41f5a1729f72cad6548d38800b 9294 misc optional ros-humble-unitree-description_0-2025.06.18.00.13_arm64.buildinfo
+ 21995447da7e38869d1c01989d3deedc 41498452 misc optional ros-humble-unitree-description_0-2025.06.18.00.13_arm64.deb
