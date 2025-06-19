@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 19 Jun 2025 00:00:00 -0000
+Source: ros-humble-unitree-description
+Binary: ros-humble-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.19.07.16
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-humble-unitree-description - Unitree robot description files
+Changes:
+ ros-humble-unitree-description (0-2025.06.19.07.16) jammy; urgency=high
+ .
+   * Change the joint names of sdk1 to align with unitree
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ cceb57a0123e8a4aabfd6971806df918a5f8d425 9295 ros-humble-unitree-description_0-2025.06.19.07.16_amd64.buildinfo
+ c1cde5065dbf341928d0fdd607ad68c499382d53 41492946 ros-humble-unitree-description_0-2025.06.19.07.16_amd64.deb
+Checksums-Sha256:
+ f8aee6d090d53aad186ff38e4f7412ba4818ab00298c8ea4a939479f4d9752d3 9295 ros-humble-unitree-description_0-2025.06.19.07.16_amd64.buildinfo
+ 090607bbb029bc54b422809758bb8d931305553aed8c3df230d864380fac735d 41492946 ros-humble-unitree-description_0-2025.06.19.07.16_amd64.deb
+Files:
+ 0ce24d22a28b31eea3cdc733c2bd3ee4 9295 misc optional ros-humble-unitree-description_0-2025.06.19.07.16_amd64.buildinfo
+ cf8ec1a2b79768d381a7a290e8cce2d8 41492946 misc optional ros-humble-unitree-description_0-2025.06.19.07.16_amd64.deb
