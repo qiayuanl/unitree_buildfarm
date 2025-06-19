@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 19 Jun 2025 00:00:00 -0000
+Source: ros-humble-unitree-sdk1-ament
+Binary: ros-humble-unitree-sdk1-ament
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.06.19.07.26
+Distribution: jammy
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gamil.com>
+Description:
+ ros-humble-unitree-sdk1-ament - Unitree SDK2 ament wrapper
+Changes:
+ ros-humble-unitree-sdk1-ament (0-2025.06.19.07.26) jammy; urgency=high
+Checksums-Sha1:
+ 4d651017113f1f7d089e93f358efe4bcb41e3360 9280 ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.buildinfo
+ 21eb29ad0844b3ff0f4e81797b43819931bc4037 27584 ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.deb
+Checksums-Sha256:
+ ee2869ea57ba348d3f48901f276aec123649eb51b205f7fc1875504a2afcac34 9280 ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.buildinfo
+ 189e5c0521778e1eeca2f079f71f396d3597fe3d046139c5934e6ecacd71afdc 27584 ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.deb
+Files:
+ b36ca28d1a564702d9e589697a6a1ecc 9280 misc optional ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.buildinfo
+ 067563dedb25339d101cac2b24312f7f 27584 misc optional ros-humble-unitree-sdk1-ament_0-2025.06.19.07.26_arm64.deb
