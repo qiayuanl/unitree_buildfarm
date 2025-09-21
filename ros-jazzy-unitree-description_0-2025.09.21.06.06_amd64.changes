@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 19 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-unitree-description
+Binary: ros-jazzy-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.09.21.06.06
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-description - Unitree robot description files
+Changes:
+ ros-jazzy-unitree-description (0-2025.09.21.06.06) noble; urgency=high
+ .
+   * Change the joint names of sdk1 to align with unitree
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ f8458393283e3bad8938e151f66f9246f39d78e6 9451 ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.buildinfo
+ f6765d6babb928d7fb76433722f404c34782385a 41460396 ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.deb
+Checksums-Sha256:
+ 9474045d5188e305159e96e4a9dee2042d54824b42b3ed5fa5365b0c26710711 9451 ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.buildinfo
+ 12bfebab183b801ce8c5c442fc2b5b21f43f477b26722dc157847360b532f37b 41460396 ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.deb
+Files:
+ 75029b8600f32fe9d5b8e282fb26cc69 9451 misc optional ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.buildinfo
+ 14e055c551b91fc24a12dfe1c47042e1 41460396 misc optional ros-jazzy-unitree-description_0-2025.09.21.06.06_amd64.deb

@@ -1,0 +1,12 @@
+unitree_description:
+  ubuntu:
+  - ros-jazzy-unitree-description
+unitree_sdk1_ament:
+  ubuntu:
+  - ros-jazzy-unitree-sdk1-ament
+unitree_sdk2_ament:
+  ubuntu:
+  - ros-jazzy-unitree-sdk2-ament
+unitree_systems:
+  ubuntu:
+  - ros-jazzy-unitree-systems
