@@ -15,6 +15,7 @@ jobs:
           repository: qiayuanl/unitree_ros2
           token: ${{ secrets.GH_PAT }}
           path: 'src/unitree_ros2'
+          ref: 'jazzy'
       - uses: qiayuanl/ros-deb-builder-action@main
         with:
           DEB_DISTRO: noble
