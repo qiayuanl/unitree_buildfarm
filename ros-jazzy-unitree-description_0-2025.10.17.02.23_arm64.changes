@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 16 Oct 2025 00:00:00 -0000
+Source: ros-jazzy-unitree-description
+Binary: ros-jazzy-unitree-description
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 0-2025.10.17.02.23
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-description - Unitree robot description files
+Changes:
+ ros-jazzy-unitree-description (0-2025.10.17.02.23) noble; urgency=high
+ .
+   * Install realsense2-description in Dockerfile
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ e38fbfa3cf50856815d2505ed8b5efc0e615b999 9417 ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.buildinfo
+ f151dbe5dba05e0d4b9319f2cd9e506f0ff95384 41459794 ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.deb
+Checksums-Sha256:
+ 271422ede0a8392caf2fc3f39c436620651b13747532f2f18c9f07bee5652216 9417 ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.buildinfo
+ 75dd9c16f572d0d99fc9148e755cea77480aa66fd2447cfd2b58d4a0dc8a339c 41459794 ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.deb
+Files:
+ c29eef6572bda45c8e1e35d9fb1aca87 9417 misc optional ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.buildinfo
+ ddd86c78b2fb2cc614d73f799ce89ef2 41459794 misc optional ros-jazzy-unitree-description_0-2025.10.17.02.23_arm64.deb
