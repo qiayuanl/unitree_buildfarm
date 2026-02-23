@@ -1,103 +1,103 @@
 Package: ros-jazzy-unitree-description
 Architecture: arm64
-Version: 0-2026.02.04.23.17
+Version: 0-2026.02.23.05.05
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 176257
 Depends: ros-jazzy-realsense2-description, ros-jazzy-xacro
-Filename: ./ros-jazzy-unitree-description_0-2026.02.04.23.17_arm64.deb
-Size: 41459774
-MD5sum: 6f259b78fdf932514713c263ffa09255
-SHA1: cbe2c7c50100a3ca05d922c3dfae5076ad1fab2b
-SHA256: 0361d3f48267a51d7ebc815fee9dc5963d934a0e4b570f5dd8aa215e58b266de
-SHA512: d01dcb25b75df6e2889051751a92f2ed7bbd75f170ec12d55408b4dba7a320a7fbe82d623ca7643160facc74f430ec46da2bbf43513797644fff920d8bee5d46
+Filename: ./ros-jazzy-unitree-description_0-2026.02.23.05.05_arm64.deb
+Size: 41459772
+MD5sum: 9abb2d54857e8d31438a733d703f139f
+SHA1: 842a206b964300dc821f5125167565e643cbcf7c
+SHA256: 85ead1f8d395d8705977e8e0aec0d348f566191e0d23b3527b8cdc97dd9e16e0
+SHA512: 5a6f86c80fa129e6630ee910092e4aba5900d8c54ce6d7272b4ee9297b2eae401b20e31020e10fa4b4fb6a9025d06eb0a831bc9f5a6a6dbe77b3c07913d37b5d
 Description: Unitree robot description files
 
 Package: ros-jazzy-unitree-sdk1-ament
 Architecture: arm64
-Version: 0-2026.02.04.23.43
+Version: 0-2026.02.23.05.32
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 149
-Filename: ./ros-jazzy-unitree-sdk1-ament_0-2026.02.04.23.43_arm64.deb
-Size: 27166
-MD5sum: 98aa216224b971e3c8ab99cb5dc6bbea
-SHA1: a054b5eaf58d121fc24ebad1f480892940b60f45
-SHA256: cbd7e0a000d05890d3ff0f7aef50276e30e75aafe7a856ea1c64b7b43907aa33
-SHA512: c795ee86c4dd1a0a170cdb46a7e4af50f362314d16f94757fe17ab74a4248efd1ad4fdd4536f8040df76aabfe43d5ced3b7231273d10c264408b00c111b10af6
+Filename: ./ros-jazzy-unitree-sdk1-ament_0-2026.02.23.05.32_arm64.deb
+Size: 27176
+MD5sum: f37b5f7f349ad70c7896be264dc544cd
+SHA1: 4da6598fad78400399555acc9d25658151d5761e
+SHA256: 04975232305666b9a701c6ec3625a1a1655ba6ac1e2803c2ec4d63f86e67870b
+SHA512: 9885a75530b820ce60d0b8385c6bd02ee473052e9de295fd450a55141a0ca0b1f693497c8855b9c76cb98f2553bffaee8a0bfb2bf22a21a048e32014fd4f3794
 Description: Unitree SDK2 ament wrapper
 
 Package: ros-jazzy-unitree-sdk2-ament-dbgsym
 Package-Type: ddeb
 Architecture: arm64
-Version: 0-2026.02.04.23.58
+Version: 0-2026.02.23.05.47
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-unitree-sdk2-ament
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 3656
-Depends: ros-jazzy-unitree-sdk2-ament (= 0-2026.02.04.23.58)
-Filename: ./ros-jazzy-unitree-sdk2-ament-dbgsym_0-2026.02.04.23.58_arm64.ddeb
-Size: 2567612
-MD5sum: f5827415a4041914099d62e8b2572fdb
-SHA1: 01606da25d51bfe19977ef48578a4afa1795efdd
-SHA256: 8bdbc43bf0139f2edda74b4553cc305dc8f2eeed5a768d7078b0b0d27020d0c2
-SHA512: 822c1390b91453d9add1ff2e21099e25bf6b5b621f5e894c23e430e2156534a3837f892094168c52a32fca5429fcbc90f51d5101f6f35d9ac3959e7c632eccc6
+Depends: ros-jazzy-unitree-sdk2-ament (= 0-2026.02.23.05.47)
+Filename: ./ros-jazzy-unitree-sdk2-ament-dbgsym_0-2026.02.23.05.47_arm64.ddeb
+Size: 2574372
+MD5sum: d18d484d7b8e2f3d25f924b70c0093f1
+SHA1: caaedebc3be9ef5c2dec8259ed2cc371011fc1be
+SHA256: db1e444e1af3ccb8fa30c5e17adaebcb6fb3279ea7abf34d6d08f80b9ea75122
+SHA512: aa5b5c304efc8ee0c37766d40678920460c41f8b38e54768b2e989dbda1c4590572afd855d79836a63b57a8dd5b102b34c5313c9611a6bccb80a7fc2d4d65db7
 Description: debug symbols for ros-jazzy-unitree-sdk2-ament
-Build-Ids: 4c8bd8d43f2f0ca2b3860c19e36372ea9b2a94f1 d639a8dfacc0b538daa30c7c0ed7245ef5d9c01f
+Build-Ids: 0e0f16e7a8a1b4702d5216e9af3384053c428fca a1630a3f6594d1844c3f3d1a15f1339358522d80
 
 Package: ros-jazzy-unitree-sdk2-ament
 Architecture: arm64
-Version: 0-2026.02.04.23.58
+Version: 0-2026.02.23.05.47
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 38362
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Filename: ./ros-jazzy-unitree-sdk2-ament_0-2026.02.04.23.58_arm64.deb
-Size: 2578388
-MD5sum: fcfe1956042e1aaad3c55e0df5758975
-SHA1: 93b11283aa33ad0f5fab34fe6d45c35f75e75548
-SHA256: 5831df0375ae497b6f7560f32d1d689e14a221e7560de7cae98d9739443ea33c
-SHA512: 851631be61dca9be2c5d42ef714b5ec44c904ec0da2f04d50ebeb31ecc8b90aa5d157a90294aaa43700c547d0cfedfe12ed61a8a4358414e010b62d86073ac25
+Filename: ./ros-jazzy-unitree-sdk2-ament_0-2026.02.23.05.47_arm64.deb
+Size: 2578378
+MD5sum: 1913432ecc280bd6c49ccfd41eac397d
+SHA1: 19a1ab21ad320e0aed06aa0b8ce0c39a773c174c
+SHA256: ca1cbc676464251799d642dcfe4eb22ec5e1e40a7267b504725382eaddd43d88
+SHA512: e639ac2af1424a4fd8543bf48d4a5cb43bacb2412880389e9461e969c7db114a9e64d70dcde5514feed4d711470e6d7b651c256948cccb208c64f327b182a2f3
 Description: Unitree SDK2 ament wrapper
 
 Package: ros-jazzy-unitree-systems-dbgsym
 Package-Type: ddeb
 Architecture: arm64
-Version: 0-2026.02.05.00.19
+Version: 0-2026.02.23.06.07
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-unitree-systems
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 4237
-Depends: ros-jazzy-unitree-systems (= 0-2026.02.05.00.19)
-Filename: ./ros-jazzy-unitree-systems-dbgsym_0-2026.02.05.00.19_arm64.ddeb
-Size: 2435948
-MD5sum: 836f86a0125d5720cef52ae8b7e2dbde
-SHA1: f7ecff1922da865b79fbd640564792780a9deced
-SHA256: ce330a672ea3851218402473ba7e0b343033324eded45981eeba9a2ea61d0945
-SHA512: c0cd79c61d64783239ec264072303f9f04b8a7c9e20179dd6cde43d8fbcf1d40a85f51f2b50b4720854d79ed3708a187ada0d606424bb7751dfbe290eb3ef4a1
+Depends: ros-jazzy-unitree-systems (= 0-2026.02.23.06.07)
+Filename: ./ros-jazzy-unitree-systems-dbgsym_0-2026.02.23.06.07_arm64.ddeb
+Size: 2435992
+MD5sum: 236ca71218201cc940f2c66db50aff4f
+SHA1: 72045f226ffbc4763a5f52d54d3a7fcd5ed180ba
+SHA256: 821dd91c130b2715f59ea3e6647b67361c30e37189956d8e570fa457ea0d3ef1
+SHA512: 37f9a7104e7c20b013017af5c1489058b9fd5da5f8af998a4e7bd89f57696ca00658e7256d4dc0518f25ed1d6226b6af404c279376d627338ea240c429eeebd6
 Description: debug symbols for ros-jazzy-unitree-systems
-Build-Ids: 95c7f4dacd487e7e58f24ec10dda4215c3030aeb
+Build-Ids: b3da50106c58b97745a0603321a653065f9f744f
 
 Package: ros-jazzy-unitree-systems
 Architecture: arm64
-Version: 0-2026.02.05.00.19
+Version: 0-2026.02.23.06.07
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 4112
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-unitree-sdk2-ament, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs, ros-jazzy-unitree-description, ros-jazzy-unitree-sdk1-ament
-Filename: ./ros-jazzy-unitree-systems_0-2026.02.05.00.19_arm64.deb
-Size: 724008
-MD5sum: 39c2fab665e6ffefcf6db9fb81262b23
-SHA1: 0e6224c87697f16de86c001c9826ab78594e5c94
-SHA256: cb325e6e1f30a30fe32f511d8389ff4665daa2cbe30a1bc25d2f179d253ddf6c
-SHA512: 2a6868626e4fb35f7c0afd3305b8ed44909167a40ef9b9a12ce6562c8c08042f4c0e9cddab46388180410b2119493c1181909e2134ca1b0246d4ab97d3d2b05c
+Filename: ./ros-jazzy-unitree-systems_0-2026.02.23.06.07_arm64.deb
+Size: 724022
+MD5sum: 509695717fab2582ba08f261a3e0291f
+SHA1: 6e69b043c91a5bd7d2d5f986bfcd5350efd60253
+SHA256: 637a6efc2b344731b5adb64b801f86e0ebbea5d4de9b14e90c65d668fa125d84
+SHA512: 8fd58a7a62482befdfc95ff5dff45898b610f20ebae420ac84f85ff6de6f19dbd57df5be4ad1c51e8ec2e7546126d8f6ffff192fa01e425c4471f2a74c177d3e
 Description: ROS 2 control warped interface for Unitree Robots
 
