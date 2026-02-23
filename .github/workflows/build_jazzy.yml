@@ -1,0 +1,82 @@
+name: Builder Jazzy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * *'
+  push:
+    paths: [ros2.repos]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.ros_cache.outputs.cache-hit }}
+    steps:
+      - name: Get ROS release hash
+        id: ros_check
+        if: github.event_name == 'schedule'
+        run: |
+          HASH=$(curl -sL http://packages.ros.org/ros2/ubuntu/dists/noble/Release \
+            | grep "^Date:" | sha256sum | cut -d' ' -f1)
+          echo "hash=${HASH}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/cache@v4
+        if: github.event_name == 'schedule'
+        id: ros_cache
+        with:
+          path: .ros_release_marker
+          key: ros-noble-jazzy-${{ steps.ros_check.outputs.hash }}
+
+      - if: github.event_name == 'schedule' && steps.ros_cache.outputs.cache-hit != 'true'
+        run: echo "${{ steps.ros_check.outputs.hash }}" > .ros_release_marker
+
+  build:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: amd64
+            runner: ubuntu-22.04
+          - arch: arm64
+            runner: ubuntu-22.04-arm
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve tag
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          tag=$(gh api "repos/qiayuanl/unitree_ros2/tags?per_page=100" \
+            --jq '.[].name | select(test("^[0-9]+\\.[0-9]+\\.[0-9]+$"))' | head -1)
+          if [ -z "$tag" ]; then echo "::error::No tag found for unitree_ros2" >&2; exit 1; fi
+          echo "UNITREE_TAG=$tag" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+        with:
+          repository: qiayuanl/unitree_ros2
+          token: ${{ secrets.GH_PAT }}
+          path: src/unitree_ros2
+          ref: ${{ env.UNITREE_TAG }}
+          fetch-tags: true
+
+      - uses: qiayuanl/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: noble
+          ROS_DISTRO: jazzy
+          DEB_ARCH: ${{ matrix.arch }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          SKIP_CHECKOUT: true
+          REPOS_FILE: ros2.repos
+
+  trigger-docker:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: gh workflow run docker.yml -R qiayuanl/unitree_ros2
