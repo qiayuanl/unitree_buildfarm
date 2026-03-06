@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 22 Feb 2026 00:00:00 -0000
+Source: ros-jazzy-unitree-description
+Binary: ros-jazzy-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2026.03.06.10.30
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-description - Unitree robot description files
+Changes:
+ ros-jazzy-unitree-description (1.1.0-2026.03.06.10.30) noble; urgency=high
+ .
+   * Adjust collision geometry sizes for pelvis and left thigh
+   * Smaller the sphere collider in main.urdf
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ 314b7bd64a533b39de5794d2cbe914bc3ff9c497 9525 ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.buildinfo
+ 94eacf179b2e9ee6489bfe2a36a98e359b8c822e 41460916 ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.deb
+Checksums-Sha256:
+ ff134831d5f090d0854345fa4e4119d0466c6ac7d9badb5fac1f7e6d1d325685 9525 ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.buildinfo
+ 63f41b090aecc46db595c4c61d6f7abbb73404409fc8cc667a4650143314319d 41460916 ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.deb
+Files:
+ 587f83931e6d91b70ff296f1bb3f9f2f 9525 misc optional ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.buildinfo
+ 82e8ee988d7afe8668212854e42e1543 41460916 misc optional ros-jazzy-unitree-description_1.1.0-2026.03.06.10.30_amd64.deb
