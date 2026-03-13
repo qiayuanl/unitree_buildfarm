@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sun, 22 Feb 2026 00:00:00 -0000
+Source: ros-jazzy-unitree-systems
+Binary: ros-jazzy-unitree-systems
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 1.1.0-2026.03.13.10.35
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-systems - ROS 2 control warped interface for Unitree Robots
+Changes:
+ ros-jazzy-unitree-systems (1.1.0-2026.03.13.10.35) noble; urgency=high
+Checksums-Sha1:
+ 1a78b5ea0c5d0d75444556f604b30f3787576c62 2435780 ros-jazzy-unitree-systems-dbgsym_1.1.0-2026.03.13.10.35_arm64.ddeb
+ 8f98245c82599f12b5dd101909e6e1079cc40e39 19921 ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.buildinfo
+ f1baa1562ac02458f6c0f553803a145536d3a253 724052 ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.deb
+Checksums-Sha256:
+ b008020f55dadc8726e8c3b1c80eb49d70476b1b56bed5e6b85a5abbd0aace48 2435780 ros-jazzy-unitree-systems-dbgsym_1.1.0-2026.03.13.10.35_arm64.ddeb
+ 49328122e885a0aef106854a91e8210407d0b6552c1d0f3a75d9eceaa1669b49 19921 ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.buildinfo
+ 9b70f79314892cd7c7796718c30bcc77c360a02f52c324b8e28e6797e5cad99d 724052 ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.deb
+Files:
+ cf7faf7c99e51e0832d537f53f8bac0b 2435780 debug optional ros-jazzy-unitree-systems-dbgsym_1.1.0-2026.03.13.10.35_arm64.ddeb
+ 4ec3bd7a76fc8e01cc3fdbf17d6fbcf7 19921 misc optional ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.buildinfo
+ b3f231f13afb747eab2463ea3ec6c55d 724052 misc optional ros-jazzy-unitree-systems_1.1.0-2026.03.13.10.35_arm64.deb
