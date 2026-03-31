@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 22 Feb 2026 00:00:00 -0000
+Source: ros-jazzy-unitree-sdk1-ament
+Binary: ros-jazzy-unitree-sdk1-ament
+Built-For-Profiles: noudeb
+Architecture: arm64
+Version: 1.1.0-2026.03.31.10.50
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gamil.com>
+Description:
+ ros-jazzy-unitree-sdk1-ament - Unitree SDK2 ament wrapper
+Changes:
+ ros-jazzy-unitree-sdk1-ament (1.1.0-2026.03.31.10.50) noble; urgency=high
+Checksums-Sha1:
+ 41548ef4fff8d89a19aae3f1d44414bfbf99070c 9483 ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.buildinfo
+ f23996db624adce2395125df339a11a150c98b5f 27196 ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.deb
+Checksums-Sha256:
+ 6b25c10ad53b87d6a93500eabc1cf0b9946e31c22814debfd2f0db2057d6e0ab 9483 ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.buildinfo
+ d37e36c854e4c43181672d2ccd4aaf5e9f590d533ffa4fb6ecd2a625e0c62ae7 27196 ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.deb
+Files:
+ 9a198887a90e845069339fddfd5fa80d 9483 misc optional ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.buildinfo
+ 66e73a351f6ee648344c058557af2aa4 27196 misc optional ros-jazzy-unitree-sdk1-ament_1.1.0-2026.03.31.10.50_arm64.deb
