@@ -1,0 +1,70 @@
+Format: 1.8
+Date: Tue, 18 Aug 2026 00:00:00 -0000
+Source: ros-jazzy-unitree-systems
+Binary: ros-jazzy-unitree-systems
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.0-2026.08.25.10.27
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-systems - ROS 2 control warped interface for Unitree Robots
+Changes:
+ ros-jazzy-unitree-systems (1.2.0-2026.08.25.10.27) noble; urgency=high
+ .
+   * Apply per-joint encoder zero offsets in the G1 hardware interface
+     Robot #1 <https://github.com/qiayuanl/unitree_ros2/issues/1>'s arm encoders do not read zero when the arm is physically at
+     zero: each of the twelve arm joints is off by a measured constant, the
+     largest being left shoulder roll at 4.04 deg. Correcting them takes
+     open-loop hand-to-hand accuracy from 38.3 mm rms to 6.5 mm.
+     UnitreeSdk2 applies the offset symmetrically, so everything above the
+     hardware interface keeps working in physical coordinates and stays
+     unaware of the encoder frame.
+     Velocity, effort and the PD gains are untouched -- a constant offset
+     leaves dq and tau invariant, and PD closes on the motor in encoder frame,
+     so a shifted q_target is just a shifted equilibrium. Applying only one
+     half would step the joint by the offset the instant a controller
+     activates, with gains already live.
+     perform_command_mode_switch deliberately needs no change: it latches
+     posDes_ from pos_, and the two are in the same frame, so write() sends
+     back exactly the raw encoder reading and command equals measurement at
+     activation, whenever the switch happens to be scheduled. Folding the
+     offset into pos_ itself, rather than an extra field, is what keeps that
+     true.
+     Note the URDF <limit> tags stay in encoder units, so a corrected joint
+     can read slightly outside them; enabling enforce_command_limits would
+     need those bounds shifted too.
+     The offsets reach the plugin as per-joint <param> tags emitted by the
+     shared joint_interface macro and filled from a YAML at xacro time, so
+     they end up in /robot_description and therefore in every bag. Joints the
+     file omits default to 0.0. The file is chosen per run by the
+     joint_offsets_file argument, empty by default, so an unspecified run and
+     simulation -- already in physical coordinates -- behave exactly as before.
+     The offsets file itself is generated calibration rather than source: it is
+     named per robot and invalidated by re-zeroing, so it is not carried in the
+     repo or the installed share tree. Point joint_offsets_file wherever the
+     robot's file actually lives.
+     A file that is not a mapping is rejected by xacro, an offset beyond
+     0.2 rad is rejected at init as a unit or sign error, and the number of
+     offsets applied is logged unconditionally, so a forgotten or partially
+     written file is visible rather than silent.
+     Launch files select the file with the joint_offsets_file argument, whose
+     declaration and path handling live in the new unitree_description.joint_offsets
+     module so each consumer needs only an import and two call sites.
+     Co-Authored-By: Claude Opus 5 (1M context) <mailto:noreply@anthropic.com>
+     Claude-Session: https://claude.ai/code/session_01DC9goz5FxQQqX19dntZS1w
+   * Contributors: qiayuanl
+Checksums-Sha1:
+ e7ee7da78738c6122810461a642f6a35de76fca5 2463986 ros-jazzy-unitree-systems-dbgsym_1.2.0-2026.08.25.10.27_amd64.ddeb
+ 10df217f018cd0b275a458a94220de914dff58db 20007 ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.buildinfo
+ 5b00f580a4a67500b70ba61edf49ef571b7062e7 791878 ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.deb
+Checksums-Sha256:
+ 90bde88f69960140eb6fe0503f6c0e1726f94586ce531274e80910dada7f42a1 2463986 ros-jazzy-unitree-systems-dbgsym_1.2.0-2026.08.25.10.27_amd64.ddeb
+ a5fe7d5219be28d6ba3555ae01989af5ae12fc148d1788e548000ee91c60bf4f 20007 ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.buildinfo
+ b3b46aea76445d873864e215a06e065247997145f68df31e889fed028a56c058 791878 ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.deb
+Files:
+ 54427b5d553932bbb1120590a16c3ac3 2463986 debug optional ros-jazzy-unitree-systems-dbgsym_1.2.0-2026.08.25.10.27_amd64.ddeb
+ 26356bbfd597c8259954c6f55ab087ed 20007 misc optional ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.buildinfo
+ 0d12bb6fc44717ee588bff41c9545d29 791878 misc optional ros-jazzy-unitree-systems_1.2.0-2026.08.25.10.27_amd64.deb
