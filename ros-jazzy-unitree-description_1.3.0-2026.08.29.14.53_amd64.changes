@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 26 Aug 2026 00:00:00 -0000
+Source: ros-jazzy-unitree-description
+Binary: ros-jazzy-unitree-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2026.08.29.14.53
+Distribution: noble
+Urgency: high
+Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
+Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
+Description:
+ ros-jazzy-unitree-description - Unitree robot description files
+Changes:
+ ros-jazzy-unitree-description (1.3.0-2026.08.29.14.53) noble; urgency=high
+Checksums-Sha1:
+ e7428fcaa3589d1cd0c928d582c7bd3f29f08d46 9558 ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.buildinfo
+ 814cd95e6602b337a85c4771f39dd01dbff00859 41331536 ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.deb
+Checksums-Sha256:
+ 296d43c6869b2cb0f5ad94f26b8fce33109544e38c3f76448eb0b217df7f65d8 9558 ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.buildinfo
+ b19ffe7f8158c2a95e4550dac4cbc832bf0a89a2fed24313429e5e4059820130 41331536 ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.deb
+Files:
+ 2957e5f0d218bc916ac5baf8f15eed47 9558 misc optional ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.buildinfo
+ c3f35f4e63f65d9e6972d933f0929bf4 41331536 misc optional ros-jazzy-unitree-description_1.3.0-2026.08.29.14.53_amd64.deb
