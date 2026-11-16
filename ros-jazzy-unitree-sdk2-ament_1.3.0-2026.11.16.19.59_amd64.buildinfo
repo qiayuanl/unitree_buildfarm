@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-unitree-sdk2-ament
 Binary: ros-jazzy-unitree-sdk2-ament ros-jazzy-unitree-sdk2-ament-dbgsym
 Architecture: amd64
-Version: 1.3.0-2026.10.06.16.29
+Version: 1.3.0-2026.11.16.19.59
 Checksums-Md5:
- 6f2fac813d27566742fb6722e9978801 2561846 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.10.06.16.29_amd64.ddeb
- 8e816a3aaca9898967c38c033d0b37d6 2543738 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.10.06.16.29_amd64.deb
+ 491168e48eb9e4b0f3629568a82eef00 2559994 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.19.59_amd64.ddeb
+ 21a753c989b3f2f041ce5af0bd1823a8 2543562 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.19.59_amd64.deb
 Checksums-Sha1:
- c7261a089083cf41064f214622d1ca6be7ba8d1d 2561846 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.10.06.16.29_amd64.ddeb
- 275392479251a764a70705e6f2b4ba667e2392c1 2543738 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.10.06.16.29_amd64.deb
+ f191c41963ede11f25d53558a67fe2a35fc89d73 2559994 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.19.59_amd64.ddeb
+ f8507dfaf70bedba43c4f0101dad6ad18a2c5a9e 2543562 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.19.59_amd64.deb
 Checksums-Sha256:
- ff4126af6e68c1d8c878114edfb7e442196f72145b89777c91ad895db58187e7 2561846 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.10.06.16.29_amd64.ddeb
- 7bae702721a0d02eae68e04db5cc76e6649a2cb53954ec6514bfcd35f4a5c927 2543738 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.10.06.16.29_amd64.deb
+ 70a10fc4cbe6c182674ab62cf92d544893fdbcec5adb4756e836a40a476496c1 2559994 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.19.59_amd64.ddeb
+ 7c48f3d537f2bdd35092ed81e480de48eb9681de664a2bdf9e5a9c1c11b73abb 2543562 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.19.59_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 06 Oct 2026 16:30:44 +0000
+Build-Date: Mon, 16 Nov 2026 20:00:36 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -74,7 +74,7 @@ Installed-Build-Depends:
  intltool-debian (= 0.35.0+20060710.6),
  libacl1 (= 2.3.2-1build1.1),
  libarchive-zip-perl (= 1.68-1),
- libarchive13t64 (= 3.7.2-2ubuntu0.8),
+ libarchive13t64 (= 3.7.2-2ubuntu0.9),
  libasan8 (= 14.2.0-4ubuntu2~24.04.1),
  libatomic1 (= 14.2.0-4ubuntu2~24.04.1),
  libattr1 (= 1:2.5.2-1ubuntu0.1),
@@ -82,12 +82,12 @@ Installed-Build-Depends:
  libaudit1 (= 1:3.1.2-2.1ubuntu0.1),
  libbinutils (= 2.42-4ubuntu2.10),
  libblkid1 (= 2.39.3-9ubuntu6.6),
- libbrotli1 (= 1.1.0-2build2),
+ libbrotli1 (= 1.1.0-2ubuntu0.1),
  libbz2-1.0 (= 1.0.8-5.1ubuntu0.1),
- libc-bin (= 2.39-0ubuntu8.9),
- libc-dev-bin (= 2.39-0ubuntu8.9),
- libc6 (= 2.39-0ubuntu8.9),
- libc6-dev (= 2.39-0ubuntu8.9),
+ libc-bin (= 2.39-0ubuntu8.12),
+ libc-dev-bin (= 2.39-0ubuntu8.12),
+ libc6 (= 2.39-0ubuntu8.12),
+ libc6-dev (= 2.39-0ubuntu8.12),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.4),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -96,7 +96,7 @@ Installed-Build-Depends:
  libcrypt1 (= 1:4.4.36-4build1),
  libctf-nobfd0 (= 2.42-4ubuntu2.10),
  libctf0 (= 2.42-4ubuntu2.10),
- libcurl4t64 (= 8.5.0-2ubuntu10.15),
+ libcurl4t64 (= 8.5.0-2ubuntu10.16),
  libdb5.3t64 (= 5.3.28+dfsg2-7),
  libdebconfclient0 (= 0.271ubuntu3),
  libdebhelper-perl (= 13.14.1ubuntu5),
@@ -132,7 +132,7 @@ Installed-Build-Depends:
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
  liblsan0 (= 14.2.0-4ubuntu2~24.04.1),
  liblz4-1 (= 1.9.4-1build1.1),
- liblzma5 (= 5.6.1+really5.4.5-1ubuntu0.3),
+ liblzma5 (= 5.6.1+really5.4.5-1ubuntu0.4),
  libmagic-mgc (= 1:5.45-3build1),
  libmagic1t64 (= 1:5.45-3build1),
  libmd0 (= 1.1.0-2build1.1),
@@ -147,8 +147,8 @@ Installed-Build-Depends:
  libpam-modules-bin (= 1.5.3-5ubuntu5.7),
  libpam-runtime (= 1.5.3-5ubuntu5.7),
  libpam0g (= 1.5.3-5ubuntu5.7),
- libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.6),
+ libpcre2-8-0 (= 10.42-4ubuntu2.2),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.7),
  libpipeline1 (= 1.5.7-2),
  libproc2-0 (= 2:4.0.4-4ubuntu3.3),
  libpsl5t64 (= 0.21.2-1.1build1),
@@ -165,26 +165,26 @@ Installed-Build-Depends:
  libselinux1 (= 3.5-2ubuntu2.1),
  libsframe1 (= 2.42-4ubuntu2.10),
  libsmartcols1 (= 2.39.3-9ubuntu6.6),
- libsqlite3-0 (= 3.45.1-1ubuntu2.8),
+ libsqlite3-0 (= 3.45.1-1ubuntu2.9),
  libssh-4 (= 0.10.6-2ubuntu0.5),
  libssl3t64 (= 3.0.13-0ubuntu3.16),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
  libsub-override-perl (= 0.10-1),
- libsystemd0 (= 255.4-1ubuntu8.17),
+ libsystemd0 (= 255.4-1ubuntu8.18),
  libtasn1-6 (= 4.19.0-3ubuntu0.24.04.2),
  libtinfo6 (= 6.4+20240113-1ubuntu2.2),
  libtool (= 2.4.7-7build1),
  libtsan2 (= 14.2.0-4ubuntu2~24.04.1),
  libubsan1 (= 14.2.0-4ubuntu2~24.04.1),
  libuchardet0 (= 0.0.8-1build1),
- libudev1 (= 255.4-1ubuntu8.17),
+ libudev1 (= 255.4-1ubuntu8.18),
  libunistring5 (= 1.1-2build1.1),
  libuuid1 (= 2.39.3-9ubuntu6.6),
  libuv1t64 (= 1.48.0-1.1build1),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.9),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.10),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-146.146),
+ linux-libc-dev (= 6.8.0-149.149),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -196,9 +196,9 @@ Installed-Build-Depends:
  ncurses-bin (= 6.4+20240113-1ubuntu2.2),
  netbase (= 6.4),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.6),
- perl-base (= 5.38.2-3.2ubuntu0.6),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.6),
+ perl (= 5.38.2-3.2ubuntu0.7),
+ perl-base (= 5.38.2-3.2ubuntu0.7),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.7),
  po-debconf (= 1.0.21+nmu1),
  procps (= 2:4.0.4-4ubuntu3.3),
  python3 (= 3.12.3-0ubuntu2.1),
@@ -218,22 +218,22 @@ Installed-Build-Depends:
  python3.12 (= 3.12.3-1ubuntu0.17),
  python3.12-minimal (= 3.12.3-1ubuntu0.17),
  readline-common (= 8.2-4build1),
- ros-jazzy-ament-cmake (= 2.5.6-2noble.20260225.222913),
- ros-jazzy-ament-cmake-core (= 2.5.6-2noble.20260224.191131),
- ros-jazzy-ament-cmake-export-definitions (= 2.5.6-2noble.20260224.232207),
- ros-jazzy-ament-cmake-export-dependencies (= 2.5.6-2noble.20260225.043730),
- ros-jazzy-ament-cmake-export-include-directories (= 2.5.6-2noble.20260224.232223),
- ros-jazzy-ament-cmake-export-interfaces (= 2.5.6-2noble.20260225.042039),
- ros-jazzy-ament-cmake-export-libraries (= 2.5.6-2noble.20260224.232254),
- ros-jazzy-ament-cmake-export-link-flags (= 2.5.6-2noble.20260225.042107),
- ros-jazzy-ament-cmake-export-targets (= 2.5.6-2noble.20260225.042100),
- ros-jazzy-ament-cmake-gen-version-h (= 2.5.6-2noble.20260225.042237),
- ros-jazzy-ament-cmake-include-directories (= 2.5.6-2noble.20260225.042241),
- ros-jazzy-ament-cmake-libraries (= 2.5.6-2noble.20260225.042312),
- ros-jazzy-ament-cmake-python (= 2.5.6-2noble.20260225.042312),
- ros-jazzy-ament-cmake-target-dependencies (= 2.5.6-2noble.20260225.043936),
- ros-jazzy-ament-cmake-test (= 2.5.6-2noble.20260225.143205),
- ros-jazzy-ament-cmake-version (= 2.5.6-2noble.20260225.042330),
+ ros-jazzy-ament-cmake (= 2.5.7-1noble.20261025.225914),
+ ros-jazzy-ament-cmake-core (= 2.5.7-1noble.20261024.193249),
+ ros-jazzy-ament-cmake-export-definitions (= 2.5.7-1noble.20261025.200000),
+ ros-jazzy-ament-cmake-export-dependencies (= 2.5.7-1noble.20261025.201752),
+ ros-jazzy-ament-cmake-export-include-directories (= 2.5.7-1noble.20261025.195958),
+ ros-jazzy-ament-cmake-export-interfaces (= 2.5.7-1noble.20261025.201729),
+ ros-jazzy-ament-cmake-export-libraries (= 2.5.7-1noble.20261025.200044),
+ ros-jazzy-ament-cmake-export-link-flags (= 2.5.7-1noble.20261025.200049),
+ ros-jazzy-ament-cmake-export-targets (= 2.5.7-1noble.20261025.201824),
+ ros-jazzy-ament-cmake-gen-version-h (= 2.5.7-1noble.20261025.200052),
+ ros-jazzy-ament-cmake-include-directories (= 2.5.7-1noble.20261025.200108),
+ ros-jazzy-ament-cmake-libraries (= 2.5.7-1noble.20261025.200118),
+ ros-jazzy-ament-cmake-python (= 2.5.7-1noble.20261025.200156),
+ ros-jazzy-ament-cmake-target-dependencies (= 2.5.7-1noble.20261025.201826),
+ ros-jazzy-ament-cmake-test (= 2.5.7-1noble.20261025.201953),
+ ros-jazzy-ament-cmake-version (= 2.5.7-1noble.20261025.200158),
  ros-jazzy-ament-package (= 0.16.5-1noble.20260121.174946),
  ros-jazzy-ros-workspace (= 1.0.3-7noble.20260224.191628),
  rpcsvc-proto (= 1.4.2-0ubuntu7),
@@ -242,11 +242,11 @@ Installed-Build-Depends:
  sgml-base (= 1.31),
  sysvinit-utils (= 3.08-6ubuntu3),
  tar (= 1.35+dfsg-3ubuntu0.4),
- tzdata (= 2026c-0ubuntu0.24.04.1),
+ tzdata (= 2026e-0ubuntu0.24.04.1),
  util-linux (= 2.39.3-9ubuntu6.6),
  xml-core (= 0.19),
- xz-utils (= 5.6.1+really5.4.5-1ubuntu0.3),
- zlib1g (= 1:1.3.dfsg-3.1ubuntu2.2)
+ xz-utils (= 5.6.1+really5.4.5-1ubuntu0.4),
+ zlib1g (= 1:1.3.dfsg-3.1ubuntu2.3)
 Environment:
  DEB_BUILD_OPTIONS="nocheck parallel=4"
  DEB_BUILD_PROFILES="noudeb"

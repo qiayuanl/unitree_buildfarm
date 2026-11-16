@@ -4,7 +4,7 @@ Source: ros-jazzy-unitree-systems
 Binary: ros-jazzy-unitree-systems
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 1.3.0-2026.10.06.16.30
+Version: 1.3.0-2026.11.16.20.00
 Distribution: noble
 Urgency: high
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
@@ -12,7 +12,7 @@ Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
 Description:
  ros-jazzy-unitree-systems - ROS 2 control warped interface for Unitree Robots
 Changes:
- ros-jazzy-unitree-systems (1.3.0-2026.10.06.16.30) noble; urgency=high
+ ros-jazzy-unitree-systems (1.3.0-2026.11.16.20.00) noble; urgency=high
  .
    * Export motor temperatures as state interfaces
      LowState_ carries two temperatures per motor and both were discarded. A
@@ -109,14 +109,14 @@ Changes:
      Claude-Session: https://claude.ai/code/session_01DC9goz5FxQQqX19dntZS1w
    * Contributors: qiayuanl
 Checksums-Sha1:
- d7184e0c7212df4d5c5fd739919bbcaf6cf885e8 2454014 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.10.06.16.30_amd64.ddeb
- 53bc1f738036ccae5c31674fe72effea51a42749 20021 ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.buildinfo
- 24c2edc26e623dda68ab232b20d9c9b9e161f4b5 794680 ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.deb
+ c53597a34a86a6fba6983c749fbd101f44177093 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
+ d8ea32adbeb2df335824beb536bed46024a709b9 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
+ fc69653be65bd06c82b9e512ffd27111baf63f48 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
 Checksums-Sha256:
- ea3d7c89d5a3bd1e316b06e6ef68661ca4757f9ddeb6330d24e8947be1a08c3e 2454014 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.10.06.16.30_amd64.ddeb
- 48d004fabf36a659722e61ffb93936f7b3681ab4397432554ec3a215a9c7683f 20021 ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.buildinfo
- 15af9007aa9c548f6d128d51318bd657365834d2d678fff84bce7a321aaf2af2 794680 ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.deb
+ e792a669778282b1dd43a07ec0dc3a93a6e4c4d125894d3f392edb4190e75eb4 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
+ 1b53545a024c2bc167cb2d5bd848c26ad84eadafd7126717f4716da9012ce715 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
+ 8d858d8e195e3948800aa575aa3451722a39fbe3971f9483b7f38edd6edda70b 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
 Files:
- dfd526d7f75b5b14f55b5cf21e601fc0 2454014 debug optional ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.10.06.16.30_amd64.ddeb
- 37b7bc2bccc8fae2c0909a597eb4d274 20021 misc optional ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.buildinfo
- c22611e9e37ebd58fb6c2c5ecc38e801 794680 misc optional ros-jazzy-unitree-systems_1.3.0-2026.10.06.16.30_amd64.deb
+ a7c46cb2497380b69521b7369e19df7b 2446432 debug optional ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
+ 5ddfb3c5f6002de749e46c433e9fa5a9 20049 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
+ c4077f4af4930f928a862a880e842954 794296 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
