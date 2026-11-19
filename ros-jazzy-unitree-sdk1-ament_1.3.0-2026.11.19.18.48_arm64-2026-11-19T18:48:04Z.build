@@ -1,48 +1,48 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmkvb9i.4ehpkcxfuasu5bgovzuixqtggb.cx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmkvb9i.dcan4iw30rye5aqr4uuhyahtph.jx.internal.cloudapp.net
 
 +=============================================================================================+
-| ros-jazzy-unitree-sdk1-ament 1.3.0-2026.11.16.19.59 (arm64) Mon, 16 Nov 2026 19:59:41 +0000 |
+| ros-jazzy-unitree-sdk1-ament 1.3.0-2026.11.19.18.48 (arm64) Thu, 19 Nov 2026 18:48:04 +0000 |
 +=============================================================================================+
 
 Package: ros-jazzy-unitree-sdk1-ament
-Version: 1.3.0-2026.11.16.19.59
-Source Version: 1.3.0-2026.11.16.19.59
+Version: 1.3.0-2026.11.19.18.48
+Source Version: 1.3.0-2026.11.19.18.48
 Distribution: noble
 Machine Architecture: arm64
 Host Architecture: arm64
 Build Architecture: arm64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/noble-arm64.tar to /tmp/tmp.sbuild.41m2b8MtAS...
+Unpacking /home/runner/.cache/sbuild/noble-arm64.tar to /tmp/tmp.sbuild.cIzYsTqQjd...
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-3uH3PA' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-wye58G' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-4kv4uI/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-4kv4uI/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-4kv4uI/apt_archive ./ Release [574 B]
-Get:2 file:/build/package//resolver-4kv4uI/apt_archive ./ Release [574 B]
-Get:3 file:/build/package//resolver-4kv4uI/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-4kv4uI/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-4kv4uI/apt_archive ./ Packages [570 B]
+Get:1 file:/build/package//resolver-Oh6X5k/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-Oh6X5k/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-Oh6X5k/apt_archive ./ Release [574 B]
+Get:2 file:/build/package//resolver-Oh6X5k/apt_archive ./ Release [574 B]
+Get:3 file:/build/package//resolver-Oh6X5k/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-Oh6X5k/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-Oh6X5k/apt_archive ./ Packages [570 B]
 Get:5 http://packages.ros.org/ros2/ubuntu noble InRelease [4679 B]
-Get:6 http://packages.ros.org/ros2/ubuntu noble/main arm64 Packages [2115 kB]
-Get:7 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu noble/main arm64 Packages [2148 kB]
 Get:8 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
 Get:9 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
 Get:10 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 Packages [15.3 MB]
 Get:11 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 Packages [1377 kB]
-Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1507 kB]
-Get:13 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [1770 kB]
-Get:14 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1260 kB]
-Get:15 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1320 kB]
-Fetched 25.2 MB in 3s (7630 kB/s)
+Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1538 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [1774 kB]
+Get:14 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1267 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1321 kB]
+Fetched 25.3 MB in 2s (10.7 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -58,7 +58,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.dsc exists in /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2; copying to chroot
+/home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.dsc exists in /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -80,12 +80,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [637 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [669 B]
 Fetched 1886 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ Release [574 B]
-Get:2 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ Release [574 B]
-Get:3 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-4kv4uI/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ Release [574 B]
+Get:2 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ Release [574 B]
+Get:3 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-Oh6X5k/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu noble InRelease
 Reading package lists...
@@ -186,13 +186,13 @@ Get:11 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmak
 Get:12 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-export-link-flags arm64 2.5.7-1noble.20261026.175358 [7240 B]
 Get:13 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-export-targets arm64 2.5.7-1noble.20261026.175651 [8340 B]
 Get:14 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-gen-version-h arm64 2.5.7-1noble.20261026.175414 [9820 B]
-Get:15 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-python arm64 2.5.7-1noble.20261026.175534 [10.4 kB]
-Get:16 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-include-directories arm64 2.5.7-1noble.20261026.175437 [7384 B]
-Get:17 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-target-dependencies arm64 2.5.7-1noble.20261026.175703 [9564 B]
-Get:18 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-test arm64 2.5.7-1noble.20261026.175745 [15.6 kB]
-Get:19 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-version arm64 2.5.7-1noble.20261026.175610 [7578 B]
-Get:20 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake arm64 2.5.7-1noble.20261026.175946 [7532 B]
-Get:21 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.17 [835 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libpython3.12-minimal arm64 3.12.3-1ubuntu0.17 [835 kB]
+Get:16 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-python arm64 2.5.7-1noble.20261026.175534 [10.4 kB]
+Get:17 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-include-directories arm64 2.5.7-1noble.20261026.175437 [7384 B]
+Get:18 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-target-dependencies arm64 2.5.7-1noble.20261026.175703 [9564 B]
+Get:19 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-test arm64 2.5.7-1noble.20261026.175745 [15.6 kB]
+Get:20 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake-version arm64 2.5.7-1noble.20261026.175610 [7578 B]
+Get:21 http://packages.ros.org/ros2/ubuntu noble/main arm64 ros-jazzy-ament-cmake arm64 2.5.7-1noble.20261026.175946 [7532 B]
 Get:22 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libexpat1 arm64 2.6.1-2ubuntu0.6 [89.8 kB]
 Get:23 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3.12-minimal arm64 3.12.3-1ubuntu0.17 [2253 kB]
 Get:24 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-minimal arm64 3.12.3-0ubuntu2.1 [27.4 kB]
@@ -274,7 +274,7 @@ Get:99 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-zip
 Get:100 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
 Get:101 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 python3-setuptools all 68.1.2-2ubuntu1.2 [397 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 42.9 MB in 3s (14.3 MB/s)
+Fetched 42.9 MB in 4s (9605 kB/s)
 Selecting previously unselected package libpython3.12-minimal:arm64.
 (Reading database ... 10775 files and directories currently installed.)
 Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.17_arm64.deb ...
@@ -614,8 +614,8 @@ Setting up libsasl2-modules-db:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...
 Setting up tzdata (2026e-0ubuntu0.24.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Mon Nov 16 20:00:02 UTC 2026.
-Universal Time is now:  Mon Nov 16 20:00:02 UTC 2026.
+Local time is now:      Thu Nov 19 18:48:25 UTC 2026.
+Universal Time is now:  Thu Nov 19 18:48:25 UTC 2026.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.33-1) ...
@@ -710,8 +710,8 @@ Arch check ok (arm64 included in any)
 +------------------------------------------------------------------------------+
 
 Kernel: Linux 6.8.0-1070-azure #78~22.04.1-Ubuntu SMP Thu Sep 24 18:58:03 UTC 2026 arm64 (aarch64)
-Toolchain package versions: binutils_2.42-4ubuntu2.10 dpkg-dev_1.22.6ubuntu6.6 g++-13_13.3.0-6ubuntu2~24.04.1 gcc-13_13.3.0-6ubuntu2~24.04.1 libc6-dev_2.39-0ubuntu8.12 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 linux-libc-dev_6.8.0-149.149
-Package versions: apt_2.8.4ubuntu0.1 autoconf_2.71-3 automake_1:1.16.5-1.3ubuntu1 autopoint_0.21-14ubuntu2 autotools-dev_20220109.1 base-files_13ubuntu10.5 base-passwd_3.6.3build1 bash_5.2.21-2ubuntu4 binutils_2.42-4ubuntu2.10 binutils-aarch64-linux-gnu_2.42-4ubuntu2.10 binutils-common_2.42-4ubuntu2.10 bsdextrautils_2.39.3-9ubuntu6.6 bsdutils_1:2.39.3-9ubuntu6.6 build-essential_12.10ubuntu1 bzip2_1.0.8-5.1ubuntu0.1 ca-certificates_20260816ubuntu0.24.04.2 ccache_4.9.1-1 cmake_3.28.3-1build7 cmake-data_3.28.3-1build7 coreutils_9.4-3ubuntu6.3 cpp_4:13.2.0-7ubuntu1 cpp-13_13.3.0-6ubuntu2~24.04.1 cpp-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 cpp-aarch64-linux-gnu_4:13.2.0-7ubuntu1 dash_0.5.12-6ubuntu5 debconf_1.5.86ubuntu1 debhelper_13.14.1ubuntu5 debianutils_5.17build1 debugedit_1:5.0-5build2 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.10-1ubuntu0.1 docutils-common_0.20.1+dfsg-3 dpkg_1.22.6ubuntu6.6 dpkg-dev_1.22.6ubuntu6.6 dwz_0.15-1build6 e2fsprogs_1.47.0-2.4~exp1ubuntu4.1 fakeroot_1.33-1 file_1:5.45-3build1 findutils_4.9.0-5build1 g++_4:13.2.0-7ubuntu1 g++-13_13.3.0-6ubuntu2~24.04.1 g++-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 g++-aarch64-linux-gnu_4:13.2.0-7ubuntu1 gcc_4:13.2.0-7ubuntu1 gcc-13_13.3.0-6ubuntu2~24.04.1 gcc-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 gcc-13-base_13.3.0-6ubuntu2~24.04.1 gcc-14-base_14.2.0-4ubuntu2~24.04.1 gcc-aarch64-linux-gnu_4:13.2.0-7ubuntu1 gettext_0.21-14ubuntu2 gettext-base_0.21-14ubuntu2 gpgv_2.4.4-2ubuntu17.6 grep_3.11-4build1 groff-base_1.23.0-3build2 gzip_1.12-1ubuntu3.2 hostname_3.23+nmu2ubuntu2 init-system-helpers_1.66ubuntu1 intltool-debian_0.35.0+20060710.6 libacl1_2.3.2-1build1.1 libapt-pkg6.0t64_2.8.4ubuntu0.1 libarchive-zip-perl_1.68-1 libarchive13t64_3.7.2-2ubuntu0.9 libasan8_14.2.0-4ubuntu2~24.04.1 libassuan0_2.5.6-1build1 libatomic1_14.2.0-4ubuntu2~24.04.1 libattr1_1:2.5.2-1ubuntu0.1 libaudit-common_1:3.1.2-2.1ubuntu0.1 libaudit1_1:3.1.2-2.1ubuntu0.1 libbinutils_2.42-4ubuntu2.10 libblkid1_2.39.3-9ubuntu6.6 libbrotli1_1.1.0-2ubuntu0.1 libbz2-1.0_1.0.8-5.1ubuntu0.1 libc-bin_2.39-0ubuntu8.12 libc-dev-bin_2.39-0ubuntu8.12 libc6_2.39-0ubuntu8.12 libc6-dev_2.39-0ubuntu8.12 libcap-ng0_0.8.4-2build2 libcap2_1:2.66-5ubuntu2.4 libcc1-0_14.2.0-4ubuntu2~24.04.1 libcom-err2_1.47.0-2.4~exp1ubuntu4.1 libcrypt-dev_1:4.4.36-4build1 libcrypt1_1:4.4.36-4build1 libctf-nobfd0_2.42-4ubuntu2.10 libctf0_2.42-4ubuntu2.10 libcurl4t64_8.5.0-2ubuntu10.16 libdb5.3t64_5.3.28+dfsg2-7 libdebconfclient0_0.271ubuntu3 libdebhelper-perl_13.14.1ubuntu5 libdpkg-perl_1.22.6ubuntu6.6 libdw1t64_0.190-1.1ubuntu0.1 libelf1t64_0.190-1.1ubuntu0.1 libexpat1_2.6.1-2ubuntu0.6 libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1 libfakeroot_1.33-1 libffi8_3.4.6-1build1 libfile-stripnondeterminism-perl_1.13.1-1 libgcc-13-dev_13.3.0-6ubuntu2~24.04.1 libgcc-s1_14.2.0-4ubuntu2~24.04.1 libgcrypt20_1.10.3-2ubuntu0.2 libgdbm-compat4t64_1.23-5.1build1 libgdbm6t64_1.23-5.1build1 libgmp10_2:6.3.0+dfsg-2ubuntu6.1 libgnutls30t64_3.8.3-1.1ubuntu3.6 libgomp1_14.2.0-4ubuntu2~24.04.1 libgpg-error0_1.47-3build2.1 libgprofng0_2.42-4ubuntu2.10 libgssapi-krb5-2_1.20.1-6ubuntu2.10 libhiredis1.1.0_1.2.0-6ubuntu3 libhogweed6t64_3.9.1-2.2build1.1 libhwasan0_14.2.0-4ubuntu2~24.04.1 libicu74_74.2-1ubuntu3.1 libidn2-0_2.3.7-2build1.1 libisl23_0.26-3build1.1 libitm1_14.2.0-4ubuntu2~24.04.1 libjansson4_2.14-2build2 libjsoncpp25_1.9.5-6build1 libk5crypto3_1.20.1-6ubuntu2.10 libkeyutils1_1.6.3-3build1 libkrb5-3_1.20.1-6ubuntu2.10 libkrb5support0_1.20.1-6ubuntu2.10 libldap2_2.6.10+dfsg-0ubuntu0.24.04.1 liblsan0_14.2.0-4ubuntu2~24.04.1 liblz4-1_1.9.4-1build1.1 liblzma5_5.6.1+really5.4.5-1ubuntu0.4 libmagic-mgc_1:5.45-3build1 libmagic1t64_1:5.45-3build1 libmd0_1.1.0-2build1.1 libmount1_2.39.3-9ubuntu6.6 libmpc3_1.3.1-1build1.1 libmpfr6_4.2.1-1build1.1 libncursesw6_6.4+20240113-1ubuntu2.2 libnettle8t64_3.9.1-2.2build1.1 libnghttp2-14_1.59.0-1ubuntu0.4 libnpth0t64_1.6-3.1build1 libp11-kit0_0.25.3-4ubuntu2.2 libpam-modules_1.5.3-5ubuntu5.7 libpam-modules-bin_1.5.3-5ubuntu5.7 libpam-runtime_1.5.3-5ubuntu5.7 libpam0g_1.5.3-5ubuntu5.7 libpcre2-8-0_10.42-4ubuntu2.2 libperl5.38t64_5.38.2-3.2ubuntu0.7 libpipeline1_1.5.7-2 libproc2-0_2:4.0.4-4ubuntu3.3 libpsl5t64_0.21.2-1.1build1 libpython3-stdlib_3.12.3-0ubuntu2.1 libpython3.12-minimal_3.12.3-1ubuntu0.17 libpython3.12-stdlib_3.12.3-1ubuntu0.17 libreadline8t64_8.2-4build1 librhash0_1.4.3-3build1 librtmp1_2.4+20151223.gitfa8646d.1-2build7 libsasl2-2_2.1.28+dfsg1-5ubuntu3.1 libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1 libseccomp2_2.5.5-1ubuntu3.1 libselinux1_3.5-2ubuntu2.1 libsemanage-common_3.5-1build5 libsemanage2_3.5-1build5 libsepol2_3.5-2build1 libsframe1_2.42-4ubuntu2.10 libsmartcols1_2.39.3-9ubuntu6.6 libsqlite3-0_3.45.1-1ubuntu2.9 libss2_1.47.0-2.4~exp1ubuntu4.1 libssh-4_0.10.6-2ubuntu0.5 libssl3t64_3.0.13-0ubuntu3.16 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 libsub-override-perl_0.10-1 libsystemd0_255.4-1ubuntu8.18 libtasn1-6_4.19.0-3ubuntu0.24.04.2 libtinfo6_6.4+20240113-1ubuntu2.2 libtool_2.4.7-7build1 libtsan2_14.2.0-4ubuntu2~24.04.1 libubsan1_14.2.0-4ubuntu2~24.04.1 libuchardet0_0.0.8-1build1 libudev1_255.4-1ubuntu8.18 libunistring5_1.1-2build1.1 libuuid1_2.39.3-9ubuntu6.6 libuv1t64_1.48.0-1.1build1 libxml2_2.9.14+dfsg-1.3ubuntu3.10 libxxhash0_0.8.2-2build1 libzstd1_1.5.5+dfsg2-2build1.1 linux-libc-dev_6.8.0-149.149 login_1:4.13+dfsg1-4ubuntu3.2 logsave_1.47.0-2.4~exp1ubuntu4.1 lto-disabled-list_47 m4_1.4.19-4build1 make_4.3-4.1build2 man-db_2.12.0-4build2 mawk_1.3.4.20240123-1build1 media-types_10.1.0 mount_2.39.3-9ubuntu6.6 ncurses-base_6.4+20240113-1ubuntu2.2 ncurses-bin_6.4+20240113-1ubuntu2.2 netbase_6.4 openssl_3.0.13-0ubuntu3.16 passwd_1:4.13+dfsg1-4ubuntu3.2 patch_2.7.6-7build3 perl_5.38.2-3.2ubuntu0.7 perl-base_5.38.2-3.2ubuntu0.7 perl-modules-5.38_5.38.2-3.2ubuntu0.7 po-debconf_1.0.21+nmu1 procps_2:4.0.4-4ubuntu3.3 python3_3.12.3-0ubuntu2.1 python3-catkin-pkg-modules_1.1.1-1 python3-dateutil_2.8.2-3ubuntu1 python3-docutils_0.20.1+dfsg-3 python3-importlib-metadata_4.12.0-1 python3-minimal_3.12.3-0ubuntu2.1 python3-more-itertools_10.2.0-1 python3-packaging_24.0-1 python3-pkg-resources_68.1.2-2ubuntu1.2 python3-pyparsing_3.1.1-1 python3-roman_3.3-3 python3-setuptools_68.1.2-2ubuntu1.2 python3-six_1.16.0-4 python3-zipp_1.0.0-6ubuntu0.1 python3.12_3.12.3-1ubuntu0.17 python3.12-minimal_3.12.3-1ubuntu0.17 readline-common_8.2-4build1 ros-jazzy-ament-cmake_2.5.7-1noble.20261026.175946 ros-jazzy-ament-cmake-core_2.5.7-1noble.20261025.165345 ros-jazzy-ament-cmake-export-definitions_2.5.7-1noble.20261026.175310 ros-jazzy-ament-cmake-export-dependencies_2.5.7-1noble.20261026.175734 ros-jazzy-ament-cmake-export-include-directories_2.5.7-1noble.20261026.175319 ros-jazzy-ament-cmake-export-interfaces_2.5.7-1noble.20261026.175630 ros-jazzy-ament-cmake-export-libraries_2.5.7-1noble.20261026.175336 ros-jazzy-ament-cmake-export-link-flags_2.5.7-1noble.20261026.175358 ros-jazzy-ament-cmake-export-targets_2.5.7-1noble.20261026.175651 ros-jazzy-ament-cmake-gen-version-h_2.5.7-1noble.20261026.175414 ros-jazzy-ament-cmake-include-directories_2.5.7-1noble.20261026.175437 ros-jazzy-ament-cmake-libraries_2.5.7-1noble.20261026.175530 ros-jazzy-ament-cmake-python_2.5.7-1noble.20261026.175534 ros-jazzy-ament-cmake-target-dependencies_2.5.7-1noble.20261026.175703 ros-jazzy-ament-cmake-test_2.5.7-1noble.20261026.175745 ros-jazzy-ament-cmake-version_2.5.7-1noble.20261026.175610 ros-jazzy-ament-package_0.16.5-1noble.20260121.175232 ros-jazzy-ros-workspace_1.0.3-7noble.20260224.192101 rpcsvc-proto_1.4.2-0ubuntu7 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-2ubuntu0.24.04.1 sensible-utils_0.0.22 sgml-base_1.31 sysvinit-utils_3.08-6ubuntu3 tar_1.35+dfsg-3ubuntu0.4 tzdata_2026e-0ubuntu0.24.04.1 ubuntu-keyring_2023.11.28.1 util-linux_2.39.3-9ubuntu6.6 xml-core_0.19 xz-utils_5.6.1+really5.4.5-1ubuntu0.4 zlib1g_1:1.3.dfsg-3.1ubuntu2.3
+Toolchain package versions: binutils_2.42-4ubuntu2.10 dpkg-dev_1.22.6ubuntu6.6 g++-13_13.3.0-6ubuntu2~24.04.1 gcc-13_13.3.0-6ubuntu2~24.04.1 libc6-dev_2.39-0ubuntu8.12 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 linux-libc-dev_6.8.0-151.151
+Package versions: apt_2.8.4ubuntu0.1 autoconf_2.71-3 automake_1:1.16.5-1.3ubuntu1 autopoint_0.21-14ubuntu2 autotools-dev_20220109.1 base-files_13ubuntu10.5 base-passwd_3.6.3build1 bash_5.2.21-2ubuntu4 binutils_2.42-4ubuntu2.10 binutils-aarch64-linux-gnu_2.42-4ubuntu2.10 binutils-common_2.42-4ubuntu2.10 bsdextrautils_2.39.3-9ubuntu6.6 bsdutils_1:2.39.3-9ubuntu6.6 build-essential_12.10ubuntu1 bzip2_1.0.8-5.1ubuntu0.1 ca-certificates_20260816ubuntu0.24.04.2 ccache_4.9.1-1 cmake_3.28.3-1build7 cmake-data_3.28.3-1build7 coreutils_9.4-3ubuntu6.3 cpp_4:13.2.0-7ubuntu1 cpp-13_13.3.0-6ubuntu2~24.04.1 cpp-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 cpp-aarch64-linux-gnu_4:13.2.0-7ubuntu1 dash_0.5.12-6ubuntu5 debconf_1.5.86ubuntu1 debhelper_13.14.1ubuntu5 debianutils_5.17build1 debugedit_1:5.0-5build2 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.10-1ubuntu0.1 docutils-common_0.20.1+dfsg-3 dpkg_1.22.6ubuntu6.6 dpkg-dev_1.22.6ubuntu6.6 dwz_0.15-1build6 e2fsprogs_1.47.0-2.4~exp1ubuntu4.1 fakeroot_1.33-1 file_1:5.45-3build1 findutils_4.9.0-5build1 g++_4:13.2.0-7ubuntu1 g++-13_13.3.0-6ubuntu2~24.04.1 g++-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 g++-aarch64-linux-gnu_4:13.2.0-7ubuntu1 gcc_4:13.2.0-7ubuntu1 gcc-13_13.3.0-6ubuntu2~24.04.1 gcc-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1 gcc-13-base_13.3.0-6ubuntu2~24.04.1 gcc-14-base_14.2.0-4ubuntu2~24.04.1 gcc-aarch64-linux-gnu_4:13.2.0-7ubuntu1 gettext_0.21-14ubuntu2 gettext-base_0.21-14ubuntu2 gpgv_2.4.4-2ubuntu17.6 grep_3.11-4build1 groff-base_1.23.0-3build2 gzip_1.12-1ubuntu3.2 hostname_3.23+nmu2ubuntu2 init-system-helpers_1.66ubuntu1 intltool-debian_0.35.0+20060710.6 libacl1_2.3.2-1build1.1 libapt-pkg6.0t64_2.8.4ubuntu0.1 libarchive-zip-perl_1.68-1 libarchive13t64_3.7.2-2ubuntu0.9 libasan8_14.2.0-4ubuntu2~24.04.1 libassuan0_2.5.6-1build1 libatomic1_14.2.0-4ubuntu2~24.04.1 libattr1_1:2.5.2-1ubuntu0.1 libaudit-common_1:3.1.2-2.1ubuntu0.1 libaudit1_1:3.1.2-2.1ubuntu0.1 libbinutils_2.42-4ubuntu2.10 libblkid1_2.39.3-9ubuntu6.6 libbrotli1_1.1.0-2ubuntu0.1 libbz2-1.0_1.0.8-5.1ubuntu0.1 libc-bin_2.39-0ubuntu8.12 libc-dev-bin_2.39-0ubuntu8.12 libc6_2.39-0ubuntu8.12 libc6-dev_2.39-0ubuntu8.12 libcap-ng0_0.8.4-2build2 libcap2_1:2.66-5ubuntu2.4 libcc1-0_14.2.0-4ubuntu2~24.04.1 libcom-err2_1.47.0-2.4~exp1ubuntu4.1 libcrypt-dev_1:4.4.36-4build1 libcrypt1_1:4.4.36-4build1 libctf-nobfd0_2.42-4ubuntu2.10 libctf0_2.42-4ubuntu2.10 libcurl4t64_8.5.0-2ubuntu10.16 libdb5.3t64_5.3.28+dfsg2-7 libdebconfclient0_0.271ubuntu3 libdebhelper-perl_13.14.1ubuntu5 libdpkg-perl_1.22.6ubuntu6.6 libdw1t64_0.190-1.1ubuntu0.1 libelf1t64_0.190-1.1ubuntu0.1 libexpat1_2.6.1-2ubuntu0.6 libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1 libfakeroot_1.33-1 libffi8_3.4.6-1build1 libfile-stripnondeterminism-perl_1.13.1-1 libgcc-13-dev_13.3.0-6ubuntu2~24.04.1 libgcc-s1_14.2.0-4ubuntu2~24.04.1 libgcrypt20_1.10.3-2ubuntu0.2 libgdbm-compat4t64_1.23-5.1build1 libgdbm6t64_1.23-5.1build1 libgmp10_2:6.3.0+dfsg-2ubuntu6.1 libgnutls30t64_3.8.3-1.1ubuntu3.6 libgomp1_14.2.0-4ubuntu2~24.04.1 libgpg-error0_1.47-3build2.1 libgprofng0_2.42-4ubuntu2.10 libgssapi-krb5-2_1.20.1-6ubuntu2.10 libhiredis1.1.0_1.2.0-6ubuntu3 libhogweed6t64_3.9.1-2.2build1.1 libhwasan0_14.2.0-4ubuntu2~24.04.1 libicu74_74.2-1ubuntu3.1 libidn2-0_2.3.7-2build1.1 libisl23_0.26-3build1.1 libitm1_14.2.0-4ubuntu2~24.04.1 libjansson4_2.14-2build2 libjsoncpp25_1.9.5-6build1 libk5crypto3_1.20.1-6ubuntu2.10 libkeyutils1_1.6.3-3build1 libkrb5-3_1.20.1-6ubuntu2.10 libkrb5support0_1.20.1-6ubuntu2.10 libldap2_2.6.10+dfsg-0ubuntu0.24.04.1 liblsan0_14.2.0-4ubuntu2~24.04.1 liblz4-1_1.9.4-1build1.1 liblzma5_5.6.1+really5.4.5-1ubuntu0.4 libmagic-mgc_1:5.45-3build1 libmagic1t64_1:5.45-3build1 libmd0_1.1.0-2build1.1 libmount1_2.39.3-9ubuntu6.6 libmpc3_1.3.1-1build1.1 libmpfr6_4.2.1-1build1.1 libncursesw6_6.4+20240113-1ubuntu2.2 libnettle8t64_3.9.1-2.2build1.1 libnghttp2-14_1.59.0-1ubuntu0.4 libnpth0t64_1.6-3.1build1 libp11-kit0_0.25.3-4ubuntu2.2 libpam-modules_1.5.3-5ubuntu5.7 libpam-modules-bin_1.5.3-5ubuntu5.7 libpam-runtime_1.5.3-5ubuntu5.7 libpam0g_1.5.3-5ubuntu5.7 libpcre2-8-0_10.42-4ubuntu2.2 libperl5.38t64_5.38.2-3.2ubuntu0.7 libpipeline1_1.5.7-2 libproc2-0_2:4.0.4-4ubuntu3.3 libpsl5t64_0.21.2-1.1build1 libpython3-stdlib_3.12.3-0ubuntu2.1 libpython3.12-minimal_3.12.3-1ubuntu0.17 libpython3.12-stdlib_3.12.3-1ubuntu0.17 libreadline8t64_8.2-4build1 librhash0_1.4.3-3build1 librtmp1_2.4+20151223.gitfa8646d.1-2build7 libsasl2-2_2.1.28+dfsg1-5ubuntu3.1 libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1 libseccomp2_2.5.5-1ubuntu3.1 libselinux1_3.5-2ubuntu2.1 libsemanage-common_3.5-1build5 libsemanage2_3.5-1build5 libsepol2_3.5-2build1 libsframe1_2.42-4ubuntu2.10 libsmartcols1_2.39.3-9ubuntu6.6 libsqlite3-0_3.45.1-1ubuntu2.9 libss2_1.47.0-2.4~exp1ubuntu4.1 libssh-4_0.10.6-2ubuntu0.5 libssl3t64_3.0.13-0ubuntu3.16 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 libsub-override-perl_0.10-1 libsystemd0_255.4-1ubuntu8.18 libtasn1-6_4.19.0-3ubuntu0.24.04.2 libtinfo6_6.4+20240113-1ubuntu2.2 libtool_2.4.7-7build1 libtsan2_14.2.0-4ubuntu2~24.04.1 libubsan1_14.2.0-4ubuntu2~24.04.1 libuchardet0_0.0.8-1build1 libudev1_255.4-1ubuntu8.18 libunistring5_1.1-2build1.1 libuuid1_2.39.3-9ubuntu6.6 libuv1t64_1.48.0-1.1build1 libxml2_2.9.14+dfsg-1.3ubuntu3.10 libxxhash0_0.8.2-2build1 libzstd1_1.5.5+dfsg2-2build1.1 linux-libc-dev_6.8.0-151.151 login_1:4.13+dfsg1-4ubuntu3.2 logsave_1.47.0-2.4~exp1ubuntu4.1 lto-disabled-list_47 m4_1.4.19-4build1 make_4.3-4.1build2 man-db_2.12.0-4build2 mawk_1.3.4.20240123-1build1 media-types_10.1.0 mount_2.39.3-9ubuntu6.6 ncurses-base_6.4+20240113-1ubuntu2.2 ncurses-bin_6.4+20240113-1ubuntu2.2 netbase_6.4 openssl_3.0.13-0ubuntu3.16 passwd_1:4.13+dfsg1-4ubuntu3.2 patch_2.7.6-7build3 perl_5.38.2-3.2ubuntu0.7 perl-base_5.38.2-3.2ubuntu0.7 perl-modules-5.38_5.38.2-3.2ubuntu0.7 po-debconf_1.0.21+nmu1 procps_2:4.0.4-4ubuntu3.3 python3_3.12.3-0ubuntu2.1 python3-catkin-pkg-modules_1.1.1-1 python3-dateutil_2.8.2-3ubuntu1 python3-docutils_0.20.1+dfsg-3 python3-importlib-metadata_4.12.0-1 python3-minimal_3.12.3-0ubuntu2.1 python3-more-itertools_10.2.0-1 python3-packaging_24.0-1 python3-pkg-resources_68.1.2-2ubuntu1.2 python3-pyparsing_3.1.1-1 python3-roman_3.3-3 python3-setuptools_68.1.2-2ubuntu1.2 python3-six_1.16.0-4 python3-zipp_1.0.0-6ubuntu0.1 python3.12_3.12.3-1ubuntu0.17 python3.12-minimal_3.12.3-1ubuntu0.17 readline-common_8.2-4build1 ros-jazzy-ament-cmake_2.5.7-1noble.20261026.175946 ros-jazzy-ament-cmake-core_2.5.7-1noble.20261025.165345 ros-jazzy-ament-cmake-export-definitions_2.5.7-1noble.20261026.175310 ros-jazzy-ament-cmake-export-dependencies_2.5.7-1noble.20261026.175734 ros-jazzy-ament-cmake-export-include-directories_2.5.7-1noble.20261026.175319 ros-jazzy-ament-cmake-export-interfaces_2.5.7-1noble.20261026.175630 ros-jazzy-ament-cmake-export-libraries_2.5.7-1noble.20261026.175336 ros-jazzy-ament-cmake-export-link-flags_2.5.7-1noble.20261026.175358 ros-jazzy-ament-cmake-export-targets_2.5.7-1noble.20261026.175651 ros-jazzy-ament-cmake-gen-version-h_2.5.7-1noble.20261026.175414 ros-jazzy-ament-cmake-include-directories_2.5.7-1noble.20261026.175437 ros-jazzy-ament-cmake-libraries_2.5.7-1noble.20261026.175530 ros-jazzy-ament-cmake-python_2.5.7-1noble.20261026.175534 ros-jazzy-ament-cmake-target-dependencies_2.5.7-1noble.20261026.175703 ros-jazzy-ament-cmake-test_2.5.7-1noble.20261026.175745 ros-jazzy-ament-cmake-version_2.5.7-1noble.20261026.175610 ros-jazzy-ament-package_0.16.5-1noble.20260121.175232 ros-jazzy-ros-workspace_1.0.3-7noble.20260224.192101 rpcsvc-proto_1.4.2-0ubuntu7 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-2ubuntu0.24.04.1 sensible-utils_0.0.22 sgml-base_1.31 sysvinit-utils_3.08-6ubuntu3 tar_1.35+dfsg-3ubuntu0.4 tzdata_2026e-0ubuntu0.24.04.1 ubuntu-keyring_2023.11.28.1 util-linux_2.39.3-9ubuntu6.6 xml-core_0.19 xz-utils_5.6.1+really5.4.5-1ubuntu0.4 zlib1g_1:1.3.dfsg-3.1ubuntu2.3
 
 +------------------------------------------------------------------------------+
 | Build                                                                        |
@@ -725,22 +725,22 @@ Format: 1.0
 Source: ros-jazzy-unitree-sdk1-ament
 Binary: ros-jazzy-unitree-sdk1-ament
 Architecture: any
-Version: 1.3.0-2026.11.16.19.59
+Version: 1.3.0-2026.11.19.18.48
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake
 Package-List:
  ros-jazzy-unitree-sdk1-ament deb misc optional arch=any
 Checksums-Sha1:
- 100245ef13367867fc1d58f39fcfb72045c322fb 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.tar.gz
+ 815d32d25f2763ecf62a95a827ec4ca1e6c0cd9d 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.tar.gz
 Checksums-Sha256:
- 010fa078db6b3c6402899871b96190214dd829ebb98ce9dab1098c03be9f5221 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.tar.gz
+ 3cfd41b3e192ccea0ba800d16d881e9aa1c595a507e291dfdd8ba77e2ef2b7e1 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.tar.gz
 Files:
- 68fe85b73f24181ac1a4d0f7ad7ac40d 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.tar.gz
+ b958f2704ceddea39c33bd08c4d3280f 57758 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.dsc)
 dpkg-source: info: extracting ros-jazzy-unitree-sdk1-ament in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.tar.gz
+dpkg-source: info: unpacking ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.tar.gz
 
 Check disk space
 ----------------
@@ -772,7 +772,7 @@ Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: warning:     debian/changelog(l5): found trailer where expected start of change data
 LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Wed, 26 Aug 2026 00:00:00 -0000
 dpkg-buildpackage: info: source package ros-jazzy-unitree-sdk1-ament
-dpkg-buildpackage: info: source version 1.3.0-2026.11.16.19.59
+dpkg-buildpackage: info: source version 1.3.0-2026.11.19.18.48
 dpkg-buildpackage: info: source distribution noble
 dpkg-buildpackage: info: source changed by Qiayuan Liao <liaoqiayuan@gamil.com>
  dpkg-source --before-build .
@@ -997,8 +997,8 @@ dpkg-gencontrol: warning: Depends field of package ros-jazzy-unitree-sdk1-ament:
 	chown 0:0 -- debian/ros-jazzy-unitree-sdk1-ament/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-jazzy-unitree-sdk1-ament ..
-dpkg-deb: building package 'ros-jazzy-unitree-sdk1-ament' in '../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb'.
- dpkg-genbuildinfo --build=binary -O../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.buildinfo
+dpkg-deb: building package 'ros-jazzy-unitree-sdk1-ament' in '../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.buildinfo
 dpkg-genbuildinfo: warning:     debian/changelog(l5): found trailer where expected start of change data
 LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Wed, 26 Aug 2026 00:00:00 -0000
 dpkg-genbuildinfo: warning:     debian/changelog(l5): found trailer where expected start of change data
@@ -1007,7 +1007,7 @@ dpkg-genbuildinfo: warning:     debian/changelog(l11): found trailer where expec
 LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Tue, 18 Aug 2026 00:00:00 -0000
 dpkg-genbuildinfo: warning:     debian/changelog(l5): found trailer where expected start of change data
 LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Wed, 26 Aug 2026 00:00:00 -0000
- dpkg-genchanges --build=binary -O../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.changes
+ dpkg-genchanges --build=binary -O../ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.changes
 dpkg-genchanges: warning:     debian/changelog(l5): found trailer where expected start of change data
 LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Wed, 26 Aug 2026 00:00:00 -0000
 dpkg-genchanges: warning:     debian/changelog(l5): found trailer where expected start of change data
@@ -1021,7 +1021,7 @@ LINE:  -- Qiayuan Liao <liaoqiayuan@gamil.com>  Wed, 26 Aug 2026 00:00:00 -0000
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2026-11-16T20:00:10Z
+Build finished at 2026-11-19T18:48:32Z
 
 Finished
 --------
@@ -1033,7 +1033,7 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.changes:
+ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.changes:
 ------------------------------------------------------------------
 
 Format: 1.8
@@ -1042,7 +1042,7 @@ Source: ros-jazzy-unitree-sdk1-ament
 Binary: ros-jazzy-unitree-sdk1-ament
 Built-For-Profiles: noudeb
 Architecture: arm64
-Version: 1.3.0-2026.11.16.19.59
+Version: 1.3.0-2026.11.19.18.48
 Distribution: noble
 Urgency: high
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
@@ -1050,16 +1050,16 @@ Changed-By: Qiayuan Liao <liaoqiayuan@gamil.com>
 Description:
  ros-jazzy-unitree-sdk1-ament - Unitree SDK2 ament wrapper
 Changes:
- ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.16.19.59) noble; urgency=high
+ ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.19.18.48) noble; urgency=high
 Checksums-Sha1:
- e03247e361744fcfd39d31d6d41a7d0eb1188c20 9528 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.buildinfo
- 08242202552fba423de46c6798705292f1b8485c 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ aa4cd28574b67461a61be7a530db0bae8e30dfec 9528 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.buildinfo
+ 9ad11bd97bafcf7f8e2afa6ab95b05dbd388b6d3 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 Checksums-Sha256:
- d7ae3ab008379d584cc5f7b2274813fb0f628c3649d56d12e7d1a70ed88394f7 9528 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.buildinfo
- 797692c71f7ee6ca21326e840cf15a623bf9bc59d16365a91df9ee6a347bb794 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ 79302a1174c56909daa202dec52fcc4b1c6ee16a626dc0eaaea4f70857a9e570 9528 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.buildinfo
+ 0e3b46b63ded21f24e438a5015aad1dea7fcd91821fa4d8c283baf537c8e8dfb 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 Files:
- d8fab7e67beb0bb65a3781b9a643c60d 9528 misc optional ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.buildinfo
- d8e578cbcdd113b24e60f62bbcaba882 27220 misc optional ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ 043642c5c5185cf2350d103ab25e8f82 9528 misc optional ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.buildinfo
+ c7d4625fd7085b8c14daa59e0077e0df 27220 misc optional ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1069,16 +1069,16 @@ Format: 1.0
 Source: ros-jazzy-unitree-sdk1-ament
 Binary: ros-jazzy-unitree-sdk1-ament
 Architecture: arm64
-Version: 1.3.0-2026.11.16.19.59
+Version: 1.3.0-2026.11.19.18.48
 Checksums-Md5:
- d8e578cbcdd113b24e60f62bbcaba882 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ c7d4625fd7085b8c14daa59e0077e0df 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 Checksums-Sha1:
- 08242202552fba423de46c6798705292f1b8485c 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ 9ad11bd97bafcf7f8e2afa6ab95b05dbd388b6d3 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 Checksums-Sha256:
- 797692c71f7ee6ca21326e840cf15a623bf9bc59d16365a91df9ee6a347bb794 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ 0e3b46b63ded21f24e438a5015aad1dea7fcd91821fa4d8c283baf537c8e8dfb 27220 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 Build-Origin: Ubuntu
 Build-Architecture: arm64
-Build-Date: Mon, 16 Nov 2026 20:00:10 +0000
+Build-Date: Thu, 19 Nov 2026 18:48:32 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -1247,7 +1247,7 @@ Installed-Build-Depends:
  libuv1t64 (= 1.48.0-1.1build1),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.10),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-149.149),
+ linux-libc-dev (= 6.8.0-151.151),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -1324,7 +1324,7 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
+ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48_arm64.deb
 -------------------------------------------------------------
 
  new Debian package, version 2.0.
@@ -1332,7 +1332,7 @@ ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_arm64.deb
      232 bytes,     8 lines      control
     2545 bytes,    26 lines      md5sums
  Package: ros-jazzy-unitree-sdk1-ament
- Version: 1.3.0-2026.11.16.19.59
+ Version: 1.3.0-2026.11.19.18.48
  Architecture: arm64
  Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
  Installed-Size: 149
@@ -1386,7 +1386,7 @@ drwxr-xr-x root/root         0 2026-08-26 00:00 ./usr/
 drwxr-xr-x root/root         0 2026-08-26 00:00 ./usr/share/
 drwxr-xr-x root/root         0 2026-08-26 00:00 ./usr/share/doc/
 drwxr-xr-x root/root         0 2026-08-26 00:00 ./usr/share/doc/ros-jazzy-unitree-sdk1-ament/
--rw-r--r-- root/root       424 2026-08-26 00:00 ./usr/share/doc/ros-jazzy-unitree-sdk1-ament/changelog.Debian.gz
+-rw-r--r-- root/root       425 2026-08-26 00:00 ./usr/share/doc/ros-jazzy-unitree-sdk1-ament/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -1412,14 +1412,14 @@ Build-Time: 3
 Distribution: noble
 Host Architecture: arm64
 Install-Time: 16
-Job: /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59.dsc
+Job: /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.48.dsc
 Machine Architecture: arm64
 Package: ros-jazzy-unitree-sdk1-ament
-Package-Time: 29
-Source-Version: 1.3.0-2026.11.16.19.59
+Package-Time: 28
+Source-Version: 1.3.0-2026.11.19.18.48
 Space: 1344
 Status: successful
-Version: 1.3.0-2026.11.16.19.59
+Version: 1.3.0-2026.11.19.18.48
 --------------------------------------------------------------------------------
-Finished at 2026-11-16T20:00:10Z
-Build needed 00:00:29, 1344k disk space
+Finished at 2026-11-19T18:48:32Z
+Build needed 00:00:28, 1344k disk space

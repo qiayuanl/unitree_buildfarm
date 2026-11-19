@@ -1,20 +1,17 @@
 Format: 1.0
-Source: ros-jazzy-unitree-sdk2-ament
-Binary: ros-jazzy-unitree-sdk2-ament ros-jazzy-unitree-sdk2-ament-dbgsym
+Source: ros-jazzy-unitree-description
+Binary: ros-jazzy-unitree-description
 Architecture: arm64
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.46
 Checksums-Md5:
- 30d0aaf49d3dd699173286648236adff 2567602 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.20.00_arm64.ddeb
- 1887b46b69493651d9346356afa20e40 2578402 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.20.00_arm64.deb
+ e94b7b2425e7644f966567825b7fddef 41331518 ros-jazzy-unitree-description_1.3.0-2026.11.19.18.46_arm64.deb
 Checksums-Sha1:
- 4c2b41a553ce1b7352270ecc957803bdff386a52 2567602 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.20.00_arm64.ddeb
- 3c58ebb1c796046bef59ee24b0ad8ac5e26e1c39 2578402 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.20.00_arm64.deb
+ 74271670df488789dac5a32d93d6c5aec60d0ce3 41331518 ros-jazzy-unitree-description_1.3.0-2026.11.19.18.46_arm64.deb
 Checksums-Sha256:
- 2323d456450f472429443e818d2c03c692ae717ea325ec1f0aca55becac99ea6 2567602 ros-jazzy-unitree-sdk2-ament-dbgsym_1.3.0-2026.11.16.20.00_arm64.ddeb
- 7a240fb54387e707c888edb1b84a57ffb7c6a2bbc9c26dab352604a5f0b85fc8 2578402 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.20.00_arm64.deb
+ 75880bcb301e5405b225e21ede2536605b013c6685f86ee2b8ca14947ab453fa 41331518 ros-jazzy-unitree-description_1.3.0-2026.11.19.18.46_arm64.deb
 Build-Origin: Ubuntu
 Build-Architecture: arm64
-Build-Date: Mon, 16 Nov 2026 20:00:56 +0000
+Build-Date: Thu, 19 Nov 2026 18:47:59 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -183,7 +180,7 @@ Installed-Build-Depends:
  libuv1t64 (= 1.48.0-1.1build1),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.10),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-149.149),
+ linux-libc-dev (= 6.8.0-151.151),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
