@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-unitree-systems
 Binary: ros-jazzy-unitree-systems ros-jazzy-unitree-systems-dbgsym
 Architecture: amd64
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
 Checksums-Md5:
- a7c46cb2497380b69521b7369e19df7b 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- c4077f4af4930f928a862a880e842954 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 7925ba3bcc127ba9e6774ad5812148e5 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ f66e336e6af0b4438ef804c84a79b7db 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Checksums-Sha1:
- c53597a34a86a6fba6983c749fbd101f44177093 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- fc69653be65bd06c82b9e512ffd27111baf63f48 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6339de9e608c984b8c6857455fe989e87f41f59c 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ cfe3dc932482f317a75ab2e803792fc9ad4a6bdf 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Checksums-Sha256:
- e792a669778282b1dd43a07ec0dc3a93a6e4c4d125894d3f392edb4190e75eb4 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- 8d858d8e195e3948800aa575aa3451722a39fbe3971f9483b7f38edd6edda70b 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6ee0e9a4c7478a763985de01f057174926e7ca64199c3bbebab9c767b471ab84 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ 11d1860b7b592df483cf13b08121a0335a021db935f44299807d056a14da9ce2 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 16 Nov 2026 20:01:44 +0000
+Build-Date: Thu, 19 Nov 2026 18:49:23 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -237,7 +237,7 @@ Installed-Build-Depends:
  libyaml-dev (= 0.2.5-1build1),
  libzstd-dev (= 1.5.5+dfsg2-2build1.1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-149.149),
+ linux-libc-dev (= 6.8.0-151.151),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  lttng-tools (= 2.13.11-2.1build4),
@@ -421,8 +421,8 @@ Installed-Build-Depends:
  ros-jazzy-type-description-interfaces (= 2.0.4-1noble.20261105.051836),
  ros-jazzy-uncrustify-vendor (= 3.0.1-1noble.20260225.230730),
  ros-jazzy-unique-identifier-msgs (= 2.5.1-1noble.20261104.171806),
- ros-jazzy-unitree-sdk1-ament (= 1.3.0-2026.11.16.19.59),
- ros-jazzy-unitree-sdk2-ament (= 1.3.0-2026.11.16.19.59),
+ ros-jazzy-unitree-sdk1-ament (= 1.3.0-2026.11.19.18.47),
+ ros-jazzy-unitree-sdk2-ament (= 1.3.0-2026.11.19.18.47),
  ros-jazzy-urdf (= 2.10.1-2noble.20261031.123217),
  ros-jazzy-urdf-parser-plugin (= 2.10.1-2noble.20261031.122018),
  ros-jazzy-urdfdom (= 4.0.2-1noble.20260603.151654),

@@ -1,48 +1,48 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmy75tu.teisltzysffunitaoexts4bz3h.gx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmxfy6o.dgehf33nwgzu3h0izwsgvvwh4h.gx.internal.cloudapp.net
 
 +==========================================================================================+
-| ros-jazzy-unitree-systems 1.3.0-2026.11.16.20.00 (amd64) Mon, 16 Nov 2026 20:00:44 +0000 |
+| ros-jazzy-unitree-systems 1.3.0-2026.11.19.18.48 (amd64) Thu, 19 Nov 2026 18:48:33 +0000 |
 +==========================================================================================+
 
 Package: ros-jazzy-unitree-systems
-Version: 1.3.0-2026.11.16.20.00
-Source Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
+Source Version: 1.3.0-2026.11.19.18.48
 Distribution: noble
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.f2f8DbIFuZ...
+Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.qCjHm5XTXI...
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-zfld5b' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-NAuwFy' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-tYVem1/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-tYVem1/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-tYVem1/apt_archive ./ Release [577 B]
-Get:2 file:/build/package//resolver-tYVem1/apt_archive ./ Release [577 B]
-Get:3 file:/build/package//resolver-tYVem1/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-tYVem1/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-tYVem1/apt_archive ./ Packages [1598 B]
+Get:1 file:/build/package//resolver-pSSIln/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-pSSIln/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-pSSIln/apt_archive ./ Release [577 B]
+Get:2 file:/build/package//resolver-pSSIln/apt_archive ./ Release [577 B]
+Get:3 file:/build/package//resolver-pSSIln/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-pSSIln/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-pSSIln/apt_archive ./ Packages [1598 B]
 Get:5 http://packages.ros.org/ros2/ubuntu noble InRelease [4679 B]
-Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 Packages [2128 kB]
-Get:7 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
-Get:8 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:9 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1195 kB]
-Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
-Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1229 kB]
-Get:13 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
-Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1450 kB]
-Get:15 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1713 kB]
-Fetched 24.7 MB in 3s (7718 kB/s)
+Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 Packages [2153 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1230 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1716 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1475 kB]
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1198 kB]
+Fetched 24.7 MB in 2s (10.1 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -58,7 +58,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.dsc exists in /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2; copying to chroot
+/home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.dsc exists in /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -80,12 +80,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [845 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [877 B]
 Fetched 2302 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ Release [577 B]
-Get:2 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ Release [577 B]
-Get:3 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ Release [577 B]
+Get:2 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ Release [577 B]
+Get:3 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu noble InRelease
 Reading package lists...
@@ -323,242 +323,242 @@ The following NEW packages will be installed:
 0 upgraded, 301 newly installed, 0 to remove and 0 not upgraded.
 Need to get 108 MB/110 MB of archives.
 After this operation, 647 MB of additional disk space will be used.
-Get:1 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ ros-jazzy-unitree-sdk1-ament 1.3.0-2026.11.16.19.59 [27.9 kB]
-Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [748 B]
-Get:3 file:/<<BUILDDIR>>/resolver-tYVem1/apt_archive ./ ros-jazzy-unitree-sdk2-ament 1.3.0-2026.11.16.19.59 [2544 kB]
+Get:1 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ ros-jazzy-unitree-sdk1-ament 1.3.0-2026.11.19.18.47 [27.9 kB]
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [746 B]
+Get:3 file:/<<BUILDDIR>>/resolver-pSSIln/apt_archive ./ ros-jazzy-unitree-sdk2-ament 1.3.0-2026.11.19.18.47 [2544 kB]
 Get:4 http://packages.ros.org/ros2/ubuntu noble/main amd64 python3-catkin-pkg-modules all 1.1.1-1 [43.4 kB]
-Get:5 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros-workspace amd64 1.0.3-7noble.20260224.191628 [14.9 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-fastcdr amd64 2.2.8-1noble.20260901.205404 [62.3 kB]
-Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-package amd64 0.16.5-1noble.20260121.174946 [25.9 kB]
-Get:8 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-core amd64 2.5.7-1noble.20261024.193249 [27.2 kB]
-Get:9 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-definitions amd64 2.5.7-1noble.20261025.200000 [7294 B]
-Get:10 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-libraries amd64 2.5.7-1noble.20261025.200118 [7236 B]
-Get:11 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-dependencies amd64 2.5.7-1noble.20261025.201752 [8680 B]
-Get:12 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-include-directories amd64 2.5.7-1noble.20261025.195958 [7614 B]
-Get:13 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-libraries amd64 2.5.7-1noble.20261025.200044 [9652 B]
-Get:14 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-interfaces amd64 2.5.7-1noble.20261025.201729 [8038 B]
-Get:15 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-link-flags amd64 2.5.7-1noble.20261025.200049 [7218 B]
-Get:16 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-targets amd64 2.5.7-1noble.20261025.201824 [8336 B]
-Get:17 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gen-version-h amd64 2.5.7-1noble.20261025.200052 [9822 B]
-Get:18 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-python amd64 2.5.7-1noble.20261025.200156 [10.4 kB]
-Get:19 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-include-directories amd64 2.5.7-1noble.20261025.200108 [7384 B]
-Get:20 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-target-dependencies amd64 2.5.7-1noble.20261025.201826 [9570 B]
-Get:21 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-test amd64 2.5.7-1noble.20261025.201953 [15.5 kB]
-Get:22 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-version amd64 2.5.7-1noble.20261025.200158 [7580 B]
-Get:23 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake amd64 2.5.7-1noble.20261025.225914 [7530 B]
-Get:24 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cppcheck amd64 0.17.5-1noble.20260410.080408 [16.6 kB]
-Get:25 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-cppcheck amd64 0.17.5-1noble.20261025.230313 [9622 B]
-Get:26 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cpplint amd64 0.17.5-1noble.20260410.080348 [147 kB]
-Get:27 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-cpplint amd64 0.17.5-1noble.20261025.230429 [8458 B]
-Get:28 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-lint amd64 0.17.5-1noble.20260410.080358 [4806 B]
-Get:29 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-flake8 amd64 0.17.5-1noble.20260410.113507 [17.5 kB]
-Get:30 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-flake8 amd64 0.17.5-1noble.20261025.225921 [7710 B]
-Get:31 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-pep257 amd64 0.17.5-1noble.20260410.113520 [13.6 kB]
-Get:32 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-pep257 amd64 0.17.5-1noble.20261025.225946 [7432 B]
-Get:33 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-uncrustify-vendor amd64 3.0.1-1noble.20260225.230730 [8308 B]
-Get:34 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-uncrustify amd64 0.17.5-1noble.20260410.080359 [50.8 kB]
-Get:35 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-uncrustify amd64 0.17.5-1noble.20261031.121002 [8926 B]
-Get:36 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-index-python amd64 1.8.4-1noble.20260519.010916 [14.7 kB]
-Get:37 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-python-cmake-module amd64 0.11.1-2noble.20260226.000327 [7456 B]
-Get:38 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcutils amd64 6.7.7-1noble.20261031.121858 [92.0 kB]
-Get:39 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-interface amd64 4.6.10-1noble.20261104.080519 [9460 B]
-Get:40 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-runtime-c amd64 4.6.10-1noble.20261104.081319 [56.5 kB]
-Get:41 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-dynamic-typesupport amd64 0.1.2-3noble.20261104.091531 [37.4 kB]
-Get:42 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw amd64 7.3.4-1noble.20261104.092047 [72.2 kB]
-Get:43 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-cli amd64 4.6.10-1noble.20261103.144109 [26.7 kB]
-Get:44 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-adapter amd64 4.6.10-1noble.20261103.144927 [20.1 kB]
-Get:45 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-parser amd64 4.6.10-1noble.20261103.145923 [20.0 kB]
-Get:46 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.17 [839 kB]
-Get:47 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-pycommon amd64 4.6.10-1noble.20261103.161734 [11.1 kB]
-Get:48 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-cmake amd64 4.6.10-1noble.20261103.204039 [16.7 kB]
-Get:49 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-type-description amd64 4.6.10-1noble.20261103.162049 [15.5 kB]
-Get:50 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-c amd64 4.6.10-1noble.20261104.081142 [26.1 kB]
-Get:51 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcpputils amd64 2.11.4-1noble.20261031.122131 [55.7 kB]
-Get:52 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-c amd64 3.2.3-1noble.20261104.091547 [24.7 kB]
-Get:53 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rpyutils amd64 0.4.2-1noble.20260225.142204 [7352 B]
-Get:54 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-py amd64 0.22.2-1noble.20261104.170349 [29.1 kB]
-Get:55 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-runtime-cpp amd64 4.6.10-1noble.20261104.091418 [20.7 kB]
-Get:56 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-cpp amd64 3.2.3-1noble.20261104.170227 [23.8 kB]
-Get:57 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gtest-vendor amd64 1.14.9000-2noble.20260225.055309 [183 kB]
-Get:58 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gtest amd64 2.5.7-1noble.20261025.230436 [10.4 kB]
-Get:59 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gmock-vendor amd64 1.14.9000-2noble.20260225.143751 [102 kB]
-Get:60 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gmock amd64 2.5.7-1noble.20261025.230715 [10.1 kB]
-Get:61 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-pytest amd64 2.5.7-1noble.20261025.230611 [10.3 kB]
-Get:62 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-domain-coordinator amd64 0.12.2-1noble.20260911.044440 [5966 B]
-Get:63 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-ros amd64 0.12.2-1noble.20261031.121514 [8262 B]
-Get:64 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-fastrtps-cmake-module amd64 3.6.4-1noble.20260603.150331 [6994 B]
-Get:65 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-cpp amd64 4.6.10-1noble.20261104.091921 [23.4 kB]
-Get:66 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-fastrtps-cpp amd64 3.6.4-1noble.20261104.170319 [28.4 kB]
-Get:67 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-fastrtps-c amd64 3.6.4-1noble.20261104.170915 [26.5 kB]
-Get:68 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-introspection-c amd64 4.6.10-1noble.20261104.091111 [24.6 kB]
-Get:69 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-introspection-cpp amd64 4.6.10-1noble.20261104.092402 [24.6 kB]
-Get:70 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-core-runtime amd64 0.2.1-1noble.20261104.171211 [5848 B]
-Get:71 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-builtin-interfaces amd64 2.0.4-1noble.20261104.171803 [46.8 kB]
-Get:72 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-service-msgs amd64 2.0.4-1noble.20261104.172346 [45.4 kB]
-Get:73 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-unique-identifier-msgs amd64 2.5.1-1noble.20261104.171806 [41.0 kB]
-Get:74 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-action-msgs amd64 2.0.4-1noble.20261105.051812 [100 kB]
-Get:75 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-auto amd64 2.5.7-1noble.20261031.120940 [11.1 kB]
-Get:76 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-index-cpp amd64 1.8.4-1noble.20261025.230122 [29.1 kB]
-Get:77 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-backward-ros amd64 1.0.8-1noble.20260225.051215 [57.5 kB]
-Get:78 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-console-bridge-vendor amd64 1.7.2-1noble.20260603.150411 [5394 B]
-Get:79 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-class-loader amd64 2.7.1-1noble.20261031.122417 [47.0 kB]
-Get:80 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-default-runtime amd64 1.6.1-1noble.20261105.052217 [7156 B]
-Get:81 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-std-msgs amd64 5.3.8-1noble.20261105.053803 [236 kB]
-Get:82 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-geometry-msgs amd64 5.3.8-1noble.20261105.055127 [273 kB]
-Get:83 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sensor-msgs amd64 5.3.8-1noble.20261105.060814 [391 kB]
-Get:84 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-trajectory-msgs amd64 5.3.8-1noble.20261105.060952 [102 kB]
-Get:85 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-control-msgs amd64 5.11.0-1noble.20261105.065814 [913 kB]
-Get:86 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.6 [98.9 kB]
-Get:87 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.17 [2335 kB]
-Get:88 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-foonathan-memory-vendor amd64 1.3.1-3noble.20260225.055155 [787 kB]
-Get:89 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2.1 [27.4 kB]
-Get:90 http://archive.ubuntu.com/ubuntu noble/main amd64 media-types all 10.1.0 [27.5 kB]
-Get:91 http://archive.ubuntu.com/ubuntu noble/main amd64 netbase all 6.4 [13.1 kB]
-Get:92 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 tzdata all 2026e-0ubuntu0.24.04.1 [282 kB]
-Get:93 http://archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
-Get:94 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
-Get:95 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.9 [702 kB]
-Get:96 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.17 [2071 kB]
-Get:97 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.17 [651 kB]
-Get:98 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2.1 [10.1 kB]
-Get:99 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2.1 [23.0 kB]
-Get:100 http://archive.ubuntu.com/ubuntu noble/main amd64 sgml-base all 1.31 [11.4 kB]
-Get:101 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkmod2 amd64 31+20240202-2ubuntu7.2 [51.8 kB]
-Get:102 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libicu74 amd64 74.2-1ubuntu3.1 [10.9 MB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.17 [839 kB]
+Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros-workspace amd64 1.0.3-7noble.20260224.191628 [14.9 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-fastcdr amd64 2.2.8-1noble.20260901.205404 [62.3 kB]
+Get:8 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-package amd64 0.16.5-1noble.20260121.174946 [25.9 kB]
+Get:9 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-core amd64 2.5.7-1noble.20261024.193249 [27.2 kB]
+Get:10 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-definitions amd64 2.5.7-1noble.20261025.200000 [7294 B]
+Get:11 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-libraries amd64 2.5.7-1noble.20261025.200118 [7236 B]
+Get:12 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-dependencies amd64 2.5.7-1noble.20261025.201752 [8680 B]
+Get:13 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-include-directories amd64 2.5.7-1noble.20261025.195958 [7614 B]
+Get:14 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-libraries amd64 2.5.7-1noble.20261025.200044 [9652 B]
+Get:15 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-interfaces amd64 2.5.7-1noble.20261025.201729 [8038 B]
+Get:16 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-link-flags amd64 2.5.7-1noble.20261025.200049 [7218 B]
+Get:17 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-targets amd64 2.5.7-1noble.20261025.201824 [8336 B]
+Get:18 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gen-version-h amd64 2.5.7-1noble.20261025.200052 [9822 B]
+Get:19 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-python amd64 2.5.7-1noble.20261025.200156 [10.4 kB]
+Get:20 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-include-directories amd64 2.5.7-1noble.20261025.200108 [7384 B]
+Get:21 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-target-dependencies amd64 2.5.7-1noble.20261025.201826 [9570 B]
+Get:22 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-test amd64 2.5.7-1noble.20261025.201953 [15.5 kB]
+Get:23 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-version amd64 2.5.7-1noble.20261025.200158 [7580 B]
+Get:24 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake amd64 2.5.7-1noble.20261025.225914 [7530 B]
+Get:25 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cppcheck amd64 0.17.5-1noble.20260410.080408 [16.6 kB]
+Get:26 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-cppcheck amd64 0.17.5-1noble.20261025.230313 [9622 B]
+Get:27 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cpplint amd64 0.17.5-1noble.20260410.080348 [147 kB]
+Get:28 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-cpplint amd64 0.17.5-1noble.20261025.230429 [8458 B]
+Get:29 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-lint amd64 0.17.5-1noble.20260410.080358 [4806 B]
+Get:30 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-flake8 amd64 0.17.5-1noble.20260410.113507 [17.5 kB]
+Get:31 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-flake8 amd64 0.17.5-1noble.20261025.225921 [7710 B]
+Get:32 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-pep257 amd64 0.17.5-1noble.20260410.113520 [13.6 kB]
+Get:33 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-pep257 amd64 0.17.5-1noble.20261025.225946 [7432 B]
+Get:34 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-uncrustify-vendor amd64 3.0.1-1noble.20260225.230730 [8308 B]
+Get:35 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-uncrustify amd64 0.17.5-1noble.20260410.080359 [50.8 kB]
+Get:36 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-uncrustify amd64 0.17.5-1noble.20261031.121002 [8926 B]
+Get:37 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-index-python amd64 1.8.4-1noble.20260519.010916 [14.7 kB]
+Get:38 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-python-cmake-module amd64 0.11.1-2noble.20260226.000327 [7456 B]
+Get:39 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcutils amd64 6.7.7-1noble.20261031.121858 [92.0 kB]
+Get:40 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-interface amd64 4.6.10-1noble.20261104.080519 [9460 B]
+Get:41 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-runtime-c amd64 4.6.10-1noble.20261104.081319 [56.5 kB]
+Get:42 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-dynamic-typesupport amd64 0.1.2-3noble.20261104.091531 [37.4 kB]
+Get:43 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw amd64 7.3.4-1noble.20261104.092047 [72.2 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.6 [98.9 kB]
+Get:45 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.17 [2335 kB]
+Get:46 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-cli amd64 4.6.10-1noble.20261103.144109 [26.7 kB]
+Get:47 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-adapter amd64 4.6.10-1noble.20261103.144927 [20.1 kB]
+Get:48 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-parser amd64 4.6.10-1noble.20261103.145923 [20.0 kB]
+Get:49 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-pycommon amd64 4.6.10-1noble.20261103.161734 [11.1 kB]
+Get:50 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-cmake amd64 4.6.10-1noble.20261103.204039 [16.7 kB]
+Get:51 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-type-description amd64 4.6.10-1noble.20261103.162049 [15.5 kB]
+Get:52 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-c amd64 4.6.10-1noble.20261104.081142 [26.1 kB]
+Get:53 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcpputils amd64 2.11.4-1noble.20261031.122131 [55.7 kB]
+Get:54 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-c amd64 3.2.3-1noble.20261104.091547 [24.7 kB]
+Get:55 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rpyutils amd64 0.4.2-1noble.20260225.142204 [7352 B]
+Get:56 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-py amd64 0.22.2-1noble.20261104.170349 [29.1 kB]
+Get:57 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-runtime-cpp amd64 4.6.10-1noble.20261104.091418 [20.7 kB]
+Get:58 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-cpp amd64 3.2.3-1noble.20261104.170227 [23.8 kB]
+Get:59 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2.1 [27.4 kB]
+Get:60 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gtest-vendor amd64 1.14.9000-2noble.20260225.055309 [183 kB]
+Get:61 http://archive.ubuntu.com/ubuntu noble/main amd64 media-types all 10.1.0 [27.5 kB]
+Get:62 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gtest amd64 2.5.7-1noble.20261025.230436 [10.4 kB]
+Get:63 http://archive.ubuntu.com/ubuntu noble/main amd64 netbase all 6.4 [13.1 kB]
+Get:64 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gmock-vendor amd64 1.14.9000-2noble.20260225.143751 [102 kB]
+Get:65 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 tzdata all 2026e-0ubuntu0.24.04.1 [282 kB]
+Get:66 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gmock amd64 2.5.7-1noble.20261025.230715 [10.1 kB]
+Get:67 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-pytest amd64 2.5.7-1noble.20261025.230611 [10.3 kB]
+Get:68 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-domain-coordinator amd64 0.12.2-1noble.20260911.044440 [5966 B]
+Get:69 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-ros amd64 0.12.2-1noble.20261031.121514 [8262 B]
+Get:70 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-fastrtps-cmake-module amd64 3.6.4-1noble.20260603.150331 [6994 B]
+Get:71 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-generator-cpp amd64 4.6.10-1noble.20261104.091921 [23.4 kB]
+Get:72 http://archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:73 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:74 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.9 [702 kB]
+Get:75 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.17 [2071 kB]
+Get:76 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.17 [651 kB]
+Get:77 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-fastrtps-cpp amd64 3.6.4-1noble.20261104.170319 [28.4 kB]
+Get:78 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-fastrtps-c amd64 3.6.4-1noble.20261104.170915 [26.5 kB]
+Get:79 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-introspection-c amd64 4.6.10-1noble.20261104.091111 [24.6 kB]
+Get:80 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-typesupport-introspection-cpp amd64 4.6.10-1noble.20261104.092402 [24.6 kB]
+Get:81 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-core-runtime amd64 0.2.1-1noble.20261104.171211 [5848 B]
+Get:82 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-builtin-interfaces amd64 2.0.4-1noble.20261104.171803 [46.8 kB]
+Get:83 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-service-msgs amd64 2.0.4-1noble.20261104.172346 [45.4 kB]
+Get:84 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-unique-identifier-msgs amd64 2.5.1-1noble.20261104.171806 [41.0 kB]
+Get:85 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-action-msgs amd64 2.0.4-1noble.20261105.051812 [100 kB]
+Get:86 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-auto amd64 2.5.7-1noble.20261031.120940 [11.1 kB]
+Get:87 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2.1 [10.1 kB]
+Get:88 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2.1 [23.0 kB]
+Get:89 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-index-cpp amd64 1.8.4-1noble.20261025.230122 [29.1 kB]
+Get:90 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-backward-ros amd64 1.0.8-1noble.20260225.051215 [57.5 kB]
+Get:91 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-console-bridge-vendor amd64 1.7.2-1noble.20260603.150411 [5394 B]
+Get:92 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-class-loader amd64 2.7.1-1noble.20261031.122417 [47.0 kB]
+Get:93 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-default-runtime amd64 1.6.1-1noble.20261105.052217 [7156 B]
+Get:94 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-std-msgs amd64 5.3.8-1noble.20261105.053803 [236 kB]
+Get:95 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-geometry-msgs amd64 5.3.8-1noble.20261105.055127 [273 kB]
+Get:96 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sensor-msgs amd64 5.3.8-1noble.20261105.060814 [391 kB]
+Get:97 http://archive.ubuntu.com/ubuntu noble/main amd64 sgml-base all 1.31 [11.4 kB]
+Get:98 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-trajectory-msgs amd64 5.3.8-1noble.20261105.060952 [102 kB]
+Get:99 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-control-msgs amd64 5.11.0-1noble.20261105.065814 [913 kB]
+Get:100 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkmod2 amd64 31+20240202-2ubuntu7.2 [51.8 kB]
+Get:101 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libicu74 amd64 74.2-1ubuntu3.1 [10.9 MB]
+Get:102 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-foonathan-memory-vendor amd64 1.3.1-3noble.20260225.055155 [787 kB]
 Get:103 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-fastrtps amd64 2.14.7-1noble.20260911.035053 [3165 kB]
-Get:104 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.10 [764 kB]
-Get:105 http://archive.ubuntu.com/ubuntu noble/universe amd64 liblttng-ctl0t64 amd64 2.13.11-2.1build4 [197 kB]
-Get:106 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-common1t64 amd64 2.13.7-1.1ubuntu2 [27.5 kB]
-Get:107 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnuma1 amd64 2.0.18-1ubuntu0.24.04.1 [23.4 kB]
-Get:108 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-ctl5t64 amd64 2.13.7-1.1ubuntu2 [74.9 kB]
-Get:109 http://archive.ubuntu.com/ubuntu noble/main amd64 libpopt0 amd64 1.19+dfsg-1build1 [28.6 kB]
-Get:110 http://archive.ubuntu.com/ubuntu noble/main amd64 liburcu8t64 amd64 0.14.0-3.1build1 [63.0 kB]
-Get:111 http://archive.ubuntu.com/ubuntu noble/universe amd64 lttng-tools amd64 2.13.11-2.1build4 [1140 kB]
-Get:112 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbsd0 amd64 0.12.1-1build1.1 [41.2 kB]
-Get:113 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf1t64 amd64 0.190-1.1ubuntu0.1 [57.8 kB]
-Get:114 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.10 [34.9 kB]
-Get:115 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.10 [81.9 kB]
-Get:116 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
-Get:117 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.10 [348 kB]
-Get:118 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.10 [143 kB]
-Get:119 http://archive.ubuntu.com/ubuntu noble/main amd64 libyaml-0-2 amd64 0.2.5-1build1 [51.5 kB]
-Get:120 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-pkg-resources all 68.1.2-2ubuntu1.2 [168 kB]
-Get:121 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-pygments all 2.17.2+dfsg-1 [819 kB]
-Get:122 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-yaml amd64 6.0.1-2build2 [123 kB]
-Get:123 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.6 [73.7 kB]
-Get:124 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic-mgc amd64 1:5.45-3build1 [307 kB]
-Get:125 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic1t64 amd64 1:5.45-3build1 [87.2 kB]
-Get:126 http://archive.ubuntu.com/ubuntu noble/main amd64 file amd64 1:5.45-3build1 [22.0 kB]
-Get:127 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext-base amd64 0.21-14ubuntu2 [38.4 kB]
-Get:128 http://archive.ubuntu.com/ubuntu noble/main amd64 libuchardet0 amd64 0.0.8-1build1 [75.3 kB]
-Get:129 http://archive.ubuntu.com/ubuntu noble/main amd64 groff-base amd64 1.23.0-3build2 [1020 kB]
-Get:130 http://archive.ubuntu.com/ubuntu noble/main amd64 libedit2 amd64 3.1-20230828-1build1 [97.6 kB]
-Get:131 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses6 amd64 6.4+20240113-1ubuntu2.2 [112 kB]
-Get:132 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.4 [74.6 kB]
-Get:133 http://archive.ubuntu.com/ubuntu noble/main amd64 libpipeline1 amd64 1.5.7-2 [23.6 kB]
-Get:134 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
-Get:135 http://archive.ubuntu.com/ubuntu noble/main amd64 libuv1t64 amd64 1.48.0-1.1build1 [97.3 kB]
-Get:136 http://archive.ubuntu.com/ubuntu noble/main amd64 man-db amd64 2.12.0-4build2 [1237 kB]
-Get:137 http://archive.ubuntu.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
-Get:138 http://archive.ubuntu.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
-Get:139 http://archive.ubuntu.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
-Get:140 http://archive.ubuntu.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
-Get:141 http://archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
-Get:142 http://archive.ubuntu.com/ubuntu noble/universe amd64 catch2 amd64 3.4.0-1build1 [607 kB]
-Get:143 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libarchive13t64 amd64 3.7.2-2ubuntu0.9 [383 kB]
-Get:144 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbrotli1 amd64 1.1.0-2ubuntu0.1 [331 kB]
-Get:145 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-5ubuntu3.1 [20.4 kB]
-Get:146 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-5ubuntu3.1 [53.2 kB]
-Get:147 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.10+dfsg-0ubuntu0.24.04.1 [198 kB]
-Get:148 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
-Get:149 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libssh-4 amd64 0.10.6-2ubuntu0.5 [191 kB]
-Get:150 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.16 [344 kB]
-Get:151 http://archive.ubuntu.com/ubuntu noble/main amd64 libjsoncpp25 amd64 1.9.5-6build1 [82.8 kB]
-Get:152 http://archive.ubuntu.com/ubuntu noble/main amd64 librhash0 amd64 1.4.3-3build1 [129 kB]
-Get:153 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake-data all 3.28.3-1build7 [2155 kB]
-Get:154 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake amd64 3.28.3-1build7 [11.2 MB]
-Get:155 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-cmake-vendor amd64 0.0.12-1noble.20261025.230435 [198 kB]
-Get:156 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-utils-vendor amd64 0.0.5-1noble.20261025.230754 [105 kB]
-Get:157 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-math-vendor amd64 0.0.11-1noble.20261025.231053 [1104 kB]
-Get:158 http://archive.ubuntu.com/ubuntu noble/universe amd64 libtinyxml2-10 amd64 10.0.0+dfsg-2 [32.5 kB]
-Get:159 http://archive.ubuntu.com/ubuntu noble/universe amd64 cppcheck amd64 2.13.0-2ubuntu3 [2136 kB]
-Get:160 http://archive.ubuntu.com/ubuntu noble/main amd64 libdebhelper-perl all 13.14.1ubuntu5 [89.8 kB]
-Get:161 http://archive.ubuntu.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
-Get:162 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-autoreconf all 20 [16.1 kB]
-Get:163 http://archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
-Get:164 http://archive.ubuntu.com/ubuntu noble/main amd64 libsub-override-perl all 0.10-1 [10.0 kB]
-Get:165 http://archive.ubuntu.com/ubuntu noble/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [18.1 kB]
-Get:166 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-strip-nondeterminism all 1.13.1-1 [5362 B]
-Get:167 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdw1t64 amd64 0.190-1.1ubuntu0.1 [261 kB]
-Get:168 http://archive.ubuntu.com/ubuntu noble/main amd64 debugedit amd64 1:5.0-5build2 [46.1 kB]
-Get:169 http://archive.ubuntu.com/ubuntu noble/main amd64 dwz amd64 0.15-1build6 [115 kB]
-Get:170 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
-Get:171 http://archive.ubuntu.com/ubuntu noble/main amd64 intltool-debian all 0.35.0+20060710.6 [23.2 kB]
-Get:172 http://archive.ubuntu.com/ubuntu noble/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
-Get:173 http://archive.ubuntu.com/ubuntu noble/main amd64 debhelper all 13.14.1ubuntu5 [869 kB]
-Get:174 http://archive.ubuntu.com/ubuntu noble/main amd64 xml-core all 0.19 [20.3 kB]
-Get:175 http://archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3 [132 kB]
-Get:176 http://archive.ubuntu.com/ubuntu noble/main amd64 libfakeroot amd64 1.33-1 [32.4 kB]
-Get:177 http://archive.ubuntu.com/ubuntu noble/main amd64 fakeroot amd64 1.33-1 [67.2 kB]
-Get:178 http://archive.ubuntu.com/ubuntu noble/universe amd64 googletest all 1.14.0-1 [521 kB]
-Get:179 http://archive.ubuntu.com/ubuntu noble/universe amd64 google-mock amd64 1.14.0-1 [4836 B]
-Get:180 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libblas3 amd64 3.12.0-3build1.1 [238 kB]
-Get:181 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-tools-vendor amd64 0.0.8-1noble.20261025.230735 [32.4 kB]
-Get:182 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost1.83-dev amd64 1.83.0-2.1ubuntu3.2 [10.7 MB]
-Get:183 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-tinyxml2-vendor amd64 0.9.2-1noble.20260225.230621 [6798 B]
-Get:184 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pluginlib amd64 5.4.6-1noble.20261031.122708 [98.3 kB]
-Get:185 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-interfaces amd64 2.0.4-1noble.20261105.053447 [397 kB]
-Get:186 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-libyaml-vendor amd64 1.6.4-2noble.20260603.150356 [8724 B]
-Get:187 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-logging-interface amd64 3.1.1-1noble.20261031.122133 [13.4 kB]
-Get:188 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-spdlog-vendor amd64 1.6.2-1noble.20260603.150612 [6898 B]
-Get:189 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-logging-spdlog amd64 3.1.1-1noble.20261031.122410 [22.5 kB]
-Get:190 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-yaml-param-parser amd64 9.2.11-1noble.20261104.170930 [29.7 kB]
-Get:191 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-implementation-cmake amd64 7.3.4-1noble.20261031.121243 [9124 B]
-Get:192 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-dds-common amd64 3.1.1-1noble.20261105.053553 [121 kB]
-Get:193 http://archive.ubuntu.com/ubuntu noble/main amd64 libboost-dev amd64 1.83.0.1ubuntu2 [4308 B]
-Get:194 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcap-dev amd64 1:2.66-5ubuntu2.4 [596 kB]
-Get:195 http://archive.ubuntu.com/ubuntu noble/universe amd64 libconsole-bridge1.0 amd64 1.0.1+dfsg2-3build1 [11.3 kB]
-Get:196 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.3 [894 kB]
-Get:197 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libzstd-dev amd64 1.5.5+dfsg2-2build1.1 [364 kB]
-Get:198 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf-dev amd64 0.190-1.1ubuntu0.1 [68.5 kB]
-Get:199 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblzma-dev amd64 5.6.1+really5.4.5-1ubuntu0.4 [176 kB]
-Get:200 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdw-dev amd64 0.190-1.1ubuntu0.1 [340 kB]
-Get:201 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-tracetools amd64 8.2.6-1noble.20261031.121956 [37.4 kB]
-Get:202 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1-dev amd64 2.6.1-2ubuntu0.6 [147 kB]
-Get:203 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-fastrtps-shared-cpp amd64 8.4.5-1noble.20261105.063410 [172 kB]
-Get:204 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-dynamic-typesupport-fastrtps amd64 0.1.0-3noble.20261104.091828 [49.1 kB]
-Get:205 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-fastrtps-cpp amd64 8.4.5-1noble.20261105.065411 [92.1 kB]
-Get:206 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-implementation amd64 2.15.7-1noble.20261105.083506 [24.6 kB]
-Get:207 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-type-description-interfaces amd64 2.0.4-1noble.20261105.051836 [161 kB]
-Get:208 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl amd64 9.2.11-1noble.20261105.083913 [161 kB]
-Get:209 http://archive.ubuntu.com/ubuntu noble/universe amd64 libfmt9 amd64 9.1.0+ds1-2 [63.0 kB]
-Get:210 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-statistics-msgs amd64 2.0.4-1noble.20261105.053737 [68.9 kB]
-Get:211 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-libstatistics-collector amd64 1.7.4-1noble.20261105.084333 [26.9 kB]
-Get:212 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosgraph-msgs amd64 2.0.4-1noble.20261105.054006 [165 kB]
-Get:213 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp amd64 28.1.23-1noble.20261105.084818 [836 kB]
-Get:214 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-lifecycle-msgs amd64 2.0.4-1noble.20261105.053320 [184 kB]
-Get:215 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-lifecycle amd64 9.2.11-1noble.20261105.084252 [27.8 kB]
-Get:216 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp-lifecycle amd64 28.1.23-1noble.20261105.085939 [82.5 kB]
-Get:217 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-action amd64 9.2.11-1noble.20261105.084244 [48.3 kB]
-Get:218 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp-action amd64 28.1.23-1noble.20261105.102757 [100 kB]
-Get:219 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-realtime-tools amd64 3.14.1-1noble.20261105.103417 [55.2 kB]
-Get:220 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdfdom-headers amd64 1.1.3-1noble.20260603.150728 [13.4 kB]
-Get:221 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdfdom amd64 4.0.2-1noble.20260603.151654 [72.4 kB]
-Get:222 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdf-parser-plugin amd64 2.10.1-2noble.20261031.122018 [9614 B]
-Get:223 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdf amd64 2.10.1-2noble.20261031.123217 [105 kB]
-Get:224 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-joint-limits amd64 4.50.0-1noble.20261105.103758 [84.1 kB]
-Get:225 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pal-statistics-msgs amd64 2.8.2-1noble.20261105.054408 [83.4 kB]
-Get:226 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclpy amd64 7.1.13-1noble.20261105.084753 [468 kB]
-Get:227 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pal-statistics amd64 2.8.2-1noble.20261105.091426 [105 kB]
-Get:228 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sdformat-vendor amd64 0.0.14-1noble.20261031.120928 [1275 kB]
-Get:229 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sdformat-urdf amd64 1.0.2-1noble.20261031.123456 [48.9 kB]
-Get:230 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-hardware-interface amd64 4.50.0-1noble.20261105.130006 [361 kB]
-Get:231 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgfortran5 amd64 14.2.0-4ubuntu2~24.04.1 [916 kB]
-Get:232 http://archive.ubuntu.com/ubuntu noble/universe amd64 libgtest-dev amd64 1.14.0-1 [268 kB]
-Get:233 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
-Get:234 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
-Get:235 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
-Get:236 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblapack3 amd64 3.12.0-3build1.1 [2646 kB]
+Get:104 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-cmake-vendor amd64 0.0.12-1noble.20261025.230435 [198 kB]
+Get:105 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-utils-vendor amd64 0.0.5-1noble.20261025.230754 [105 kB]
+Get:106 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-math-vendor amd64 0.0.11-1noble.20261025.231053 [1104 kB]
+Get:107 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gz-tools-vendor amd64 0.0.8-1noble.20261025.230735 [32.4 kB]
+Get:108 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-tinyxml2-vendor amd64 0.9.2-1noble.20260225.230621 [6798 B]
+Get:109 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pluginlib amd64 5.4.6-1noble.20261031.122708 [98.3 kB]
+Get:110 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-interfaces amd64 2.0.4-1noble.20261105.053447 [397 kB]
+Get:111 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-libyaml-vendor amd64 1.6.4-2noble.20260603.150356 [8724 B]
+Get:112 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-logging-interface amd64 3.1.1-1noble.20261031.122133 [13.4 kB]
+Get:113 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-spdlog-vendor amd64 1.6.2-1noble.20260603.150612 [6898 B]
+Get:114 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-logging-spdlog amd64 3.1.1-1noble.20261031.122410 [22.5 kB]
+Get:115 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-yaml-param-parser amd64 9.2.11-1noble.20261104.170930 [29.7 kB]
+Get:116 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-implementation-cmake amd64 7.3.4-1noble.20261031.121243 [9124 B]
+Get:117 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-dds-common amd64 3.1.1-1noble.20261105.053553 [121 kB]
+Get:118 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-tracetools amd64 8.2.6-1noble.20261031.121956 [37.4 kB]
+Get:119 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-fastrtps-shared-cpp amd64 8.4.5-1noble.20261105.063410 [172 kB]
+Get:120 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosidl-dynamic-typesupport-fastrtps amd64 0.1.0-3noble.20261104.091828 [49.1 kB]
+Get:121 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-fastrtps-cpp amd64 8.4.5-1noble.20261105.065411 [92.1 kB]
+Get:122 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.10 [764 kB]
+Get:123 http://archive.ubuntu.com/ubuntu noble/universe amd64 liblttng-ctl0t64 amd64 2.13.11-2.1build4 [197 kB]
+Get:124 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-common1t64 amd64 2.13.7-1.1ubuntu2 [27.5 kB]
+Get:125 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnuma1 amd64 2.0.18-1ubuntu0.24.04.1 [23.4 kB]
+Get:126 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-ctl5t64 amd64 2.13.7-1.1ubuntu2 [74.9 kB]
+Get:127 http://archive.ubuntu.com/ubuntu noble/main amd64 libpopt0 amd64 1.19+dfsg-1build1 [28.6 kB]
+Get:128 http://archive.ubuntu.com/ubuntu noble/main amd64 liburcu8t64 amd64 0.14.0-3.1build1 [63.0 kB]
+Get:129 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rmw-implementation amd64 2.15.7-1noble.20261105.083506 [24.6 kB]
+Get:130 http://archive.ubuntu.com/ubuntu noble/universe amd64 lttng-tools amd64 2.13.11-2.1build4 [1140 kB]
+Get:131 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbsd0 amd64 0.12.1-1build1.1 [41.2 kB]
+Get:132 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf1t64 amd64 0.190-1.1ubuntu0.1 [57.8 kB]
+Get:133 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.10 [34.9 kB]
+Get:134 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-type-description-interfaces amd64 2.0.4-1noble.20261105.051836 [161 kB]
+Get:135 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.10 [81.9 kB]
+Get:136 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
+Get:137 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.10 [348 kB]
+Get:138 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.10 [143 kB]
+Get:139 http://archive.ubuntu.com/ubuntu noble/main amd64 libyaml-0-2 amd64 0.2.5-1build1 [51.5 kB]
+Get:140 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-pkg-resources all 68.1.2-2ubuntu1.2 [168 kB]
+Get:141 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-pygments all 2.17.2+dfsg-1 [819 kB]
+Get:142 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl amd64 9.2.11-1noble.20261105.083913 [161 kB]
+Get:143 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-yaml amd64 6.0.1-2build2 [123 kB]
+Get:144 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.6 [73.7 kB]
+Get:145 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-statistics-msgs amd64 2.0.4-1noble.20261105.053737 [68.9 kB]
+Get:146 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic-mgc amd64 1:5.45-3build1 [307 kB]
+Get:147 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic1t64 amd64 1:5.45-3build1 [87.2 kB]
+Get:148 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-libstatistics-collector amd64 1.7.4-1noble.20261105.084333 [26.9 kB]
+Get:149 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rosgraph-msgs amd64 2.0.4-1noble.20261105.054006 [165 kB]
+Get:150 http://archive.ubuntu.com/ubuntu noble/main amd64 file amd64 1:5.45-3build1 [22.0 kB]
+Get:151 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext-base amd64 0.21-14ubuntu2 [38.4 kB]
+Get:152 http://archive.ubuntu.com/ubuntu noble/main amd64 libuchardet0 amd64 0.0.8-1build1 [75.3 kB]
+Get:153 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp amd64 28.1.23-1noble.20261105.084818 [836 kB]
+Get:154 http://archive.ubuntu.com/ubuntu noble/main amd64 groff-base amd64 1.23.0-3build2 [1020 kB]
+Get:155 http://archive.ubuntu.com/ubuntu noble/main amd64 libedit2 amd64 3.1-20230828-1build1 [97.6 kB]
+Get:156 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses6 amd64 6.4+20240113-1ubuntu2.2 [112 kB]
+Get:157 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.4 [74.6 kB]
+Get:158 http://archive.ubuntu.com/ubuntu noble/main amd64 libpipeline1 amd64 1.5.7-2 [23.6 kB]
+Get:159 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:160 http://archive.ubuntu.com/ubuntu noble/main amd64 libuv1t64 amd64 1.48.0-1.1build1 [97.3 kB]
+Get:161 http://archive.ubuntu.com/ubuntu noble/main amd64 man-db amd64 2.12.0-4build2 [1237 kB]
+Get:162 http://archive.ubuntu.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
+Get:163 http://archive.ubuntu.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
+Get:164 http://archive.ubuntu.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
+Get:165 http://archive.ubuntu.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
+Get:166 http://archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
+Get:167 http://archive.ubuntu.com/ubuntu noble/universe amd64 catch2 amd64 3.4.0-1build1 [607 kB]
+Get:168 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libarchive13t64 amd64 3.7.2-2ubuntu0.9 [383 kB]
+Get:169 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbrotli1 amd64 1.1.0-2ubuntu0.1 [331 kB]
+Get:170 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-5ubuntu3.1 [20.4 kB]
+Get:171 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-5ubuntu3.1 [53.2 kB]
+Get:172 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.10+dfsg-0ubuntu0.24.04.1 [198 kB]
+Get:173 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
+Get:174 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libssh-4 amd64 0.10.6-2ubuntu0.5 [191 kB]
+Get:175 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.16 [344 kB]
+Get:176 http://archive.ubuntu.com/ubuntu noble/main amd64 libjsoncpp25 amd64 1.9.5-6build1 [82.8 kB]
+Get:177 http://archive.ubuntu.com/ubuntu noble/main amd64 librhash0 amd64 1.4.3-3build1 [129 kB]
+Get:178 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake-data all 3.28.3-1build7 [2155 kB]
+Get:179 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake amd64 3.28.3-1build7 [11.2 MB]
+Get:180 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-lifecycle-msgs amd64 2.0.4-1noble.20261105.053320 [184 kB]
+Get:181 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-lifecycle amd64 9.2.11-1noble.20261105.084252 [27.8 kB]
+Get:182 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp-lifecycle amd64 28.1.23-1noble.20261105.085939 [82.5 kB]
+Get:183 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rcl-action amd64 9.2.11-1noble.20261105.084244 [48.3 kB]
+Get:184 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclcpp-action amd64 28.1.23-1noble.20261105.102757 [100 kB]
+Get:185 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-realtime-tools amd64 3.14.1-1noble.20261105.103417 [55.2 kB]
+Get:186 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdfdom-headers amd64 1.1.3-1noble.20260603.150728 [13.4 kB]
+Get:187 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdfdom amd64 4.0.2-1noble.20260603.151654 [72.4 kB]
+Get:188 http://archive.ubuntu.com/ubuntu noble/universe amd64 libtinyxml2-10 amd64 10.0.0+dfsg-2 [32.5 kB]
+Get:189 http://archive.ubuntu.com/ubuntu noble/universe amd64 cppcheck amd64 2.13.0-2ubuntu3 [2136 kB]
+Get:190 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdf-parser-plugin amd64 2.10.1-2noble.20261031.122018 [9614 B]
+Get:191 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-urdf amd64 2.10.1-2noble.20261031.123217 [105 kB]
+Get:192 http://archive.ubuntu.com/ubuntu noble/main amd64 libdebhelper-perl all 13.14.1ubuntu5 [89.8 kB]
+Get:193 http://archive.ubuntu.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
+Get:194 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-joint-limits amd64 4.50.0-1noble.20261105.103758 [84.1 kB]
+Get:195 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-autoreconf all 20 [16.1 kB]
+Get:196 http://archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
+Get:197 http://archive.ubuntu.com/ubuntu noble/main amd64 libsub-override-perl all 0.10-1 [10.0 kB]
+Get:198 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pal-statistics-msgs amd64 2.8.2-1noble.20261105.054408 [83.4 kB]
+Get:199 http://archive.ubuntu.com/ubuntu noble/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [18.1 kB]
+Get:200 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-strip-nondeterminism all 1.13.1-1 [5362 B]
+Get:201 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdw1t64 amd64 0.190-1.1ubuntu0.1 [261 kB]
+Get:202 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-rclpy amd64 7.1.13-1noble.20261105.084753 [468 kB]
+Get:203 http://archive.ubuntu.com/ubuntu noble/main amd64 debugedit amd64 1:5.0-5build2 [46.1 kB]
+Get:204 http://archive.ubuntu.com/ubuntu noble/main amd64 dwz amd64 0.15-1build6 [115 kB]
+Get:205 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
+Get:206 http://archive.ubuntu.com/ubuntu noble/main amd64 intltool-debian all 0.35.0+20060710.6 [23.2 kB]
+Get:207 http://archive.ubuntu.com/ubuntu noble/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
+Get:208 http://archive.ubuntu.com/ubuntu noble/main amd64 debhelper all 13.14.1ubuntu5 [869 kB]
+Get:209 http://archive.ubuntu.com/ubuntu noble/main amd64 xml-core all 0.19 [20.3 kB]
+Get:210 http://archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3 [132 kB]
+Get:211 http://archive.ubuntu.com/ubuntu noble/main amd64 libfakeroot amd64 1.33-1 [32.4 kB]
+Get:212 http://archive.ubuntu.com/ubuntu noble/main amd64 fakeroot amd64 1.33-1 [67.2 kB]
+Get:213 http://archive.ubuntu.com/ubuntu noble/universe amd64 googletest all 1.14.0-1 [521 kB]
+Get:214 http://archive.ubuntu.com/ubuntu noble/universe amd64 google-mock amd64 1.14.0-1 [4836 B]
+Get:215 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libblas3 amd64 3.12.0-3build1.1 [238 kB]
+Get:216 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost1.83-dev amd64 1.83.0-2.1ubuntu3.2 [10.7 MB]
+Get:217 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-pal-statistics amd64 2.8.2-1noble.20261105.091426 [105 kB]
+Get:218 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sdformat-vendor amd64 0.0.14-1noble.20261031.120928 [1275 kB]
+Get:219 http://archive.ubuntu.com/ubuntu noble/main amd64 libboost-dev amd64 1.83.0.1ubuntu2 [4308 B]
+Get:220 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcap-dev amd64 1:2.66-5ubuntu2.4 [596 kB]
+Get:221 http://archive.ubuntu.com/ubuntu noble/universe amd64 libconsole-bridge1.0 amd64 1.0.1+dfsg2-3build1 [11.3 kB]
+Get:222 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.3 [894 kB]
+Get:223 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libzstd-dev amd64 1.5.5+dfsg2-2build1.1 [364 kB]
+Get:224 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf-dev amd64 0.190-1.1ubuntu0.1 [68.5 kB]
+Get:225 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblzma-dev amd64 5.6.1+really5.4.5-1ubuntu0.4 [176 kB]
+Get:226 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdw-dev amd64 0.190-1.1ubuntu0.1 [340 kB]
+Get:227 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1-dev amd64 2.6.1-2ubuntu0.6 [147 kB]
+Get:228 http://archive.ubuntu.com/ubuntu noble/universe amd64 libfmt9 amd64 9.1.0+ds1-2 [63.0 kB]
+Get:229 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgfortran5 amd64 14.2.0-4ubuntu2~24.04.1 [916 kB]
+Get:230 http://archive.ubuntu.com/ubuntu noble/universe amd64 libgtest-dev amd64 1.14.0-1 [268 kB]
+Get:231 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:232 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
+Get:233 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
+Get:234 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblapack3 amd64 3.12.0-3build1.1 [2646 kB]
+Get:235 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-sdformat-urdf amd64 1.0.2-1noble.20261031.123456 [48.9 kB]
+Get:236 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-hardware-interface amd64 4.50.0-1noble.20261105.130006 [361 kB]
 Get:237 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust1t64 amd64 2.13.7-1.1ubuntu2 [185 kB]
 Get:238 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-python-agent1t64 amd64 2.13.7-1.1ubuntu2 [11.4 kB]
 Get:239 http://archive.ubuntu.com/ubuntu noble/main amd64 libpkgconf3 amd64 1.8.1-2build1 [30.7 kB]
@@ -625,7 +625,7 @@ Get:299 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-dev amd64
 Get:300 http://archive.ubuntu.com/ubuntu noble/main amd64 liblttng-ust-dev amd64 2.13.7-1.1ubuntu2 [97.4 kB]
 Get:301 http://archive.ubuntu.com/ubuntu noble/universe amd64 liburdfdom-headers-dev all 1.0.5-3 [14.1 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 108 MB in 7s (16.2 MB/s)
+Fetched 108 MB in 2s (67.5 MB/s)
 Selecting previously unselected package libpython3.12-minimal:amd64.
 (Reading database ... 10761 files and directories currently installed.)
 Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.17_amd64.deb ...
@@ -1532,11 +1532,11 @@ Selecting previously unselected package ros-jazzy-hardware-interface.
 Preparing to unpack .../284-ros-jazzy-hardware-interface_4.50.0-1noble.20261105.130006_amd64.deb ...
 Unpacking ros-jazzy-hardware-interface (4.50.0-1noble.20261105.130006) ...
 Selecting previously unselected package ros-jazzy-unitree-sdk1-ament.
-Preparing to unpack .../285-ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59_amd64.deb ...
-Unpacking ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.16.19.59) ...
+Preparing to unpack .../285-ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.47_amd64.deb ...
+Unpacking ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.19.18.47) ...
 Selecting previously unselected package ros-jazzy-unitree-sdk2-ament.
-Preparing to unpack .../286-ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.19.59_amd64.deb ...
-Unpacking ros-jazzy-unitree-sdk2-ament (1.3.0-2026.11.16.19.59) ...
+Preparing to unpack .../286-ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.19.18.47_amd64.deb ...
+Unpacking ros-jazzy-unitree-sdk2-ament (1.3.0-2026.11.19.18.47) ...
 Selecting previously unselected package sbuild-build-depends-main-dummy.
 Preparing to unpack .../287-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
 Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
@@ -1549,11 +1549,11 @@ Setting up libboost1.83-dev:amd64 (1.83.0-2.1ubuntu3.2) ...
 Setting up ros-jazzy-ros-workspace (1.0.3-7noble.20260224.191628) ...
 Setting up libzstd-dev:amd64 (1.5.5+dfsg2-2build1.1) ...
 Setting up bsdextrautils (2.39.3-9ubuntu6.6) ...
-Setting up ros-jazzy-unitree-sdk2-ament (1.3.0-2026.11.16.19.59) ...
+Setting up ros-jazzy-unitree-sdk2-ament (1.3.0-2026.11.19.18.47) ...
 Setting up libmagic-mgc (1:5.45-3build1) ...
 Setting up libarchive-zip-perl (1.68-1) ...
 Setting up libyaml-0-2:amd64 (0.2.5-1build1) ...
-Setting up ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.16.19.59) ...
+Setting up ros-jazzy-unitree-sdk1-ament (1.3.0-2026.11.19.18.47) ...
 Setting up libdebhelper-perl (13.14.1ubuntu5) ...
 Setting up libbrotli1:amd64 (1.1.0-2ubuntu0.1) ...
 Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2.9) ...
@@ -1580,8 +1580,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
 Setting up tzdata (2026e-0ubuntu0.24.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Mon Nov 16 20:01:12 UTC 2026.
-Universal Time is now:  Mon Nov 16 20:01:12 UTC 2026.
+Local time is now:      Thu Nov 19 18:48:54 UTC 2026.
+Universal Time is now:  Thu Nov 19 18:48:54 UTC 2026.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.33-1) ...
@@ -1865,8 +1865,8 @@ Arch check ok (amd64 included in any)
 +------------------------------------------------------------------------------+
 
 Kernel: Linux 6.8.0-1070-azure #78~22.04.1-Ubuntu SMP Thu Sep 24 18:46:45 UTC 2026 amd64 (x86_64)
-Toolchain package versions: binutils_2.42-4ubuntu2.10 dpkg-dev_1.22.6ubuntu6.6 g++-13_13.3.0-6ubuntu2~24.04.1 gcc-13_13.3.0-6ubuntu2~24.04.1 libc6-dev_2.39-0ubuntu8.12 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 linux-libc-dev_6.8.0-149.149
-Package versions: apt_2.8.4ubuntu0.1 autoconf_2.71-3 automake_1:1.16.5-1.3ubuntu1 autopoint_0.21-14ubuntu2 autotools-dev_20220109.1 base-files_13ubuntu10.5 base-passwd_3.6.3build1 bash_5.2.21-2ubuntu4 binutils_2.42-4ubuntu2.10 binutils-common_2.42-4ubuntu2.10 binutils-x86-64-linux-gnu_2.42-4ubuntu2.10 bsdextrautils_2.39.3-9ubuntu6.6 bsdutils_1:2.39.3-9ubuntu6.6 build-essential_12.10ubuntu1 bzip2_1.0.8-5.1ubuntu0.1 ca-certificates_20260816ubuntu0.24.04.2 catch2_3.4.0-1build1 ccache_4.9.1-1 cmake_3.28.3-1build7 cmake-data_3.28.3-1build7 coreutils_9.4-3ubuntu6.3 cpp_4:13.2.0-7ubuntu1 cpp-13_13.3.0-6ubuntu2~24.04.1 cpp-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 cpp-x86-64-linux-gnu_4:13.2.0-7ubuntu1 cppcheck_2.13.0-2ubuntu3 dash_0.5.12-6ubuntu5 debconf_1.5.86ubuntu1 debhelper_13.14.1ubuntu5 debianutils_5.17build1 debugedit_1:5.0-5build2 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.10-1ubuntu0.1 docutils-common_0.20.1+dfsg-3 dpkg_1.22.6ubuntu6.6 dpkg-dev_1.22.6ubuntu6.6 dwz_0.15-1build6 e2fsprogs_1.47.0-2.4~exp1ubuntu4.1 fakeroot_1.33-1 file_1:5.45-3build1 findutils_4.9.0-5build1 g++_4:13.2.0-7ubuntu1 g++-13_13.3.0-6ubuntu2~24.04.1 g++-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 g++-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gcc_4:13.2.0-7ubuntu1 gcc-13_13.3.0-6ubuntu2~24.04.1 gcc-13-base_13.3.0-6ubuntu2~24.04.1 gcc-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 gcc-14-base_14.2.0-4ubuntu2~24.04.1 gcc-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gettext_0.21-14ubuntu2 gettext-base_0.21-14ubuntu2 google-mock_1.14.0-1 googletest_1.14.0-1 gpgv_2.4.4-2ubuntu17.6 grep_3.11-4build1 groff-base_1.23.0-3build2 gzip_1.12-1ubuntu3.2 hostname_3.23+nmu2ubuntu2 init-system-helpers_1.66ubuntu1 intltool-debian_0.35.0+20060710.6 libacl1_2.3.2-1build1.1 libapt-pkg6.0t64_2.8.4ubuntu0.1 libarchive-zip-perl_1.68-1 libarchive13t64_3.7.2-2ubuntu0.9 libasan8_14.2.0-4ubuntu2~24.04.1 libassuan0_2.5.6-1build1 libatomic1_14.2.0-4ubuntu2~24.04.1 libattr1_1:2.5.2-1ubuntu0.1 libaudit-common_1:3.1.2-2.1ubuntu0.1 libaudit1_1:3.1.2-2.1ubuntu0.1 libbinutils_2.42-4ubuntu2.10 libblas3_3.12.0-3build1.1 libblkid1_2.39.3-9ubuntu6.6 libboost-dev_1.83.0.1ubuntu2 libboost1.83-dev_1.83.0-2.1ubuntu3.2 libbrotli1_1.1.0-2ubuntu0.1 libbsd0_0.12.1-1build1.1 libbz2-1.0_1.0.8-5.1ubuntu0.1 libc-bin_2.39-0ubuntu8.12 libc-dev-bin_2.39-0ubuntu8.12 libc6_2.39-0ubuntu8.12 libc6-dev_2.39-0ubuntu8.12 libcap-dev_1:2.66-5ubuntu2.4 libcap-ng0_0.8.4-2build2 libcap2_1:2.66-5ubuntu2.4 libcc1-0_14.2.0-4ubuntu2~24.04.1 libcom-err2_1.47.0-2.4~exp1ubuntu4.1 libconsole-bridge-dev_1.0.1+dfsg2-3build1 libconsole-bridge1.0_1.0.1+dfsg2-3build1 libcrypt-dev_1:4.4.36-4build1 libcrypt1_1:4.4.36-4build1 libctf-nobfd0_2.42-4ubuntu2.10 libctf0_2.42-4ubuntu2.10 libcurl4t64_8.5.0-2ubuntu10.16 libdb5.3t64_5.3.28+dfsg2-7 libdebconfclient0_0.271ubuntu3 libdebhelper-perl_13.14.1ubuntu5 libdpkg-perl_1.22.6ubuntu6.6 libdw-dev_0.190-1.1ubuntu0.1 libdw1t64_0.190-1.1ubuntu0.1 libedit2_3.1-20230828-1build1 libeigen3-dev_3.4.0-4build0.1 libelf-dev_0.190-1.1ubuntu0.1 libelf1t64_0.190-1.1ubuntu0.1 libexpat1_2.6.1-2ubuntu0.6 libexpat1-dev_2.6.1-2ubuntu0.6 libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1 libfakeroot_1.33-1 libffi8_3.4.6-1build1 libfile-stripnondeterminism-perl_1.13.1-1 libfmt-dev_9.1.0+ds1-2 libfmt9_9.1.0+ds1-2 libgcc-13-dev_13.3.0-6ubuntu2~24.04.1 libgcc-s1_14.2.0-4ubuntu2~24.04.1 libgcrypt20_1.10.3-2ubuntu0.2 libgdbm-compat4t64_1.23-5.1build1 libgdbm6t64_1.23-5.1build1 libgfortran5_14.2.0-4ubuntu2~24.04.1 libgmp10_2:6.3.0+dfsg-2ubuntu6.1 libgnutls30t64_3.8.3-1.1ubuntu3.6 libgomp1_14.2.0-4ubuntu2~24.04.1 libgpg-error0_1.47-3build2.1 libgprofng0_2.42-4ubuntu2.10 libgssapi-krb5-2_1.20.1-6ubuntu2.10 libgtest-dev_1.14.0-1 libhiredis1.1.0_1.2.0-6ubuntu3 libhogweed6t64_3.9.1-2.2build1.1 libhwasan0_14.2.0-4ubuntu2~24.04.1 libicu74_74.2-1ubuntu3.1 libidn2-0_2.3.7-2build1.1 libisl23_0.26-3build1.1 libitm1_14.2.0-4ubuntu2~24.04.1 libjansson4_2.14-2build2 libjs-jquery_3.6.1+dfsg+~3.5.14-1 libjs-sphinxdoc_7.2.6-6 libjs-underscore_1.13.4~dfsg+~1.11.4-3 libjsoncpp25_1.9.5-6build1 libk5crypto3_1.20.1-6ubuntu2.10 libkeyutils1_1.6.3-3build1 libkmod2_31+20240202-2ubuntu7.2 libkrb5-3_1.20.1-6ubuntu2.10 libkrb5support0_1.20.1-6ubuntu2.10 liblapack3_3.12.0-3build1.1 libldap2_2.6.10+dfsg-0ubuntu0.24.04.1 liblsan0_14.2.0-4ubuntu2~24.04.1 liblttng-ctl0t64_2.13.11-2.1build4 liblttng-ust-common1t64_2.13.7-1.1ubuntu2 liblttng-ust-ctl5t64_2.13.7-1.1ubuntu2 liblttng-ust-dev_2.13.7-1.1ubuntu2 liblttng-ust-python-agent1t64_2.13.7-1.1ubuntu2 liblttng-ust1t64_2.13.7-1.1ubuntu2 liblz4-1_1.9.4-1build1.1 liblzma-dev_5.6.1+really5.4.5-1ubuntu0.4 liblzma5_5.6.1+really5.4.5-1ubuntu0.4 libmagic-mgc_1:5.45-3build1 libmagic1t64_1:5.45-3build1 libmd0_1.1.0-2build1.1 libmount1_2.39.3-9ubuntu6.6 libmpc3_1.3.1-1build1.1 libmpfr6_4.2.1-1build1.1 libncurses6_6.4+20240113-1ubuntu2.2 libncursesw6_6.4+20240113-1ubuntu2.2 libnettle8t64_3.9.1-2.2build1.1 libnghttp2-14_1.59.0-1ubuntu0.4 libnpth0t64_1.6-3.1build1 libnuma1_2.0.18-1ubuntu0.24.04.1 libp11-kit0_0.25.3-4ubuntu2.2 libpam-modules_1.5.3-5ubuntu5.7 libpam-modules-bin_1.5.3-5ubuntu5.7 libpam-runtime_1.5.3-5ubuntu5.7 libpam0g_1.5.3-5ubuntu5.7 libpcre2-8-0_10.42-4ubuntu2.2 libperl5.38t64_5.38.2-3.2ubuntu0.7 libpipeline1_1.5.7-2 libpkgconf3_1.8.1-2build1 libpopt0_1.19+dfsg-1build1 libproc2-0_2:4.0.4-4ubuntu3.3 libpsl5t64_0.21.2-1.1build1 libpython3-dev_3.12.3-0ubuntu2.1 libpython3-stdlib_3.12.3-0ubuntu2.1 libpython3.12-dev_3.12.3-1ubuntu0.17 libpython3.12-minimal_3.12.3-1ubuntu0.17 libpython3.12-stdlib_3.12.3-1ubuntu0.17 libpython3.12t64_3.12.3-1ubuntu0.17 libquadmath0_14.2.0-4ubuntu2~24.04.1 libreadline8t64_8.2-4build1 librhash0_1.4.3-3build1 librtmp1_2.4+20151223.gitfa8646d.1-2build7 libruby_1:3.2~ubuntu1 libruby3.2_3.2.3-1ubuntu0.24.04.8 libsasl2-2_2.1.28+dfsg1-5ubuntu3.1 libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1 libseccomp2_2.5.5-1ubuntu3.1 libselinux1_3.5-2ubuntu2.1 libsemanage-common_3.5-1build5 libsemanage2_3.5-1build5 libsepol2_3.5-2build1 libsframe1_2.42-4ubuntu2.10 libsmartcols1_2.39.3-9ubuntu6.6 libspdlog-dev_1:1.12.0+ds-2build1 libspdlog1.12_1:1.12.0+ds-2build1 libsqlite3-0_3.45.1-1ubuntu2.9 libss2_1.47.0-2.4~exp1ubuntu4.1 libssh-4_0.10.6-2ubuntu0.5 libssl-dev_3.0.13-0ubuntu3.16 libssl3t64_3.0.13-0ubuntu3.16 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 libsub-override-perl_0.10-1 libsystemd0_255.4-1ubuntu8.18 libtasn1-6_4.19.0-3ubuntu0.24.04.2 libtinfo6_6.4+20240113-1ubuntu2.2 libtinyxml2-10_10.0.0+dfsg-2 libtinyxml2-dev_10.0.0+dfsg-2 libtool_2.4.7-7build1 libtsan2_14.2.0-4ubuntu2~24.04.1 libubsan1_14.2.0-4ubuntu2~24.04.1 libuchardet0_0.0.8-1build1 libudev1_255.4-1ubuntu8.18 libunistring5_1.1-2build1.1 liburcu-dev_0.14.0-3.1build1 liburcu8t64_0.14.0-3.1build1 liburdfdom-headers-dev_1.0.5-3 libuuid1_2.39.3-9ubuntu6.6 libuv1t64_1.48.0-1.1build1 libxml2_2.9.14+dfsg-1.3ubuntu3.10 libxxhash0_0.8.2-2build1 libyaml-0-2_0.2.5-1build1 libyaml-dev_0.2.5-1build1 libzstd-dev_1.5.5+dfsg2-2build1.1 libzstd1_1.5.5+dfsg2-2build1.1 linux-libc-dev_6.8.0-149.149 login_1:4.13+dfsg1-4ubuntu3.2 logsave_1.47.0-2.4~exp1ubuntu4.1 lto-disabled-list_47 lttng-tools_2.13.11-2.1build4 m4_1.4.19-4build1 make_4.3-4.1build2 man-db_2.12.0-4build2 mawk_1.3.4.20240123-1build1 media-types_10.1.0 mount_2.39.3-9ubuntu6.6 ncurses-base_6.4+20240113-1ubuntu2.2 ncurses-bin_6.4+20240113-1ubuntu2.2 netbase_6.4 openssl_3.0.13-0ubuntu3.16 passwd_1:4.13+dfsg1-4ubuntu3.2 patch_2.7.6-7build3 perl_5.38.2-3.2ubuntu0.7 perl-base_5.38.2-3.2ubuntu0.7 perl-modules-5.38_5.38.2-3.2ubuntu0.7 pkg-config_1.8.1-2build1 pkgconf_1.8.1-2build1 pkgconf-bin_1.8.1-2build1 po-debconf_1.0.21+nmu1 procps_2:4.0.4-4ubuntu3.3 pybind11-dev_2.11.1-2 pydocstyle_6.3.0-1.1 python3_3.12.3-0ubuntu2.1 python3-argcomplete_3.1.4-1ubuntu0.1 python3-catkin-pkg-modules_1.1.1-1 python3-dateutil_2.8.2-3ubuntu1 python3-dev_3.12.3-0ubuntu2.1 python3-docutils_0.20.1+dfsg-3 python3-empy_3.3.4-2 python3-flake8_7.0.0-1 python3-flake8-builtins_2.1.0-1 python3-flake8-comprehensions_3.14.0-1 python3-flake8-docstrings_1.6.0-2 python3-flake8-import-order_0.18.2-2 python3-flake8-quotes_3.4.0-1 python3-importlib-metadata_4.12.0-1 python3-iniconfig_1.1.1-2 python3-lark_1.1.9-1 python3-mccabe_0.7.0-1 python3-minimal_3.12.3-0ubuntu2.1 python3-more-itertools_10.2.0-1 python3-numpy_1:1.26.4+ds-6ubuntu1 python3-packaging_24.0-1 python3-pkg-resources_68.1.2-2ubuntu1.2 python3-pluggy_1.4.0-1 python3-pycodestyle_2.11.1-1 python3-pydocstyle_6.3.0-1.1 python3-pyflakes_3.2.0-1 python3-pygments_2.17.2+dfsg-1 python3-pyparsing_3.1.1-1 python3-pytest_7.4.4-1 python3-roman_3.3-3 python3-setuptools_68.1.2-2ubuntu1.2 python3-six_1.16.0-4 python3-snowballstemmer_2.2.0-4build1 python3-yaml_6.0.1-2build2 python3-zipp_1.0.0-6ubuntu0.1 python3.12_3.12.3-1ubuntu0.17 python3.12-dev_3.12.3-1ubuntu0.17 python3.12-minimal_3.12.3-1ubuntu0.17 rake_13.0.6-3 readline-common_8.2-4build1 ros-jazzy-action-msgs_2.0.4-1noble.20261105.051812 ros-jazzy-ament-cmake_2.5.7-1noble.20261025.225914 ros-jazzy-ament-cmake-auto_2.5.7-1noble.20261031.120940 ros-jazzy-ament-cmake-core_2.5.7-1noble.20261024.193249 ros-jazzy-ament-cmake-cppcheck_0.17.5-1noble.20261025.230313 ros-jazzy-ament-cmake-cpplint_0.17.5-1noble.20261025.230429 ros-jazzy-ament-cmake-export-definitions_2.5.7-1noble.20261025.200000 ros-jazzy-ament-cmake-export-dependencies_2.5.7-1noble.20261025.201752 ros-jazzy-ament-cmake-export-include-directories_2.5.7-1noble.20261025.195958 ros-jazzy-ament-cmake-export-interfaces_2.5.7-1noble.20261025.201729 ros-jazzy-ament-cmake-export-libraries_2.5.7-1noble.20261025.200044 ros-jazzy-ament-cmake-export-link-flags_2.5.7-1noble.20261025.200049 ros-jazzy-ament-cmake-export-targets_2.5.7-1noble.20261025.201824 ros-jazzy-ament-cmake-flake8_0.17.5-1noble.20261025.225921 ros-jazzy-ament-cmake-gen-version-h_2.5.7-1noble.20261025.200052 ros-jazzy-ament-cmake-gmock_2.5.7-1noble.20261025.230715 ros-jazzy-ament-cmake-gtest_2.5.7-1noble.20261025.230436 ros-jazzy-ament-cmake-include-directories_2.5.7-1noble.20261025.200108 ros-jazzy-ament-cmake-libraries_2.5.7-1noble.20261025.200118 ros-jazzy-ament-cmake-pep257_0.17.5-1noble.20261025.225946 ros-jazzy-ament-cmake-pytest_2.5.7-1noble.20261025.230611 ros-jazzy-ament-cmake-python_2.5.7-1noble.20261025.200156 ros-jazzy-ament-cmake-ros_0.12.2-1noble.20261031.121514 ros-jazzy-ament-cmake-target-dependencies_2.5.7-1noble.20261025.201826 ros-jazzy-ament-cmake-test_2.5.7-1noble.20261025.201953 ros-jazzy-ament-cmake-uncrustify_0.17.5-1noble.20261031.121002 ros-jazzy-ament-cmake-version_2.5.7-1noble.20261025.200158 ros-jazzy-ament-cppcheck_0.17.5-1noble.20260410.080408 ros-jazzy-ament-cpplint_0.17.5-1noble.20260410.080348 ros-jazzy-ament-flake8_0.17.5-1noble.20260410.113507 ros-jazzy-ament-index-cpp_1.8.4-1noble.20261025.230122 ros-jazzy-ament-index-python_1.8.4-1noble.20260519.010916 ros-jazzy-ament-lint_0.17.5-1noble.20260410.080358 ros-jazzy-ament-package_0.16.5-1noble.20260121.174946 ros-jazzy-ament-pep257_0.17.5-1noble.20260410.113520 ros-jazzy-ament-uncrustify_0.17.5-1noble.20260410.080359 ros-jazzy-backward-ros_1.0.8-1noble.20260225.051215 ros-jazzy-builtin-interfaces_2.0.4-1noble.20261104.171803 ros-jazzy-class-loader_2.7.1-1noble.20261031.122417 ros-jazzy-console-bridge-vendor_1.7.2-1noble.20260603.150411 ros-jazzy-control-msgs_5.11.0-1noble.20261105.065814 ros-jazzy-domain-coordinator_0.12.2-1noble.20260911.044440 ros-jazzy-fastcdr_2.2.8-1noble.20260901.205404 ros-jazzy-fastrtps_2.14.7-1noble.20260911.035053 ros-jazzy-fastrtps-cmake-module_3.6.4-1noble.20260603.150331 ros-jazzy-foonathan-memory-vendor_1.3.1-3noble.20260225.055155 ros-jazzy-geometry-msgs_5.3.8-1noble.20261105.055127 ros-jazzy-gmock-vendor_1.14.9000-2noble.20260225.143751 ros-jazzy-gtest-vendor_1.14.9000-2noble.20260225.055309 ros-jazzy-gz-cmake-vendor_0.0.12-1noble.20261025.230435 ros-jazzy-gz-math-vendor_0.0.11-1noble.20261025.231053 ros-jazzy-gz-tools-vendor_0.0.8-1noble.20261025.230735 ros-jazzy-gz-utils-vendor_0.0.5-1noble.20261025.230754 ros-jazzy-hardware-interface_4.50.0-1noble.20261105.130006 ros-jazzy-joint-limits_4.50.0-1noble.20261105.103758 ros-jazzy-libstatistics-collector_1.7.4-1noble.20261105.084333 ros-jazzy-libyaml-vendor_1.6.4-2noble.20260603.150356 ros-jazzy-lifecycle-msgs_2.0.4-1noble.20261105.053320 ros-jazzy-pal-statistics_2.8.2-1noble.20261105.091426 ros-jazzy-pal-statistics-msgs_2.8.2-1noble.20261105.054408 ros-jazzy-pluginlib_5.4.6-1noble.20261031.122708 ros-jazzy-python-cmake-module_0.11.1-2noble.20260226.000327 ros-jazzy-rcl_9.2.11-1noble.20261105.083913 ros-jazzy-rcl-action_9.2.11-1noble.20261105.084244 ros-jazzy-rcl-interfaces_2.0.4-1noble.20261105.053447 ros-jazzy-rcl-lifecycle_9.2.11-1noble.20261105.084252 ros-jazzy-rcl-logging-interface_3.1.1-1noble.20261031.122133 ros-jazzy-rcl-logging-spdlog_3.1.1-1noble.20261031.122410 ros-jazzy-rcl-yaml-param-parser_9.2.11-1noble.20261104.170930 ros-jazzy-rclcpp_28.1.23-1noble.20261105.084818 ros-jazzy-rclcpp-action_28.1.23-1noble.20261105.102757 ros-jazzy-rclcpp-lifecycle_28.1.23-1noble.20261105.085939 ros-jazzy-rclpy_7.1.13-1noble.20261105.084753 ros-jazzy-rcpputils_2.11.4-1noble.20261031.122131 ros-jazzy-rcutils_6.7.7-1noble.20261031.121858 ros-jazzy-realtime-tools_3.14.1-1noble.20261105.103417 ros-jazzy-rmw_7.3.4-1noble.20261104.092047 ros-jazzy-rmw-dds-common_3.1.1-1noble.20261105.053553 ros-jazzy-rmw-fastrtps-cpp_8.4.5-1noble.20261105.065411 ros-jazzy-rmw-fastrtps-shared-cpp_8.4.5-1noble.20261105.063410 ros-jazzy-rmw-implementation_2.15.7-1noble.20261105.083506 ros-jazzy-rmw-implementation-cmake_7.3.4-1noble.20261031.121243 ros-jazzy-ros-workspace_1.0.3-7noble.20260224.191628 ros-jazzy-rosgraph-msgs_2.0.4-1noble.20261105.054006 ros-jazzy-rosidl-adapter_4.6.10-1noble.20261103.144927 ros-jazzy-rosidl-cli_4.6.10-1noble.20261103.144109 ros-jazzy-rosidl-cmake_4.6.10-1noble.20261103.204039 ros-jazzy-rosidl-core-runtime_0.2.1-1noble.20261104.171211 ros-jazzy-rosidl-default-runtime_1.6.1-1noble.20261105.052217 ros-jazzy-rosidl-dynamic-typesupport_0.1.2-3noble.20261104.091531 ros-jazzy-rosidl-dynamic-typesupport-fastrtps_0.1.0-3noble.20261104.091828 ros-jazzy-rosidl-generator-c_4.6.10-1noble.20261104.081142 ros-jazzy-rosidl-generator-cpp_4.6.10-1noble.20261104.091921 ros-jazzy-rosidl-generator-py_0.22.2-1noble.20261104.170349 ros-jazzy-rosidl-generator-type-description_4.6.10-1noble.20261103.162049 ros-jazzy-rosidl-parser_4.6.10-1noble.20261103.145923 ros-jazzy-rosidl-pycommon_4.6.10-1noble.20261103.161734 ros-jazzy-rosidl-runtime-c_4.6.10-1noble.20261104.081319 ros-jazzy-rosidl-runtime-cpp_4.6.10-1noble.20261104.091418 ros-jazzy-rosidl-typesupport-c_3.2.3-1noble.20261104.091547 ros-jazzy-rosidl-typesupport-cpp_3.2.3-1noble.20261104.170227 ros-jazzy-rosidl-typesupport-fastrtps-c_3.6.4-1noble.20261104.170915 ros-jazzy-rosidl-typesupport-fastrtps-cpp_3.6.4-1noble.20261104.170319 ros-jazzy-rosidl-typesupport-interface_4.6.10-1noble.20261104.080519 ros-jazzy-rosidl-typesupport-introspection-c_4.6.10-1noble.20261104.091111 ros-jazzy-rosidl-typesupport-introspection-cpp_4.6.10-1noble.20261104.092402 ros-jazzy-rpyutils_0.4.2-1noble.20260225.142204 ros-jazzy-sdformat-urdf_1.0.2-1noble.20261031.123456 ros-jazzy-sdformat-vendor_0.0.14-1noble.20261031.120928 ros-jazzy-sensor-msgs_5.3.8-1noble.20261105.060814 ros-jazzy-service-msgs_2.0.4-1noble.20261104.172346 ros-jazzy-spdlog-vendor_1.6.2-1noble.20260603.150612 ros-jazzy-statistics-msgs_2.0.4-1noble.20261105.053737 ros-jazzy-std-msgs_5.3.8-1noble.20261105.053803 ros-jazzy-tinyxml2-vendor_0.9.2-1noble.20260225.230621 ros-jazzy-tracetools_8.2.6-1noble.20261031.121956 ros-jazzy-trajectory-msgs_5.3.8-1noble.20261105.060952 ros-jazzy-type-description-interfaces_2.0.4-1noble.20261105.051836 ros-jazzy-uncrustify-vendor_3.0.1-1noble.20260225.230730 ros-jazzy-unique-identifier-msgs_2.5.1-1noble.20261104.171806 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.16.19.59 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.16.19.59 ros-jazzy-urdf_2.10.1-2noble.20261031.123217 ros-jazzy-urdf-parser-plugin_2.10.1-2noble.20261031.122018 ros-jazzy-urdfdom_4.0.2-1noble.20260603.151654 ros-jazzy-urdfdom-headers_1.1.3-1noble.20260603.150728 rpcsvc-proto_1.4.2-0ubuntu7 ruby_1:3.2~ubuntu1 ruby-net-telnet_0.2.0-1 ruby-rubygems_3.4.20-1 ruby-sdbm_1.0.0-5build4 ruby-webrick_1.8.1-1ubuntu0.2 ruby-xmlrpc_0.3.2-2 ruby3.2_3.2.3-1ubuntu0.24.04.8 rubygems-integration_1.18 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-2ubuntu0.24.04.1 sensible-utils_0.0.22 sgml-base_1.31 sysvinit-utils_3.08-6ubuntu3 tar_1.35+dfsg-3ubuntu0.4 tzdata_2026e-0ubuntu0.24.04.1 ubuntu-keyring_2023.11.28.1 uncrustify_0.78.1+dfsg1-1 util-linux_2.39.3-9ubuntu6.6 uuid-dev_2.39.3-9ubuntu6.6 xml-core_0.19 xz-utils_5.6.1+really5.4.5-1ubuntu0.4 zlib1g_1:1.3.dfsg-3.1ubuntu2.3 zlib1g-dev_1:1.3.dfsg-3.1ubuntu2.3
+Toolchain package versions: binutils_2.42-4ubuntu2.10 dpkg-dev_1.22.6ubuntu6.6 g++-13_13.3.0-6ubuntu2~24.04.1 gcc-13_13.3.0-6ubuntu2~24.04.1 libc6-dev_2.39-0ubuntu8.12 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 linux-libc-dev_6.8.0-151.151
+Package versions: apt_2.8.4ubuntu0.1 autoconf_2.71-3 automake_1:1.16.5-1.3ubuntu1 autopoint_0.21-14ubuntu2 autotools-dev_20220109.1 base-files_13ubuntu10.5 base-passwd_3.6.3build1 bash_5.2.21-2ubuntu4 binutils_2.42-4ubuntu2.10 binutils-common_2.42-4ubuntu2.10 binutils-x86-64-linux-gnu_2.42-4ubuntu2.10 bsdextrautils_2.39.3-9ubuntu6.6 bsdutils_1:2.39.3-9ubuntu6.6 build-essential_12.10ubuntu1 bzip2_1.0.8-5.1ubuntu0.1 ca-certificates_20260816ubuntu0.24.04.2 catch2_3.4.0-1build1 ccache_4.9.1-1 cmake_3.28.3-1build7 cmake-data_3.28.3-1build7 coreutils_9.4-3ubuntu6.3 cpp_4:13.2.0-7ubuntu1 cpp-13_13.3.0-6ubuntu2~24.04.1 cpp-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 cpp-x86-64-linux-gnu_4:13.2.0-7ubuntu1 cppcheck_2.13.0-2ubuntu3 dash_0.5.12-6ubuntu5 debconf_1.5.86ubuntu1 debhelper_13.14.1ubuntu5 debianutils_5.17build1 debugedit_1:5.0-5build2 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.10-1ubuntu0.1 docutils-common_0.20.1+dfsg-3 dpkg_1.22.6ubuntu6.6 dpkg-dev_1.22.6ubuntu6.6 dwz_0.15-1build6 e2fsprogs_1.47.0-2.4~exp1ubuntu4.1 fakeroot_1.33-1 file_1:5.45-3build1 findutils_4.9.0-5build1 g++_4:13.2.0-7ubuntu1 g++-13_13.3.0-6ubuntu2~24.04.1 g++-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 g++-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gcc_4:13.2.0-7ubuntu1 gcc-13_13.3.0-6ubuntu2~24.04.1 gcc-13-base_13.3.0-6ubuntu2~24.04.1 gcc-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1 gcc-14-base_14.2.0-4ubuntu2~24.04.1 gcc-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gettext_0.21-14ubuntu2 gettext-base_0.21-14ubuntu2 google-mock_1.14.0-1 googletest_1.14.0-1 gpgv_2.4.4-2ubuntu17.6 grep_3.11-4build1 groff-base_1.23.0-3build2 gzip_1.12-1ubuntu3.2 hostname_3.23+nmu2ubuntu2 init-system-helpers_1.66ubuntu1 intltool-debian_0.35.0+20060710.6 libacl1_2.3.2-1build1.1 libapt-pkg6.0t64_2.8.4ubuntu0.1 libarchive-zip-perl_1.68-1 libarchive13t64_3.7.2-2ubuntu0.9 libasan8_14.2.0-4ubuntu2~24.04.1 libassuan0_2.5.6-1build1 libatomic1_14.2.0-4ubuntu2~24.04.1 libattr1_1:2.5.2-1ubuntu0.1 libaudit-common_1:3.1.2-2.1ubuntu0.1 libaudit1_1:3.1.2-2.1ubuntu0.1 libbinutils_2.42-4ubuntu2.10 libblas3_3.12.0-3build1.1 libblkid1_2.39.3-9ubuntu6.6 libboost-dev_1.83.0.1ubuntu2 libboost1.83-dev_1.83.0-2.1ubuntu3.2 libbrotli1_1.1.0-2ubuntu0.1 libbsd0_0.12.1-1build1.1 libbz2-1.0_1.0.8-5.1ubuntu0.1 libc-bin_2.39-0ubuntu8.12 libc-dev-bin_2.39-0ubuntu8.12 libc6_2.39-0ubuntu8.12 libc6-dev_2.39-0ubuntu8.12 libcap-dev_1:2.66-5ubuntu2.4 libcap-ng0_0.8.4-2build2 libcap2_1:2.66-5ubuntu2.4 libcc1-0_14.2.0-4ubuntu2~24.04.1 libcom-err2_1.47.0-2.4~exp1ubuntu4.1 libconsole-bridge-dev_1.0.1+dfsg2-3build1 libconsole-bridge1.0_1.0.1+dfsg2-3build1 libcrypt-dev_1:4.4.36-4build1 libcrypt1_1:4.4.36-4build1 libctf-nobfd0_2.42-4ubuntu2.10 libctf0_2.42-4ubuntu2.10 libcurl4t64_8.5.0-2ubuntu10.16 libdb5.3t64_5.3.28+dfsg2-7 libdebconfclient0_0.271ubuntu3 libdebhelper-perl_13.14.1ubuntu5 libdpkg-perl_1.22.6ubuntu6.6 libdw-dev_0.190-1.1ubuntu0.1 libdw1t64_0.190-1.1ubuntu0.1 libedit2_3.1-20230828-1build1 libeigen3-dev_3.4.0-4build0.1 libelf-dev_0.190-1.1ubuntu0.1 libelf1t64_0.190-1.1ubuntu0.1 libexpat1_2.6.1-2ubuntu0.6 libexpat1-dev_2.6.1-2ubuntu0.6 libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1 libfakeroot_1.33-1 libffi8_3.4.6-1build1 libfile-stripnondeterminism-perl_1.13.1-1 libfmt-dev_9.1.0+ds1-2 libfmt9_9.1.0+ds1-2 libgcc-13-dev_13.3.0-6ubuntu2~24.04.1 libgcc-s1_14.2.0-4ubuntu2~24.04.1 libgcrypt20_1.10.3-2ubuntu0.2 libgdbm-compat4t64_1.23-5.1build1 libgdbm6t64_1.23-5.1build1 libgfortran5_14.2.0-4ubuntu2~24.04.1 libgmp10_2:6.3.0+dfsg-2ubuntu6.1 libgnutls30t64_3.8.3-1.1ubuntu3.6 libgomp1_14.2.0-4ubuntu2~24.04.1 libgpg-error0_1.47-3build2.1 libgprofng0_2.42-4ubuntu2.10 libgssapi-krb5-2_1.20.1-6ubuntu2.10 libgtest-dev_1.14.0-1 libhiredis1.1.0_1.2.0-6ubuntu3 libhogweed6t64_3.9.1-2.2build1.1 libhwasan0_14.2.0-4ubuntu2~24.04.1 libicu74_74.2-1ubuntu3.1 libidn2-0_2.3.7-2build1.1 libisl23_0.26-3build1.1 libitm1_14.2.0-4ubuntu2~24.04.1 libjansson4_2.14-2build2 libjs-jquery_3.6.1+dfsg+~3.5.14-1 libjs-sphinxdoc_7.2.6-6 libjs-underscore_1.13.4~dfsg+~1.11.4-3 libjsoncpp25_1.9.5-6build1 libk5crypto3_1.20.1-6ubuntu2.10 libkeyutils1_1.6.3-3build1 libkmod2_31+20240202-2ubuntu7.2 libkrb5-3_1.20.1-6ubuntu2.10 libkrb5support0_1.20.1-6ubuntu2.10 liblapack3_3.12.0-3build1.1 libldap2_2.6.10+dfsg-0ubuntu0.24.04.1 liblsan0_14.2.0-4ubuntu2~24.04.1 liblttng-ctl0t64_2.13.11-2.1build4 liblttng-ust-common1t64_2.13.7-1.1ubuntu2 liblttng-ust-ctl5t64_2.13.7-1.1ubuntu2 liblttng-ust-dev_2.13.7-1.1ubuntu2 liblttng-ust-python-agent1t64_2.13.7-1.1ubuntu2 liblttng-ust1t64_2.13.7-1.1ubuntu2 liblz4-1_1.9.4-1build1.1 liblzma-dev_5.6.1+really5.4.5-1ubuntu0.4 liblzma5_5.6.1+really5.4.5-1ubuntu0.4 libmagic-mgc_1:5.45-3build1 libmagic1t64_1:5.45-3build1 libmd0_1.1.0-2build1.1 libmount1_2.39.3-9ubuntu6.6 libmpc3_1.3.1-1build1.1 libmpfr6_4.2.1-1build1.1 libncurses6_6.4+20240113-1ubuntu2.2 libncursesw6_6.4+20240113-1ubuntu2.2 libnettle8t64_3.9.1-2.2build1.1 libnghttp2-14_1.59.0-1ubuntu0.4 libnpth0t64_1.6-3.1build1 libnuma1_2.0.18-1ubuntu0.24.04.1 libp11-kit0_0.25.3-4ubuntu2.2 libpam-modules_1.5.3-5ubuntu5.7 libpam-modules-bin_1.5.3-5ubuntu5.7 libpam-runtime_1.5.3-5ubuntu5.7 libpam0g_1.5.3-5ubuntu5.7 libpcre2-8-0_10.42-4ubuntu2.2 libperl5.38t64_5.38.2-3.2ubuntu0.7 libpipeline1_1.5.7-2 libpkgconf3_1.8.1-2build1 libpopt0_1.19+dfsg-1build1 libproc2-0_2:4.0.4-4ubuntu3.3 libpsl5t64_0.21.2-1.1build1 libpython3-dev_3.12.3-0ubuntu2.1 libpython3-stdlib_3.12.3-0ubuntu2.1 libpython3.12-dev_3.12.3-1ubuntu0.17 libpython3.12-minimal_3.12.3-1ubuntu0.17 libpython3.12-stdlib_3.12.3-1ubuntu0.17 libpython3.12t64_3.12.3-1ubuntu0.17 libquadmath0_14.2.0-4ubuntu2~24.04.1 libreadline8t64_8.2-4build1 librhash0_1.4.3-3build1 librtmp1_2.4+20151223.gitfa8646d.1-2build7 libruby_1:3.2~ubuntu1 libruby3.2_3.2.3-1ubuntu0.24.04.8 libsasl2-2_2.1.28+dfsg1-5ubuntu3.1 libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1 libseccomp2_2.5.5-1ubuntu3.1 libselinux1_3.5-2ubuntu2.1 libsemanage-common_3.5-1build5 libsemanage2_3.5-1build5 libsepol2_3.5-2build1 libsframe1_2.42-4ubuntu2.10 libsmartcols1_2.39.3-9ubuntu6.6 libspdlog-dev_1:1.12.0+ds-2build1 libspdlog1.12_1:1.12.0+ds-2build1 libsqlite3-0_3.45.1-1ubuntu2.9 libss2_1.47.0-2.4~exp1ubuntu4.1 libssh-4_0.10.6-2ubuntu0.5 libssl-dev_3.0.13-0ubuntu3.16 libssl3t64_3.0.13-0ubuntu3.16 libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1 libstdc++6_14.2.0-4ubuntu2~24.04.1 libsub-override-perl_0.10-1 libsystemd0_255.4-1ubuntu8.18 libtasn1-6_4.19.0-3ubuntu0.24.04.2 libtinfo6_6.4+20240113-1ubuntu2.2 libtinyxml2-10_10.0.0+dfsg-2 libtinyxml2-dev_10.0.0+dfsg-2 libtool_2.4.7-7build1 libtsan2_14.2.0-4ubuntu2~24.04.1 libubsan1_14.2.0-4ubuntu2~24.04.1 libuchardet0_0.0.8-1build1 libudev1_255.4-1ubuntu8.18 libunistring5_1.1-2build1.1 liburcu-dev_0.14.0-3.1build1 liburcu8t64_0.14.0-3.1build1 liburdfdom-headers-dev_1.0.5-3 libuuid1_2.39.3-9ubuntu6.6 libuv1t64_1.48.0-1.1build1 libxml2_2.9.14+dfsg-1.3ubuntu3.10 libxxhash0_0.8.2-2build1 libyaml-0-2_0.2.5-1build1 libyaml-dev_0.2.5-1build1 libzstd-dev_1.5.5+dfsg2-2build1.1 libzstd1_1.5.5+dfsg2-2build1.1 linux-libc-dev_6.8.0-151.151 login_1:4.13+dfsg1-4ubuntu3.2 logsave_1.47.0-2.4~exp1ubuntu4.1 lto-disabled-list_47 lttng-tools_2.13.11-2.1build4 m4_1.4.19-4build1 make_4.3-4.1build2 man-db_2.12.0-4build2 mawk_1.3.4.20240123-1build1 media-types_10.1.0 mount_2.39.3-9ubuntu6.6 ncurses-base_6.4+20240113-1ubuntu2.2 ncurses-bin_6.4+20240113-1ubuntu2.2 netbase_6.4 openssl_3.0.13-0ubuntu3.16 passwd_1:4.13+dfsg1-4ubuntu3.2 patch_2.7.6-7build3 perl_5.38.2-3.2ubuntu0.7 perl-base_5.38.2-3.2ubuntu0.7 perl-modules-5.38_5.38.2-3.2ubuntu0.7 pkg-config_1.8.1-2build1 pkgconf_1.8.1-2build1 pkgconf-bin_1.8.1-2build1 po-debconf_1.0.21+nmu1 procps_2:4.0.4-4ubuntu3.3 pybind11-dev_2.11.1-2 pydocstyle_6.3.0-1.1 python3_3.12.3-0ubuntu2.1 python3-argcomplete_3.1.4-1ubuntu0.1 python3-catkin-pkg-modules_1.1.1-1 python3-dateutil_2.8.2-3ubuntu1 python3-dev_3.12.3-0ubuntu2.1 python3-docutils_0.20.1+dfsg-3 python3-empy_3.3.4-2 python3-flake8_7.0.0-1 python3-flake8-builtins_2.1.0-1 python3-flake8-comprehensions_3.14.0-1 python3-flake8-docstrings_1.6.0-2 python3-flake8-import-order_0.18.2-2 python3-flake8-quotes_3.4.0-1 python3-importlib-metadata_4.12.0-1 python3-iniconfig_1.1.1-2 python3-lark_1.1.9-1 python3-mccabe_0.7.0-1 python3-minimal_3.12.3-0ubuntu2.1 python3-more-itertools_10.2.0-1 python3-numpy_1:1.26.4+ds-6ubuntu1 python3-packaging_24.0-1 python3-pkg-resources_68.1.2-2ubuntu1.2 python3-pluggy_1.4.0-1 python3-pycodestyle_2.11.1-1 python3-pydocstyle_6.3.0-1.1 python3-pyflakes_3.2.0-1 python3-pygments_2.17.2+dfsg-1 python3-pyparsing_3.1.1-1 python3-pytest_7.4.4-1 python3-roman_3.3-3 python3-setuptools_68.1.2-2ubuntu1.2 python3-six_1.16.0-4 python3-snowballstemmer_2.2.0-4build1 python3-yaml_6.0.1-2build2 python3-zipp_1.0.0-6ubuntu0.1 python3.12_3.12.3-1ubuntu0.17 python3.12-dev_3.12.3-1ubuntu0.17 python3.12-minimal_3.12.3-1ubuntu0.17 rake_13.0.6-3 readline-common_8.2-4build1 ros-jazzy-action-msgs_2.0.4-1noble.20261105.051812 ros-jazzy-ament-cmake_2.5.7-1noble.20261025.225914 ros-jazzy-ament-cmake-auto_2.5.7-1noble.20261031.120940 ros-jazzy-ament-cmake-core_2.5.7-1noble.20261024.193249 ros-jazzy-ament-cmake-cppcheck_0.17.5-1noble.20261025.230313 ros-jazzy-ament-cmake-cpplint_0.17.5-1noble.20261025.230429 ros-jazzy-ament-cmake-export-definitions_2.5.7-1noble.20261025.200000 ros-jazzy-ament-cmake-export-dependencies_2.5.7-1noble.20261025.201752 ros-jazzy-ament-cmake-export-include-directories_2.5.7-1noble.20261025.195958 ros-jazzy-ament-cmake-export-interfaces_2.5.7-1noble.20261025.201729 ros-jazzy-ament-cmake-export-libraries_2.5.7-1noble.20261025.200044 ros-jazzy-ament-cmake-export-link-flags_2.5.7-1noble.20261025.200049 ros-jazzy-ament-cmake-export-targets_2.5.7-1noble.20261025.201824 ros-jazzy-ament-cmake-flake8_0.17.5-1noble.20261025.225921 ros-jazzy-ament-cmake-gen-version-h_2.5.7-1noble.20261025.200052 ros-jazzy-ament-cmake-gmock_2.5.7-1noble.20261025.230715 ros-jazzy-ament-cmake-gtest_2.5.7-1noble.20261025.230436 ros-jazzy-ament-cmake-include-directories_2.5.7-1noble.20261025.200108 ros-jazzy-ament-cmake-libraries_2.5.7-1noble.20261025.200118 ros-jazzy-ament-cmake-pep257_0.17.5-1noble.20261025.225946 ros-jazzy-ament-cmake-pytest_2.5.7-1noble.20261025.230611 ros-jazzy-ament-cmake-python_2.5.7-1noble.20261025.200156 ros-jazzy-ament-cmake-ros_0.12.2-1noble.20261031.121514 ros-jazzy-ament-cmake-target-dependencies_2.5.7-1noble.20261025.201826 ros-jazzy-ament-cmake-test_2.5.7-1noble.20261025.201953 ros-jazzy-ament-cmake-uncrustify_0.17.5-1noble.20261031.121002 ros-jazzy-ament-cmake-version_2.5.7-1noble.20261025.200158 ros-jazzy-ament-cppcheck_0.17.5-1noble.20260410.080408 ros-jazzy-ament-cpplint_0.17.5-1noble.20260410.080348 ros-jazzy-ament-flake8_0.17.5-1noble.20260410.113507 ros-jazzy-ament-index-cpp_1.8.4-1noble.20261025.230122 ros-jazzy-ament-index-python_1.8.4-1noble.20260519.010916 ros-jazzy-ament-lint_0.17.5-1noble.20260410.080358 ros-jazzy-ament-package_0.16.5-1noble.20260121.174946 ros-jazzy-ament-pep257_0.17.5-1noble.20260410.113520 ros-jazzy-ament-uncrustify_0.17.5-1noble.20260410.080359 ros-jazzy-backward-ros_1.0.8-1noble.20260225.051215 ros-jazzy-builtin-interfaces_2.0.4-1noble.20261104.171803 ros-jazzy-class-loader_2.7.1-1noble.20261031.122417 ros-jazzy-console-bridge-vendor_1.7.2-1noble.20260603.150411 ros-jazzy-control-msgs_5.11.0-1noble.20261105.065814 ros-jazzy-domain-coordinator_0.12.2-1noble.20260911.044440 ros-jazzy-fastcdr_2.2.8-1noble.20260901.205404 ros-jazzy-fastrtps_2.14.7-1noble.20260911.035053 ros-jazzy-fastrtps-cmake-module_3.6.4-1noble.20260603.150331 ros-jazzy-foonathan-memory-vendor_1.3.1-3noble.20260225.055155 ros-jazzy-geometry-msgs_5.3.8-1noble.20261105.055127 ros-jazzy-gmock-vendor_1.14.9000-2noble.20260225.143751 ros-jazzy-gtest-vendor_1.14.9000-2noble.20260225.055309 ros-jazzy-gz-cmake-vendor_0.0.12-1noble.20261025.230435 ros-jazzy-gz-math-vendor_0.0.11-1noble.20261025.231053 ros-jazzy-gz-tools-vendor_0.0.8-1noble.20261025.230735 ros-jazzy-gz-utils-vendor_0.0.5-1noble.20261025.230754 ros-jazzy-hardware-interface_4.50.0-1noble.20261105.130006 ros-jazzy-joint-limits_4.50.0-1noble.20261105.103758 ros-jazzy-libstatistics-collector_1.7.4-1noble.20261105.084333 ros-jazzy-libyaml-vendor_1.6.4-2noble.20260603.150356 ros-jazzy-lifecycle-msgs_2.0.4-1noble.20261105.053320 ros-jazzy-pal-statistics_2.8.2-1noble.20261105.091426 ros-jazzy-pal-statistics-msgs_2.8.2-1noble.20261105.054408 ros-jazzy-pluginlib_5.4.6-1noble.20261031.122708 ros-jazzy-python-cmake-module_0.11.1-2noble.20260226.000327 ros-jazzy-rcl_9.2.11-1noble.20261105.083913 ros-jazzy-rcl-action_9.2.11-1noble.20261105.084244 ros-jazzy-rcl-interfaces_2.0.4-1noble.20261105.053447 ros-jazzy-rcl-lifecycle_9.2.11-1noble.20261105.084252 ros-jazzy-rcl-logging-interface_3.1.1-1noble.20261031.122133 ros-jazzy-rcl-logging-spdlog_3.1.1-1noble.20261031.122410 ros-jazzy-rcl-yaml-param-parser_9.2.11-1noble.20261104.170930 ros-jazzy-rclcpp_28.1.23-1noble.20261105.084818 ros-jazzy-rclcpp-action_28.1.23-1noble.20261105.102757 ros-jazzy-rclcpp-lifecycle_28.1.23-1noble.20261105.085939 ros-jazzy-rclpy_7.1.13-1noble.20261105.084753 ros-jazzy-rcpputils_2.11.4-1noble.20261031.122131 ros-jazzy-rcutils_6.7.7-1noble.20261031.121858 ros-jazzy-realtime-tools_3.14.1-1noble.20261105.103417 ros-jazzy-rmw_7.3.4-1noble.20261104.092047 ros-jazzy-rmw-dds-common_3.1.1-1noble.20261105.053553 ros-jazzy-rmw-fastrtps-cpp_8.4.5-1noble.20261105.065411 ros-jazzy-rmw-fastrtps-shared-cpp_8.4.5-1noble.20261105.063410 ros-jazzy-rmw-implementation_2.15.7-1noble.20261105.083506 ros-jazzy-rmw-implementation-cmake_7.3.4-1noble.20261031.121243 ros-jazzy-ros-workspace_1.0.3-7noble.20260224.191628 ros-jazzy-rosgraph-msgs_2.0.4-1noble.20261105.054006 ros-jazzy-rosidl-adapter_4.6.10-1noble.20261103.144927 ros-jazzy-rosidl-cli_4.6.10-1noble.20261103.144109 ros-jazzy-rosidl-cmake_4.6.10-1noble.20261103.204039 ros-jazzy-rosidl-core-runtime_0.2.1-1noble.20261104.171211 ros-jazzy-rosidl-default-runtime_1.6.1-1noble.20261105.052217 ros-jazzy-rosidl-dynamic-typesupport_0.1.2-3noble.20261104.091531 ros-jazzy-rosidl-dynamic-typesupport-fastrtps_0.1.0-3noble.20261104.091828 ros-jazzy-rosidl-generator-c_4.6.10-1noble.20261104.081142 ros-jazzy-rosidl-generator-cpp_4.6.10-1noble.20261104.091921 ros-jazzy-rosidl-generator-py_0.22.2-1noble.20261104.170349 ros-jazzy-rosidl-generator-type-description_4.6.10-1noble.20261103.162049 ros-jazzy-rosidl-parser_4.6.10-1noble.20261103.145923 ros-jazzy-rosidl-pycommon_4.6.10-1noble.20261103.161734 ros-jazzy-rosidl-runtime-c_4.6.10-1noble.20261104.081319 ros-jazzy-rosidl-runtime-cpp_4.6.10-1noble.20261104.091418 ros-jazzy-rosidl-typesupport-c_3.2.3-1noble.20261104.091547 ros-jazzy-rosidl-typesupport-cpp_3.2.3-1noble.20261104.170227 ros-jazzy-rosidl-typesupport-fastrtps-c_3.6.4-1noble.20261104.170915 ros-jazzy-rosidl-typesupport-fastrtps-cpp_3.6.4-1noble.20261104.170319 ros-jazzy-rosidl-typesupport-interface_4.6.10-1noble.20261104.080519 ros-jazzy-rosidl-typesupport-introspection-c_4.6.10-1noble.20261104.091111 ros-jazzy-rosidl-typesupport-introspection-cpp_4.6.10-1noble.20261104.092402 ros-jazzy-rpyutils_0.4.2-1noble.20260225.142204 ros-jazzy-sdformat-urdf_1.0.2-1noble.20261031.123456 ros-jazzy-sdformat-vendor_0.0.14-1noble.20261031.120928 ros-jazzy-sensor-msgs_5.3.8-1noble.20261105.060814 ros-jazzy-service-msgs_2.0.4-1noble.20261104.172346 ros-jazzy-spdlog-vendor_1.6.2-1noble.20260603.150612 ros-jazzy-statistics-msgs_2.0.4-1noble.20261105.053737 ros-jazzy-std-msgs_5.3.8-1noble.20261105.053803 ros-jazzy-tinyxml2-vendor_0.9.2-1noble.20260225.230621 ros-jazzy-tracetools_8.2.6-1noble.20261031.121956 ros-jazzy-trajectory-msgs_5.3.8-1noble.20261105.060952 ros-jazzy-type-description-interfaces_2.0.4-1noble.20261105.051836 ros-jazzy-uncrustify-vendor_3.0.1-1noble.20260225.230730 ros-jazzy-unique-identifier-msgs_2.5.1-1noble.20261104.171806 ros-jazzy-unitree-sdk1-ament_1.3.0-2026.11.19.18.47 ros-jazzy-unitree-sdk2-ament_1.3.0-2026.11.19.18.47 ros-jazzy-urdf_2.10.1-2noble.20261031.123217 ros-jazzy-urdf-parser-plugin_2.10.1-2noble.20261031.122018 ros-jazzy-urdfdom_4.0.2-1noble.20260603.151654 ros-jazzy-urdfdom-headers_1.1.3-1noble.20260603.150728 rpcsvc-proto_1.4.2-0ubuntu7 ruby_1:3.2~ubuntu1 ruby-net-telnet_0.2.0-1 ruby-rubygems_3.4.20-1 ruby-sdbm_1.0.0-5build4 ruby-webrick_1.8.1-1ubuntu0.2 ruby-xmlrpc_0.3.2-2 ruby3.2_3.2.3-1ubuntu0.24.04.8 rubygems-integration_1.18 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-2ubuntu0.24.04.1 sensible-utils_0.0.22 sgml-base_1.31 sysvinit-utils_3.08-6ubuntu3 tar_1.35+dfsg-3ubuntu0.4 tzdata_2026e-0ubuntu0.24.04.1 ubuntu-keyring_2023.11.28.1 uncrustify_0.78.1+dfsg1-1 util-linux_2.39.3-9ubuntu6.6 uuid-dev_2.39.3-9ubuntu6.6 xml-core_0.19 xz-utils_5.6.1+really5.4.5-1ubuntu0.4 zlib1g_1:1.3.dfsg-3.1ubuntu2.3 zlib1g-dev_1:1.3.dfsg-3.1ubuntu2.3
 
 +------------------------------------------------------------------------------+
 | Build                                                                        |
@@ -1880,22 +1880,22 @@ Format: 1.0
 Source: ros-jazzy-unitree-systems
 Binary: ros-jazzy-unitree-systems
 Architecture: any
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-auto, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs, ros-jazzy-unitree-sdk1-ament, ros-jazzy-unitree-sdk2-ament
 Package-List:
  ros-jazzy-unitree-systems deb misc optional arch=any
 Checksums-Sha1:
- ba34a58f2ef0a8a42ed0bc9f220223b2a007e341 16954 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.tar.gz
+ 51d1f852fada7272839678e6372f4fe189d2812f 16955 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.tar.gz
 Checksums-Sha256:
- 31c28a3a8966ea8df94aaac5592b189144070ab00885f6051d16f31f56077602 16954 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.tar.gz
+ 1925285c0d6a47ad06f4b6db16cf2711cec524d951822dff6b5507e12f23eae2 16955 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.tar.gz
 Files:
- bd44fc5c7398965ace2e92520f5d29a1 16954 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.tar.gz
+ cb9c422ade611a8133329230867dfbf0 16955 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.dsc)
 dpkg-source: info: extracting ros-jazzy-unitree-systems in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.tar.gz
+dpkg-source: info: unpacking ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.tar.gz
 
 Check disk space
 ----------------
@@ -1923,7 +1923,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-jazzy-unitree-systems
-dpkg-buildpackage: info: source version 1.3.0-2026.11.16.20.00
+dpkg-buildpackage: info: source version 1.3.0-2026.11.19.18.48
 dpkg-buildpackage: info: source distribution noble
 dpkg-buildpackage: info: source changed by Qiayuan Liao <liaoqiayuan@gmail.com>
  dpkg-source --before-build .
@@ -1986,7 +1986,7 @@ dh_auto_configure -- \
 -- Using RMW implementation 'rmw_fastrtps_cpp' as default
 -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
 In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/unitree_systems` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
--- Configuring done (1.5s)
+-- Configuring done (0.9s)
 -- Generating done (0.0s)
 CMake Warning:
   Manually-specified variables were not used by the project:
@@ -2023,10 +2023,10 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/unitree_systems.dir/build.make CMakeFiles/unitree_systems.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 33%] Building CXX object CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o
+[ 66%] Building CXX object CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o
 [ 66%] Building CXX object CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o
-/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DTINYXML2_IMPORT -DUNITREE_SDK_3_8_0 -D_FILE_OFFSET_BITS=64 -Dunitree_systems_EXPORTS -I/<<BUILDDIR>>package/include -isystem /opt/ros/jazzy/include/hardware_interface -isystem /opt/ros/jazzy/include/pal_statistics_msgs -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/pal_statistics -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/ddscxx -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/realtime_tools -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/joint_limits -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/control_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o -MF CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o.d -o CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o -c /<<BUILDDIR>>package/src/UnitreeSdk1.cpp
-/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DTINYXML2_IMPORT -DUNITREE_SDK_3_8_0 -D_FILE_OFFSET_BITS=64 -Dunitree_systems_EXPORTS -I/<<BUILDDIR>>package/include -isystem /opt/ros/jazzy/include/hardware_interface -isystem /opt/ros/jazzy/include/pal_statistics_msgs -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/pal_statistics -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/ddscxx -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/realtime_tools -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/joint_limits -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/control_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o -MF CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o.d -o CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o -c /<<BUILDDIR>>package/src/UnitreeSdk2.cpp
+/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DTINYXML2_IMPORT -DUNITREE_SDK_3_8_0 -D_FILE_OFFSET_BITS=64 -Dunitree_systems_EXPORTS -I/<<BUILDDIR>>package/include -isystem /opt/ros/jazzy/include/hardware_interface -isystem /opt/ros/jazzy/include/pal_statistics_msgs -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/pal_statistics -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/ddscxx -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/realtime_tools -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/joint_limits -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/control_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o -MF CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o.d -o CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o -c /<<BUILDDIR>>package/src/UnitreeSdk1.cpp
+/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DFMT_SHARED -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DTINYXML2_IMPORT -DUNITREE_SDK_3_8_0 -D_FILE_OFFSET_BITS=64 -Dunitree_systems_EXPORTS -I/<<BUILDDIR>>package/include -isystem /opt/ros/jazzy/include/hardware_interface -isystem /opt/ros/jazzy/include/pal_statistics_msgs -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/rclcpp_lifecycle -isystem /opt/ros/jazzy/include/pal_statistics -isystem /opt/ros/jazzy/include/pluginlib -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include -isystem /opt/ros/jazzy/include/ddscxx -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -isystem /opt/ros/jazzy/include/ament_index_cpp -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/urdf -isystem /opt/ros/jazzy/include/urdfdom -isystem /opt/ros/jazzy/include/urdfdom_headers -isystem /opt/ros/jazzy/include/realtime_tools -isystem /opt/ros/jazzy/include/rclcpp_action -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rcl_action -isystem /opt/ros/jazzy/include/joint_limits -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/control_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/trajectory_msgs -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -fPIC -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o -MF CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o.d -o CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o -c /<<BUILDDIR>>package/src/UnitreeSdk2.cpp
 /<<BUILDDIR>>package/src/UnitreeSdk1.cpp: In member function ‘virtual unitree::CallbackReturn unitree::UnitreeSdk1::on_init(const hardware_interface::HardwareInfo&)’:
 /<<BUILDDIR>>package/src/UnitreeSdk1.cpp:23:31: warning: ‘virtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::on_init(const hardware_interface::HardwareInfo&)’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [-Wdeprecated-declarations]
    23 |   if (SystemInterface::on_init(info) != CallbackReturn::SUCCESS) {
@@ -2049,11 +2049,11 @@ In file included from /opt/ros/jazzy/include/hardware_interface/hardware_interfa
       |                          ^~~~~~~
 [100%] Linking CXX shared library libunitree_systems.so
 /usr/bin/cmake -E cmake_link_script CMakeFiles/unitree_systems.dir/link.txt --verbose=1
-/usr/lib/ccache/c++ -fPIC -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -shared -Wl,-soname,libunitree_systems.so -o libunitree_systems.so CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o  -Wl,-rpath,/opt/ros/jazzy/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu: /opt/ros/jazzy/lib/libmock_components.so /opt/ros/jazzy/lib/libhardware_interface.so /opt/ros/jazzy/lib/libunitree_legged_sdk.a /opt/ros/jazzy/lib/libunitree_sdk2.a /opt/ros/jazzy/lib/libddsc.so /opt/ros/jazzy/lib/libddscxx.so /opt/ros/jazzy/lib/libjoint_saturation_limiter.so /opt/ros/jazzy/lib/libjoint_limiter_interface.so /opt/ros/jazzy/lib/libclass_loader.so /opt/ros/jazzy/lib/libjoint_limits_helpers.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/liburdf.so /opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_model.so.4.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 /opt/ros/jazzy/lib/librealtime_tools.so /opt/ros/jazzy/lib/librclcpp_action.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librcl_action.so -lcap /usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0 /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcutils.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcutils.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/librcl_lifecycle.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libament_index_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.8 /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0 /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -latomic -Wl,-rpath-link,/opt/ros/jazzy/lib 
-/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00/include/unitree_systems/UnitreeSdk1.h:24:8: warning: type ‘struct UnitreeMotorData’ violates the C++ One Definition Rule [-Wodr]
-/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00/include/unitree_systems/UnitreeSdk2.h:116:8: note: a different type is defined in another translation unit
-/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00/include/unitree_systems/UnitreeSdk1.h:26:10: note: the first difference of corresponding definitions is field ‘posDes_’
-/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.16.20.00/include/unitree_systems/UnitreeSdk2.h:118:10: note: a field with different name is defined in another translation unit
+/usr/lib/ccache/c++ -fPIC -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/<<BUILDDIR>>package=/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48 -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3 -shared -Wl,-soname,libunitree_systems.so -o libunitree_systems.so CMakeFiles/unitree_systems.dir/src/UnitreeSdk1.cpp.o CMakeFiles/unitree_systems.dir/src/UnitreeSdk2.cpp.o  -Wl,-rpath,/opt/ros/jazzy/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu: /opt/ros/jazzy/lib/libmock_components.so /opt/ros/jazzy/lib/libhardware_interface.so /opt/ros/jazzy/lib/libunitree_legged_sdk.a /opt/ros/jazzy/lib/libunitree_sdk2.a /opt/ros/jazzy/lib/libddsc.so /opt/ros/jazzy/lib/libddscxx.so /opt/ros/jazzy/lib/libjoint_saturation_limiter.so /opt/ros/jazzy/lib/libjoint_limiter_interface.so /opt/ros/jazzy/lib/libclass_loader.so /opt/ros/jazzy/lib/libjoint_limits_helpers.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/liburdf.so /opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_model.so.4.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 /opt/ros/jazzy/lib/librealtime_tools.so /opt/ros/jazzy/lib/librclcpp_action.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librcl_action.so -lcap /usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0 /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/liblibstatistics_collector.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcutils.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcutils.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/librclcpp.so /opt/ros/jazzy/lib/librclcpp_lifecycle.so /opt/ros/jazzy/lib/librcl_lifecycle.so /opt/ros/jazzy/lib/librcl.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librcl_yaml_param_parser.so /opt/ros/jazzy/lib/librcl_logging_interface.so /opt/ros/jazzy/lib/librmw_implementation.so /opt/ros/jazzy/lib/libament_index_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/libtracetools.so -llttng-ust -llttng-ust-common -rdynamic -ldl /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libpal_statistics.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libcontrol_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libtrajectory_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/jazzy/lib/libfastcdr.so.2.2.8 /opt/ros/jazzy/lib/librmw.so /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0 /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so /opt/ros/jazzy/lib/librosidl_typesupport_c.so /opt/ros/jazzy/lib/librcpputils.so /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/jazzy/lib/librosidl_runtime_c.so /opt/ros/jazzy/lib/librcutils.so -ldl -latomic -Wl,-rpath-link,/opt/ros/jazzy/lib 
+/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48/include/unitree_systems/UnitreeSdk1.h:24:8: warning: type ‘struct UnitreeMotorData’ violates the C++ One Definition Rule [-Wodr]
+/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48/include/unitree_systems/UnitreeSdk2.h:116:8: note: a different type is defined in another translation unit
+/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48/include/unitree_systems/UnitreeSdk1.h:26:10: note: the first difference of corresponding definitions is field ‘posDes_’
+/usr/src/ros-jazzy-unitree-systems-1.3.0-2026.11.19.18.48/include/unitree_systems/UnitreeSdk2.h:118:10: note: a field with different name is defined in another translation unit
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [100%] Built target unitree_systems
 make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
@@ -2163,20 +2163,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-jazzy-unitree-systems -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-jazzy-unitree-systems/1.3.0-2026.11.16.20.00 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
-d85299d2424275842ee2448e629186d7e2501397
-	install -m0755 -d debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/d8
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/d8/5299d2424275842ee2448e629186d7e2501397.debug
-	chmod 0644 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/d8/5299d2424275842ee2448e629186d7e2501397.debug
-	chown 0:0 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/d8/5299d2424275842ee2448e629186d7e2501397.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/MunlIH1FI1/strip1zXaN1 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
-	chmod --reference debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/MunlIH1FI1/strip1zXaN1
-	cat '/tmp/MunlIH1FI1/strip1zXaN1' > 'debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so'
-	chmod --reference /tmp/MunlIH1FI1/strip1zXaN1 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/d8/5299d2424275842ee2448e629186d7e2501397.debug debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/MunlIH1FI1/objcopy412Akz
-	chmod --reference debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/MunlIH1FI1/objcopy412Akz
-	cat '/tmp/MunlIH1FI1/objcopy412Akz' > 'debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so'
-	chmod --reference /tmp/MunlIH1FI1/objcopy412Akz debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
+	debugedit --build-id --build-id-seed=ros-jazzy-unitree-systems/1.3.0-2026.11.19.18.48 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
+a1e525af19e730eec0e3254703a2abcb7abf512c
+	install -m0755 -d debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/a1
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/a1/e525af19e730eec0e3254703a2abcb7abf512c.debug
+	chmod 0644 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/a1/e525af19e730eec0e3254703a2abcb7abf512c.debug
+	chown 0:0 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/a1/e525af19e730eec0e3254703a2abcb7abf512c.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/83vwWwpgHr/strip41TIP5 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
+	chmod --reference debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/83vwWwpgHr/strip41TIP5
+	cat '/tmp/83vwWwpgHr/strip41TIP5' > 'debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so'
+	chmod --reference /tmp/83vwWwpgHr/strip41TIP5 debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/lib/debug/.build-id/a1/e525af19e730eec0e3254703a2abcb7abf512c.debug debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/83vwWwpgHr/objcopyImfPfH
+	chmod --reference debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so /tmp/83vwWwpgHr/objcopyImfPfH
+	cat '/tmp/83vwWwpgHr/objcopyImfPfH' > 'debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so'
+	chmod --reference /tmp/83vwWwpgHr/objcopyImfPfH debian/ros-jazzy-unitree-systems/opt/ros/jazzy/lib/libunitree_systems.so
 	install -m0755 -d debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/share/doc
 	ln -s ros-jazzy-unitree-systems debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/usr/share/doc/ros-jazzy-unitree-systems-dbgsym
 	install -m0755 -d debian/.debhelper/ros-jazzy-unitree-systems
@@ -2222,7 +2222,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-jazzy-unitree-systems.substvars
 	echo misc:Pre-Depends= >> debian/ros-jazzy-unitree-systems.substvars
 	install -m0755 -d debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-jazzy-unitree-systems -ldebian/changelog -Tdebian/ros-jazzy-unitree-systems.substvars -Pdebian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -DAuto-Built-Package=debug-symbols -UProtected -UBuilt-Using -UStatic-Built-Using -DPackage=ros-jazzy-unitree-systems-dbgsym "-DDepends=ros-jazzy-unitree-systems (= \${binary:Version})" "-DDescription=debug symbols for ros-jazzy-unitree-systems" -DBuild-Ids=d85299d2424275842ee2448e629186d7e2501397 -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-jazzy-unitree-systems -ldebian/changelog -Tdebian/ros-jazzy-unitree-systems.substvars -Pdebian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -DAuto-Built-Package=debug-symbols -UProtected -UBuilt-Using -UStatic-Built-Using -DPackage=ros-jazzy-unitree-systems-dbgsym "-DDepends=ros-jazzy-unitree-systems (= \${binary:Version})" "-DDescription=debug symbols for ros-jazzy-unitree-systems" -DBuild-Ids=a1e525af19e730eec0e3254703a2abcb7abf512c -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-jazzy-unitree-systems -ldebian/changelog -Tdebian/ros-jazzy-unitree-systems.substvars -Pdebian/ros-jazzy-unitree-systems
@@ -2239,19 +2239,19 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-jazzy-unitree-systems ..
-dpkg-deb: building package 'ros-jazzy-unitree-systems' in '../ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb'.
+dpkg-deb: building package 'ros-jazzy-unitree-systems' in '../ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb'.
 	dpkg-deb --root-owner-group --build debian/.debhelper/ros-jazzy-unitree-systems/dbgsym-root debian/.debhelper/scratch-space/build-ros-jazzy-unitree-systems
-dpkg-deb: building package 'ros-jazzy-unitree-systems-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-jazzy-unitree-systems/ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.deb'.
-	Renaming ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.deb to ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-jazzy-unitree-systems/ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.deb ../ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.changes
+dpkg-deb: building package 'ros-jazzy-unitree-systems-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-jazzy-unitree-systems/ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.deb'.
+	Renaming ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.deb to ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-jazzy-unitree-systems/ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.deb ../ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2026-11-16T20:01:45Z
+Build finished at 2026-11-19T18:49:23Z
 
 Finished
 --------
@@ -2263,7 +2263,7 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.changes:
+ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.changes:
 ---------------------------------------------------------------
 
 Format: 1.8
@@ -2272,7 +2272,7 @@ Source: ros-jazzy-unitree-systems
 Binary: ros-jazzy-unitree-systems
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
 Distribution: noble
 Urgency: high
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
@@ -2280,7 +2280,7 @@ Changed-By: Qiayuan Liao <liaoqiayuan@gmail.com>
 Description:
  ros-jazzy-unitree-systems - ROS 2 control warped interface for Unitree Robots
 Changes:
- ros-jazzy-unitree-systems (1.3.0-2026.11.16.20.00) noble; urgency=high
+ ros-jazzy-unitree-systems (1.3.0-2026.11.19.18.48) noble; urgency=high
  .
    * Export motor temperatures as state interfaces
      LowState_ carries two temperatures per motor and both were discarded. A
@@ -2377,17 +2377,17 @@ Changes:
      Claude-Session: https://claude.ai/code/session_01DC9goz5FxQQqX19dntZS1w
    * Contributors: qiayuanl
 Checksums-Sha1:
- c53597a34a86a6fba6983c749fbd101f44177093 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- d8ea32adbeb2df335824beb536bed46024a709b9 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
- fc69653be65bd06c82b9e512ffd27111baf63f48 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6339de9e608c984b8c6857455fe989e87f41f59c 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ 6cdc39ee5ae22ad546f2874bf465fed00e95fdbd 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.buildinfo
+ cfe3dc932482f317a75ab2e803792fc9ad4a6bdf 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Checksums-Sha256:
- e792a669778282b1dd43a07ec0dc3a93a6e4c4d125894d3f392edb4190e75eb4 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- 1b53545a024c2bc167cb2d5bd848c26ad84eadafd7126717f4716da9012ce715 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
- 8d858d8e195e3948800aa575aa3451722a39fbe3971f9483b7f38edd6edda70b 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6ee0e9a4c7478a763985de01f057174926e7ca64199c3bbebab9c767b471ab84 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ 58a3988d463833d16bcfb51589f84c2e631cbba8525aa5d27c45bb0f282296ac 20049 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.buildinfo
+ 11d1860b7b592df483cf13b08121a0335a021db935f44299807d056a14da9ce2 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Files:
- a7c46cb2497380b69521b7369e19df7b 2446432 debug optional ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- 5ddfb3c5f6002de749e46c433e9fa5a9 20049 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.buildinfo
- c4077f4af4930f928a862a880e842954 794296 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 7925ba3bcc127ba9e6774ad5812148e5 2446310 debug optional ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ 1b3738722016119979c815b423a06d80 20049 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.buildinfo
+ f66e336e6af0b4438ef804c84a79b7db 794294 misc optional ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -2397,19 +2397,19 @@ Format: 1.0
 Source: ros-jazzy-unitree-systems
 Binary: ros-jazzy-unitree-systems ros-jazzy-unitree-systems-dbgsym
 Architecture: amd64
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
 Checksums-Md5:
- a7c46cb2497380b69521b7369e19df7b 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- c4077f4af4930f928a862a880e842954 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 7925ba3bcc127ba9e6774ad5812148e5 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ f66e336e6af0b4438ef804c84a79b7db 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Checksums-Sha1:
- c53597a34a86a6fba6983c749fbd101f44177093 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- fc69653be65bd06c82b9e512ffd27111baf63f48 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6339de9e608c984b8c6857455fe989e87f41f59c 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ cfe3dc932482f317a75ab2e803792fc9ad4a6bdf 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Checksums-Sha256:
- e792a669778282b1dd43a07ec0dc3a93a6e4c4d125894d3f392edb4190e75eb4 2446432 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.16.20.00_amd64.ddeb
- 8d858d8e195e3948800aa575aa3451722a39fbe3971f9483b7f38edd6edda70b 794296 ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ 6ee0e9a4c7478a763985de01f057174926e7ca64199c3bbebab9c767b471ab84 2446310 ros-jazzy-unitree-systems-dbgsym_1.3.0-2026.11.19.18.48_amd64.ddeb
+ 11d1860b7b592df483cf13b08121a0335a021db935f44299807d056a14da9ce2 794294 ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 16 Nov 2026 20:01:44 +0000
+Build-Date: Thu, 19 Nov 2026 18:49:23 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2632,7 +2632,7 @@ Installed-Build-Depends:
  libyaml-dev (= 0.2.5-1build1),
  libzstd-dev (= 1.5.5+dfsg2-2build1.1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-149.149),
+ linux-libc-dev (= 6.8.0-151.151),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  lttng-tools (= 2.13.11-2.1build4),
@@ -2816,8 +2816,8 @@ Installed-Build-Depends:
  ros-jazzy-type-description-interfaces (= 2.0.4-1noble.20261105.051836),
  ros-jazzy-uncrustify-vendor (= 3.0.1-1noble.20260225.230730),
  ros-jazzy-unique-identifier-msgs (= 2.5.1-1noble.20261104.171806),
- ros-jazzy-unitree-sdk1-ament (= 1.3.0-2026.11.16.19.59),
- ros-jazzy-unitree-sdk2-ament (= 1.3.0-2026.11.16.19.59),
+ ros-jazzy-unitree-sdk1-ament (= 1.3.0-2026.11.19.18.47),
+ ros-jazzy-unitree-sdk2-ament (= 1.3.0-2026.11.19.18.47),
  ros-jazzy-urdf (= 2.10.1-2noble.20261031.123217),
  ros-jazzy-urdf-parser-plugin (= 2.10.1-2noble.20261031.122018),
  ros-jazzy-urdfdom (= 4.0.2-1noble.20260603.151654),
@@ -2858,15 +2858,15 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00_amd64.deb
+ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48_amd64.deb
 ----------------------------------------------------------
 
  new Debian package, version 2.0.
- size 794296 bytes: control archive=1340 bytes.
+ size 794294 bytes: control archive=1339 bytes.
      572 bytes,     9 lines      control
     2668 bytes,    27 lines      md5sums
  Package: ros-jazzy-unitree-systems
- Version: 1.3.0-2026.11.16.20.00
+ Version: 1.3.0-2026.11.19.18.48
  Architecture: amd64
  Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
  Installed-Size: 4240
@@ -2944,18 +2944,18 @@ Not cleaning session: cloned chroot in use
 Build Architecture: amd64
 Build Type: binary
 Build-Space: 58652
-Build-Time: 25
+Build-Time: 23
 Distribution: noble
 Host Architecture: amd64
-Install-Time: 27
-Job: /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-systems_1.3.0-2026.11.16.20.00.dsc
+Install-Time: 21
+Job: /home/runner/work/unitree_buildfarm/unitree_buildfarm/src/unitree_ros2/ros-jazzy-unitree-systems_1.3.0-2026.11.19.18.48.dsc
 Machine Architecture: amd64
 Package: ros-jazzy-unitree-systems
-Package-Time: 61
-Source-Version: 1.3.0-2026.11.16.20.00
+Package-Time: 50
+Source-Version: 1.3.0-2026.11.19.18.48
 Space: 58652
 Status: successful
-Version: 1.3.0-2026.11.16.20.00
+Version: 1.3.0-2026.11.19.18.48
 --------------------------------------------------------------------------------
-Finished at 2026-11-16T20:01:45Z
-Build needed 00:01:01, 58652k disk space
+Finished at 2026-11-19T18:49:23Z
+Build needed 00:00:50, 58652k disk space
